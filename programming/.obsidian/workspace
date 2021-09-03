@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "!ideas/XML.md",
+            "file": "!orphans/note.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!ideas/XML.md",
+                "file": "!orphans/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -107,6 +107,8 @@
   },
   "active": "39eb5cb1f5e081bf",
   "lastOpenFiles": [
+    "!orphans/Untitled.md",
+    "!loose-knowledge/Untitled.md",
     "!ideas/XML.md",
     "Untitled.md"
   ]

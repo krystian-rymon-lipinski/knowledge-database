@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "!orphans/note.md",
+            "file": "!loose-knowledge/XML.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flow",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!orphans/note.md",
+                "file": "!loose-knowledge/XML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,14 +77,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "a78af585702cf7f9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           },
           {
@@ -99,17 +91,37 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "a65492f4e1621370",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a78af585702cf7f9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 426
   },
   "active": "39eb5cb1f5e081bf",
   "lastOpenFiles": [
-    "!orphans/Untitled.md",
+    "!loose-knowledge/XML.md",
+    "!loose-knowledge/UML.md",
+    "!shards/JSON.md",
+    "!shards/getExternalFilesDir().md",
+    "!sources/bluetooth loose links.md",
+    "!loose-knowledge/android ble api.md",
     "!loose-knowledge/Untitled.md",
-    "!ideas/XML.md",
-    "Untitled.md"
+    "!loose-knowledge/bit overflow.md",
+    "!loose-knowledge/android testing.md",
+    "!loose-knowledge/android multithreading.md"
   ]
 }

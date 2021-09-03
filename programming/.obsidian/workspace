@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "39eb08021e88ee27",
+    "type": "split",
+    "children": [
+      {
+        "id": "39eb5cb1f5e081bf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "!ideas/XML.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1ff0ade2a56ac85",
+    "type": "split",
+    "children": [
+      {
+        "id": "386382d267bf26ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24daedf2be723bc4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "01937ce86143729c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#flow",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0c27b29942839a7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "60f0dc072449eba6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e41e7e027757499",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "!ideas/XML.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a78af585702cf7f9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "02778bd92d3c1841",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "39eb5cb1f5e081bf",
+  "lastOpenFiles": [
+    "!ideas/XML.md",
+    "Untitled.md"
+  ]
+}

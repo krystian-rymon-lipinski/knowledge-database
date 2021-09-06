@@ -1,0 +1,1 @@
+Tu będzie notatka o Unicode

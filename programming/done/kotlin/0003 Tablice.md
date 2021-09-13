@@ -17,6 +17,10 @@ val arr2: Array<Int>(10) { i -> i }
 Inicjalizacja poprzez konstruktor. Podawana jest ilość elementów i formuła (wyrażenie lambda), wedle której mają one być utworzone. 
 
 Referencja _arr2_ jest tylko do odczytu - nie może wskazywać na inny obiekt. Ale sam obiekt (np. elementy tablicy) jak najbardziej może ulegać zmianom!
+___
+
+Dwie tablice są sobie [[0005 Równość obiektów|równe]] tylko po nadpisaniu metody _equals()_!
+Kotlin nie dostarcza implementacji jak w przypadku [[000A Kolekcje|kolekcji]].
 
 #tech-area/kotlin 
 [[0000 (MOC) Zmienne]]

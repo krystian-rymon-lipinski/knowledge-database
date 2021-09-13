@@ -26,7 +26,12 @@ val number = b?.radius ?: throw BallRadiusNotExisting()
 ```
 _number_ jest typu Int, ponieważ komenda _throw_ kończy program lub powoduje przeskok do _catch_ - nie trzeba zapisywać wyniku wyrażenia.
 
-Throw ma typ *Nothing* i nie przyjmuje on żadnej wartości. *Nothing?* może mieć tylko wartość null.
+Throw ma typ *Nothing* i nie przyjmuje on żadnej wartości. *Nothing?* może mieć tylko wartość null. Przydaje się do oznaczania miejsc w kodzie, do których nigdy nie będzie można dotrzeć.
+```kotlin
+fun fail(): Nothing { /* To tylko oznaczenie, nic innego nie daje. */
+	throw CustomException()
+}
+```
 
 #tech-area/kotlin 
 [[0008 (MOC) Kotlin]]

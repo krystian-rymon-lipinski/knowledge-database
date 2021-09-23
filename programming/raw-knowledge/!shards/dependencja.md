@@ -1,0 +1,1 @@
+Jedna z zależności UML.

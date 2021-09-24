@@ -1,5 +1,6 @@
 https://ahorasomos.izertis.com/solidgear/en/beacons-on-android/
 
+To też urządzenie BLE, które rozgłasza swoją obecność, ale zmienia advertisement data według swojej specyfikacji, aby przekazać inne niż zazwyczaj (?) dane.
 ## What is exactly a beacon?
 
 A beacon is a **hardware transmitter that broadcasts a packet information**, enabling smartphones, tablets and other electronic devices to perform specific actions when they are close to it.

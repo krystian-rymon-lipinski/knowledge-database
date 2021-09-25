@@ -1,5 +1,12 @@
 ### Tablice
 
+***Dwie tablice są sobie [[0005 Równość obiektów|równe]] tylko po nadpisaniu metody _equals()_!***
+Kotlin nie dostarcza implementacji jak w przypadku [[000A Kolekcje|kolekcji]].
+
+Wielkość tablicy nie może ulegać zmianie.
+Można modyfikować frywolnie elementy tablicy.
+
+###### Inicjalizacja
 ```kotlin
 var arr = longArrayOf(3, 2, 1)
 indexValue = arr[0]
@@ -19,8 +26,6 @@ Inicjalizacja poprzez konstruktor. Podawana jest ilość elementów i formuła (
 Referencja _arr2_ jest tylko do odczytu - nie może wskazywać na inny obiekt. Ale sam obiekt (np. elementy tablicy) jak najbardziej może ulegać zmianom!
 ___
 
-Dwie tablice są sobie [[0005 Równość obiektów|równe]] tylko po nadpisaniu metody _equals()_!
-Kotlin nie dostarcza implementacji jak w przypadku [[000A Kolekcje|kolekcji]].
 
 #tech-area/kotlin 
 [[0000 (MOC) Zmienne]]

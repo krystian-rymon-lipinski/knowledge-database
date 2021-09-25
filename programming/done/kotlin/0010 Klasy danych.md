@@ -4,13 +4,13 @@
 data class Player(val name: String, val score: Float) {  } /* Definicja */
 ```
 ###### Właściwości klas danych 
--> klasa danych ***NIE MOŻE*** być abstrakcyjna ani otwarta
+-> klasa danych ***NIE MOŻE*** być abstrakcyjna ani otwarta (ani wewnętrzna ani zapieczętowana)
 -> klasa danych ***MUSI*** mieć konstruktor podstawowy i przynajmniej jedną właściwość
 -> klasa danych ***MOŻE*** dziedziczyć po innych klasach, implementować interfejsy i definiować funkcje
 
 Wszystkie właściwości zdefiniowane w konstruktorze podstawowym muszą być poprzedzone słowem val lub var.
 ###### Automatycznie przesłaniane funkcje
-- _equals()_ - porównanie typu obiektu i wartości właściwości zdefiniowanych w konstruktorze podstawowym
+- _equals()_ - porównanie typu obiektu oraz wartości jego właściwości zdefiniowanych w konstruktorze podstawowym (poprzez domyślną implementację _equals()_ dla każdej z tych klas)
 - _hashCode()_ - wygenerowanie kodu mieszającego na podstawie właściwości zdefiniowanych w konstruktorze pdostawowym
 - _toString()_ - napis w formie: ___Player(name=SomeName, score=2.1f)___
  

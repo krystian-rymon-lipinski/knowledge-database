@@ -1,4 +1,4 @@
-###### Zmienne vs. niezmienne
+###### Zmienne vs niezmienne
 
 → Mutable - pozwala zmieniać wartości elementów oraz wykonywać operacje na kolekcji (sortowanie, kopiowanie, usuwanie, itp.)
  → Immutable - po zainicjowaniu nie można dodawać/usuwać elementów ani zmieniać wartości już istniejących
@@ -9,8 +9,13 @@
  
 ###### Kolekcje vs [[0003 Tablice|tablice]]
 
-Wielkość tablicy nie może ulegać zmianie. 
-Można modyfikować frywolnie elementy tablicy.
+_Wielkość struktury:_
+- tablica: zawsze niezmienna
+- kolekcja: zmienna jeśli tak zadeklarowano
+
+_Elementy struktury:_
+- tablica: zawsze edytowalne
+- kolekcja: edytowalne jeśli tak zadeklarowano
 
 ###### Typy kolekcji:
 - [[000B Lista|lista]]

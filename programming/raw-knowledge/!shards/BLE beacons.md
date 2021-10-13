@@ -13,7 +13,7 @@ All the beacons have the next configurable characteristics regardless the manufa
 -   **Advertising interval:** this value defines the frequency in which the beacon emits the signal. Unlike the tx power, the lower advertising interval, the more battery consumes the beacon, but it’s important to think a bit before setting this interval value too high since the receiver device would find it more difficult to detect the beacon in this case.
 
 ## Beacons protocols
--   **iBeacon:** created by Apple, was the protocol that introduced BLE technology worldwide and defines 3 params:
+-   **[[iBeacon]]:** created by Apple, was the protocol that introduced BLE technology worldwide and defines 3 params:
     -   _UUID_: identify a group.
     -   _Major_: identify a beacons subgroup in a bigger group.
     -   _Minor_: identify a specific beacon.

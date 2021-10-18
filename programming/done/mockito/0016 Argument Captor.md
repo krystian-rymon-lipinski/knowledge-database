@@ -1,5 +1,5 @@
 ### Argument Captor
-**Wykorzystywany przy [[Weryfikacja|weryfikacji]] interakcji z Mockiem w przypadku gdy argument metody ma swoje składowe.** Służy do łapania tegoż argumentu, by później odwołać się do jego składowych (np. w celu porównania ich wartości).
+**Wykorzystywany przy [[001E Weryfikacja|weryfikacji]] interakcji z Mockiem w przypadku gdy argument metody ma swoje składowe.** Służy do łapania tegoż argumentu, by później odwołać się do jego składowych (np. w celu porównania ich wartości).
 ```java
 @Captor ArgumentCaptor<Ball> aCaptor; /* Deklaracja przez annotację. */
 ArgumentCaptor aCaptor = ArgumentCaptor.forClass(Ball.class); /* A tu przez metodę. */

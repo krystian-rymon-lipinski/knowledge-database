@@ -5,14 +5,16 @@ __Stan__ definiowany jest przez zmienne (pola), przechowujące dane.
 __Zachowanie__ definiowane jest przez metody.
 
 ###### Podstawowe założenia
-- abstrakcja
-- hermetyzacja
-- polimorfizm
-- dziedziczenie
+- [[0012 Abstrakcja|abstrakcja]]
+- [[0013 Hermetyzacja|hermetyzacja]]
+- [[0014 Polimorfizm|polimorfizm]]
+- [[0015 Dziedziczenie|dziedziczenie]]
 
+###### Podstawowe elementy
+- klasa
+- obiekt
 
-
-
+---
 
 #tech-area/theory/programming-paradigms/object-oriented
 

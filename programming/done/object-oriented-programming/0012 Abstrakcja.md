@@ -9,6 +9,6 @@ W taki sposób tworzy się [[Biblioteka programistyczna|biblioteki programistycz
 ---
 
 #tech-area/theory/programming-paradigms/object-oriented 
-[[0011 Programowanie obiektowe (klasowe)]]
+[[0011 (MOC) Programowanie obiektowe (klasowe)]]
 
 

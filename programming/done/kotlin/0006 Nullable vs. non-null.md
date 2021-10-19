@@ -20,7 +20,7 @@ W przypadku _someArray_ jawnie podano typ nullable.
 W przypadku _anotherArray_ kompilator domyśla się typu z podanych wartości. 
 
 
-W Javie na oznaczenie tych typów stosuje się [[Annotacje|annotacje]] @NonNull i @Nullable.
+W Javie na oznaczenie tych typów stosuje się [[raw-knowledge/!shards/Annotacje|annotacje]] @NonNull i @Nullable.
 
 
 #tech-area/kotlin 

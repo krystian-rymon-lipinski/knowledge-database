@@ -12,6 +12,7 @@ __Zachowanie__ definiowane jest przez metody.
 
 ###### Podstawowe elementy
 - [[Klasa|klasa]]
+- [[0025 Interfejs|interfejs]]
 - [[Obiekt|obiekt]]
 
 ---

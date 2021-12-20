@@ -1,0 +1,20 @@
+### Skanowanie
+**Skanowanie w poszukiwaniu urządzeń Bluetooth.**
+Potrzebne [[Manifest Permissions|permisje]]: 
+- BLUETOOTH_ADMIN
+- ACCESS_COARSE_LOCATION (lub inne lokalizacje w zależności od wersji Androida)
+
+###### BluetoothAdapter#startDiscovery()
+Znajduje urządzenia Bluetooth wszystkich typów - classic, Low Energy, dual i nierozpoznane. Informacje o wyskanowanych urządzeniach można dostać rejestrując [[BroadcastReceiver]] i  szukając akcji intentu:
+- BluetoothDevice.ACTION_FOUND - znalezione urządzenie; szczegóły tego urządzenia (nazwa, adres, typ, itp.) w Intencie jako parcelable BluetoothDevice
+- BluetoothAdapter.ACTION_DISCOVERY_STARTED
+- BluetoothAdapter.ACTION_DISCOVERY_FINISHED
+
+###### BluetoothLeScanner#startScan()
+Znajduje urządzenia Low Energy, dual i nierozpoznane.
+Informacje o wyskanowanych urządzeniach można dostać poprzez [[ScanCallback]], który **trzeba podać** jako parametr metody _startScan()_.
+
+Ponadto można zdefiniować [[ScanSettings|ustawienia]] i [[ScanFilter|filtry]] skanowania.
+
+---
+#tech-area/android 

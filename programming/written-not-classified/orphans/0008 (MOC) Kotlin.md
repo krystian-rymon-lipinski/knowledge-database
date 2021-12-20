@@ -1,4 +1,7 @@
 ### Kotlin
+**Język programowania opierający się na paradygmatach [[0011 (MOC) Programowanie obiektowe (klasowe)|obiektowym]] i [[Programowanie funkcyjne|funkcyjnym]].**
+Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
+
 ###### Podstawy języka
 - [[0000 (MOC) Zmienne|(MOC) Zmienne]]
 - [[000F Funkcje|Funkcje]]

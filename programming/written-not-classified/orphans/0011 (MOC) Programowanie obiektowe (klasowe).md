@@ -11,9 +11,9 @@ __Zachowanie__ definiowane jest przez metody.
 - [[0015 Dziedziczenie|dziedziczenie]]
 
 ###### Podstawowe elementy
-- [[Klasa|klasa]]
+- [[0029 Klasa|klasa]]
 - [[0025 Interfejs|interfejs]]
-- [[Obiekt|obiekt]]
+- [[0028 Obiekt|obiekt]]
 
 ---
 #tech-area/theory/programming-paradigms/object-oriented

@@ -14,7 +14,7 @@ Znajduje urządzenia Bluetooth wszystkich typów - classic, Low Energy, dual i n
 Znajduje urządzenia Low Energy, dual i nierozpoznane.
 Informacje o wyskanowanych urządzeniach można dostać poprzez [[ScanCallback]], który **trzeba podać** jako parametr metody _startScan()_.
 
-Ponadto można zdefiniować [[ScanSettings|ustawienia]] i [[ScanFilter|filtry]] skanowania.
+Ponadto skanowanie w ten sposób pozwala definiować [[ScanSettings|ustawienia]] i [[ScanFilter|filtry]] skanowania.
 
 ---
 #tech-area/android 

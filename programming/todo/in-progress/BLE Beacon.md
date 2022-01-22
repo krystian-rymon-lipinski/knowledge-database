@@ -1,3 +1,6 @@
+### BLE Beacon
+Urządzenie BLE, którego dane rozgłoszeniowe są ustandaryzowane i podane do publicznej wiadomości przez producenta. 
+
 https://ahorasomos.izertis.com/solidgear/en/beacons-on-android/
 
 To też urządzenie BLE, które rozgłasza swoją obecność, ale zmienia advertisement data według swojej specyfikacji, aby przekazać inne niż zazwyczaj (?) dane.
@@ -23,3 +26,6 @@ All the beacons have the next configurable characteristics regardless the manufa
     -   _Eddystone-TLM_: is emitted with the previous packets and contains the beacon health, for example, the battery life.
     -   _Eddystone-EID:_ contains an encrypted identifier that changes periodically at a rate determined during the initial registration with a web service.
 -   **[[AltBeacon]]:** protocol developed by Radius Networks. It was created as an alternative to the closed protocol iBeacon, offering the same functionalities but being able to deliver more data in each message.
+
+---
+#tech-area/bluetooth-low-energy 

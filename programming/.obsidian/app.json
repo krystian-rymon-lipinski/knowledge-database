@@ -3,5 +3,7 @@
   "readableLineLength": false,
   "promptDelete": false,
   "foldHeading": true,
-  "foldIndent": true
+  "foldIndent": true,
+  "legacyEditor": false,
+  "livePreview": true
 }

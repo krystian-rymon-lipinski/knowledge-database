@@ -8,3 +8,8 @@
 
 
 ###### Kanały wymiany danych
+
+
+
+---
+#tech-area/bluetooth-low-energy 

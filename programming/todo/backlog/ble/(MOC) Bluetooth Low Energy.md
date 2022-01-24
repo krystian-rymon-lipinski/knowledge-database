@@ -11,3 +11,7 @@ Urządzenia mogą pełnić różne [[0033 Role urządzeń BLE|role]]. Zachowania
 - Scanning
 - Connecting
 - Data Exchange
+
+---
+
+Characteristic format types - Assigned Numbers on Bluetooth SIG

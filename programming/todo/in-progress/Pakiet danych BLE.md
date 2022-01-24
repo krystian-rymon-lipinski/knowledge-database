@@ -1,0 +1,2 @@
+### Pakiet danych BLE
+

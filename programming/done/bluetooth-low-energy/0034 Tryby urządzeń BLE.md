@@ -1,6 +1,6 @@
 ### Tryby urządzeń BLE
 **Zachowania urządzeń nadających, czyli pracujących w [[0033 Role urządzeń BLE|rolach]] Transmitera i Urządzenia Peryferyjnego, w celu rozgłoszenia swojej obecności.**
-Definiowane są poprzez [[Typy pakietu rozgłaszania|typy rozgłaszania]] i [[0036 Flagi rozgłaszania|flagi]] - zawarte w danych rozgłoszeniowych.
+Definiowane są poprzez [[Typy rozgłaszania|typy rozgłaszania]] i [[0036 Flagi rozgłaszania|flagi]] - zawarte w danych rozgłoszeniowych.
 
 **Broadcast** - urządzenie nadaje dane rozgłoszeniowe o typie bez możliwości utworzenia połączenia (ADV_NONCONN_IND, ADV_SCAN_IND)
 

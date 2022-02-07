@@ -16,6 +16,7 @@ A obiektPochodny = new B(); /* Obiekt jest typu B. Referencja do niego - typu A.
 obiektBazowy.foo(); /* Wykonana zostanie metoda z klasy A. Zawsze. */
 obiektPochodny.foo(); /* ? */
 ```
+
 Jeżeli metoda _foo()_ jest wirtualna, _obiektPochodny.foo()_ wywoła metodę z klasy _B_, ponieważ bazuje na typie obiektu, a referencja _obiektPochodny_ wskazuje na obiekt typu B.
 Jeżeli metoda _foo()_ nie jest wirtualna, _obiektPochodny.foo_ wywoła metodę z klasy _A_, ponieważ bazuje na typie referencji do obiektu, a referencja _obiektPochodny_ jest typu A.
 

@@ -11,8 +11,13 @@ Korzytanie z klasy **BluetoothDevice** wymaga korzystania z [[Manifest Permissio
 
 ---
 
+Android BLE error status codes
+https://allmydroids.blogspot.com/2015/06/android-ble-error-status-codes-explained.html
+
+---
+
 Elementy implementacji:
 - Rozgłaszanie
-- [[Skanowanie|Skanowanie]]
+- [[done/android/ble/Skanowanie|Skanowanie]]
 - Connecting
 - Data Exchange

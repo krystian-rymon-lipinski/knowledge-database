@@ -1,6 +1,6 @@
 ### Tryby urządzeń BLE
 **Zachowania urządzeń nadających, czyli pracujących w [[0033 Role urządzeń BLE|rolach]] Transmitera i Urządzenia Peryferyjnego, w celu rozgłoszenia swojej obecności.**
-Definiowane są poprzez [[Typy rozgłaszania|typy rozgłaszania]] i [[0036 Flagi rozgłaszania|flagi]] - zawarte w danych rozgłoszeniowych.
+Definiowane są poprzez [[0041 Typy rozgłaszania|typy rozgłaszania]] i [[0036 Flagi rozgłaszania|flagi]] - zawarte w danych rozgłoszeniowych.
 
 **Broadcast** - urządzenie nadaje dane rozgłoszeniowe o typie bez możliwości utworzenia połączenia (ADV_NONCONN_IND, ADV_SCAN_IND)
 
@@ -16,6 +16,6 @@ Definiowane są poprzez [[Typy rozgłaszania|typy rozgłaszania]] i [[0036 Flagi
 
 **Undirected connectable** - urządzenie nadaje dane rozgłoszeniowe o typie ADV_IND; główny sposób urządzeń peryferyjnych na ogłoszenie gotowości do nawiązania połączenia
 
-Poszczególne tryby są powiązane z odpowiadającymi im [[Procedury urządzeń BLE|procedurami]].
+Poszczególne tryby są powiązane z odpowiadającymi im [[0042 Procedury urządzeń BLE|procedurami]].
 ****
 #tech-area/bluetooth-low-energy 

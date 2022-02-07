@@ -15,7 +15,7 @@ Wymaga stosunkowo dużej mocy obliczeniowej i pamięci. Zazwyczaj przeznaczona d
 Rola polegająca na wysyłaniu danych rozgłoszeniowych celem ich odkrycia przez urządzenie centralne i nawiązaniem przez niego połączenia. 
 Nie wymaga wielkich nakładów mocy obliczeniowej ani pamięci. Zazwyczaj przeznaczona dla rozmaitych sensorów, mikroprocesorów, etc.
 
- Dodatkowo zdefiniowano [[0034 Tryby urządzeń BLE|tryby]] i [[Procedury urządzeń BLE|procedury]], które dokładniej określają możliwości urządzeń pracujących w określonych rolach.
+ Dodatkowo zdefiniowano [[0034 Tryby urządzeń BLE|tryby]] i [[0042 Procedury urządzeń BLE|procedury]], które dokładniej określają możliwości urządzeń pracujących w określonych rolach.
 
 ---
 #tech-area/bluetooth-low-energy 

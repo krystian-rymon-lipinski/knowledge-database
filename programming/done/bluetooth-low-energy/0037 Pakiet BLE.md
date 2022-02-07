@@ -1,8 +1,8 @@
 ### Pakiet BLE
 **Jednostka danych wysyłanych podczas jednej transmisji.**
 
-Istnieją tylko dwa typy pakietów:
-- [[Pakiet rozgłoszeniowy BLE|rozgłoszeniowe]] 
+Istnieją tylko dwa rodzaje pakietów:
+- [[0038 Pakiet rozgłoszeniowy BLE|rozgłoszeniowe]] 
 - [[Pakiet danych BLE|danych]] 
 
 Oba mają dokładnie taki sam format.
@@ -24,4 +24,5 @@ Służy do wykrywania błędów w pakiecie.
 
 ---
 https://www.rfwireless-world.com/Terminology/BLE-Advertising-and-Data-Packet-Format.html
+https://www.novelbits.io/deep-dive-ble-packets-events/
 #tech-area/bluetooth-low-energy 

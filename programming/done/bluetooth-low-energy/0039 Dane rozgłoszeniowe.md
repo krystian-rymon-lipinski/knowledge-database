@@ -1,5 +1,5 @@
 ###### Dane rozgłoszeniowe
-**31 bajtów** (opcjonalnych), które zawierają informacje pomagające w zidentyfikowaniu urządzenia podczas skanowania przez inne urządzenie., 
+**31 bajtów** (opcjonalnych), które zawierają informacje o urządzeniu rozgłaszającym. Mogą one pomóc w zidentyfikowaniu go przez urządzenie skanujące. 
 
 Są one podzielone na grupy, gdzie każda z nich składa się z:
 - jej długości (1 bajt)

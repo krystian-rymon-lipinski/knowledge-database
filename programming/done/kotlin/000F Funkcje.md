@@ -3,7 +3,7 @@
 fun someFunction(intValue: Int, someChar: Char) : String { /* Definicja funkcji */
 	return "someString"
 }
-val returned String = someFunction(10, 'b') /* Wywołanie funkcji. */
+val returnedString = someFunction(10, 'b') /* Wywołanie funkcji. */
 ```
 ***Parametry do funkcji przekazywane są przez referencję! Obiekt nie jest kopiowany, każda operacja dokonywana jest na oryginale.***
 Parametry funkcji definiowane są automatycznie poprzez **_val_** - nie można zmieniać ich wartości wewnątrz funkcji.

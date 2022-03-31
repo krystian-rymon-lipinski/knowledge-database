@@ -1,5 +1,5 @@
 ### Callback
-**Wzorzec (?)**
+**(-) Nie jest to do końca wzorzec projektowy.**
 
 **Powiadamia kod wywołujący o zakończeniu wykonywania operacji. (?)**
 

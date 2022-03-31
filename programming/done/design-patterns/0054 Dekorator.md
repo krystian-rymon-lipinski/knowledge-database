@@ -4,6 +4,7 @@
 **Pozwala rozszerzać zachowania obiektów o dodatkowe czynności.** Opiera się na **rekurencyjnej kompozycji** oraz **wspólnym typie obiektów dekorowanych i ich dekoratorów.**
 
 Podstawą hierarchii klas dla tego wzorca jest interfejs, opisujący zachowania, które mogą być później rozszerzane. Obiekt dekorowany implementuje ten interfejs, definiując podstawowe zachowanie obiektu. Jednocześnie ten sam interfejs jest implementowany przez abstrakcyjny dekorator, który będzie klasową bazową dla konkretnych dekoratorów.
+A zatem - zarówno obiekty dekorowane jak i dekoratory definiują te same zachowania.
 
 ```kotlin
 interface Sandwich { /* Zachowania obiektu, które mogą być rozszerzane. */
@@ -14,7 +15,7 @@ class BaseSandwich implements Sandwich { /* Obiekt dekorowany. */
 }
 class CheeseDecorator(val baseSandwich: BaseSandwich) extends BaseSandwichDecorator() {
 	override fun eat() { baseSandwich.eat() + "With cheese." } /* Konkretny dekorator.*/ 
-	/* Deleguje wykonanie metodu poziom niżej i dodaje coś od siebie. */
+	/* Deleguje wykonanie metodys poziom niżej i dodaje coś od siebie. */
 }
 ...
 fun decoratorTest() {
@@ -28,7 +29,7 @@ Można zastosować więcej dekoratorów naraz. Najbardziej zewnętrzny **wydeleg
 
 **W danej hierarchii mogą istnieć różne typy obiektów dekorowanych** - mogą różnie implementować metodę bazowego interfejsu. **Zastosowanie Dekoratora ma największy sens, gdy typ obiektu dekorowanego nie ma znaczenia** - i istotne jest tylko to, że implementuje on metody interfejsu bazowego. Jeśli któryś z typów obiektów dekorowanych definiuje jakieś specjalne zachowania (których inne typy nie mają), wtłoczenie go w ramy tego wzorca może okazać się problematyczne. 
 
-*Dekorator* pozwala **dodawać różne zachowania**, podczas gdy *[[0044 Strategia]]* ma za zadanie **definiować różne implementacje danego zachowania**.
+*Dekorator* pozwala **dodawać różne zachowania**, podczas gdy *[[0044 Strategia|strategia]]* ma za zadanie **definiować różne implementacje danego zachowania**.
 
 ---
 https://refactoring.guru/design-patterns/decorator

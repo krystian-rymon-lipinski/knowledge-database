@@ -29,7 +29,7 @@ Dobrze jest utworzyć *Observable* jako interfejs. W przeciwnym razie będzie mo
 
 W przypadku interfejsu trzeba będzie zapewnić swoją implementację metod operujących na obserwatorach i powiadamiających ich. Ale przynajmniej będzie można zaimplementować go w **każdej klasie** i nie jest się skazanym na jedyną słuszną implementację klasy bazowej. Ma to również większy sens semantyczny - "oto obiekt, który robi swoje, a ponadto spełnia również rolę obiektu obserwującego i robi to w sposób, który opisują implementacje metod interfejsu Observable".
 
-Nieco podobną strukturą do Obserwatora jest [[Callback|callback]].
+Nieco podobną strukturą do Obserwatora jest [[Callback (-)|callback]].
 
 ---
 https://refactoring.guru/design-patterns/observer

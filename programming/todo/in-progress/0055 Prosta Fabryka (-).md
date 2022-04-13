@@ -1,4 +1,4 @@
-	### Prosta Fabryka
+### Prosta Fabryka
 **(-) Nie jest to do końca wzorzec projektowy (gdyby był, byłby kreującym).**
 
 **Opiera się na wydelegowaniu tworzenia różnego rodzaju obiektów (produktów fabryki) do osobnej klasy.** Dzięki temu kod kliencki nie jest uzależniony od poszczególnych implementacji. Poza tym daje to kolejną korzyść w przypadku gdy różne fragmenty kodu chcą tworzyć implementacje tychże obiektów - wówczas hermetyzacja ich kreacji do osobnej klasy (nawet jeżeli utworzonej tylko i wyłącznie po to) pozwala ograniczyć liczbę zmian w kodzie w przypadku zmiany rodzaju otrzymywanych produktów.

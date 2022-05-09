@@ -8,3 +8,6 @@ Zdefiniowany blok kodu wykonuje się w momencie utworzenia obiektu - jeszcze prz
 
 ###### Inicjalizator statyczny
 Zdefiniowany blok kodu wykonuje się w momencie ładowania klasy - tylko jeden raz. 
+
+---
+#tech-area/theory/programming-paradigms/object-oriented 

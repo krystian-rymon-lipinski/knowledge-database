@@ -41,5 +41,7 @@ Umożliwia wywołanie wielu operacji na obiekcie. Operator _?._ przed _let_ zapo
 
 Dzięki temu _it_ oznacza tu zmienną non-null typu Ball.
 
+---
+
 #tech-area/kotlin 
 [[0008 (MOC) Kotlin]]

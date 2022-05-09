@@ -2,7 +2,7 @@
 Wyjątek to obiekt klasy Exception - można definiować swoje, które tę klasę rozszerzają.
 
 Kotlin nie rozróżnia wyjątków sprawdzanych i niesprawdzanych - nie trzeba deklarować, że metoda zgłasza wyjątek. A nawet nie można tego zrobić - przynajmniej nie w sygnaturze metody.
-Jedyną opcją zasygnalizowania (na potrzeby Javy), że metoda może zgłosić wyjątek, jest umieszczenie [[raw-knowledge/!shards/Annotacje|annotacji]] @Throws.
+Jedyną opcją zasygnalizowania (na potrzeby Javy), że metoda może zgłosić wyjątek, jest umieszczenie [[Annotacje|annotacji]] @Throws.
 ```kotlin
 @Throws(NotEnoughPlayersException::class)
 fun playMatch(numberOfPlayers: Int) {
@@ -32,6 +32,8 @@ fun fail(): Nothing { /* To tylko oznaczenie, nic innego nie daje. */
 	throw CustomException()
 }
 ```
+
+---
 
 #tech-area/kotlin 
 [[0008 (MOC) Kotlin]]

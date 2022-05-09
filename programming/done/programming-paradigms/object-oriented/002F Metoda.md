@@ -10,3 +10,6 @@ Ponieważ nie są one wywoływane na konkretnym obiekcie, nie mogą one operowa�
 ###### Metoda finalna
 Funkcja oznaczona jako niedostępna do przesłaniania. 
 
+---
+#tech-area/theory/programming-paradigms/object-oriented 
+

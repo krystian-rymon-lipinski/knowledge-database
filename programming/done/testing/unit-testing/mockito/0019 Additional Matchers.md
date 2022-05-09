@@ -8,5 +8,6 @@
 
 Pełna lista metod dostępna jest [tu](https://www.javadoc.io/doc/org.mockito/mockito-core/2.2.7/org/mockito/AdditionalMatchers.html).
 
+---
 #tech-area/testing/unit-testing/mockito 
 

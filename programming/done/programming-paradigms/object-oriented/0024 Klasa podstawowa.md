@@ -3,3 +3,6 @@ Każda nowo utworzona klasa domyślnie dziedziczy po klasie podstawowej dla wszy
 
 **Nie dziedziczy ona po żadnej klasie.**
 **Wszystkie inne klasy dziedziczą po niej.**
+
+---
+#tech-area/theory/programming-paradigms/object-oriented 

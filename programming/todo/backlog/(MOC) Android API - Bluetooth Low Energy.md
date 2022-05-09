@@ -18,6 +18,6 @@ https://allmydroids.blogspot.com/2015/06/android-ble-error-status-codes-explaine
 
 Elementy implementacji:
 - Rozgłaszanie
-- [[done/android/ble/Skanowanie|Skanowanie]]
+- [[005C Skanowanie|Skanowanie]]
 - Connecting
 - Data Exchange

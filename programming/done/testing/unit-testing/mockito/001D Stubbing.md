@@ -1,5 +1,4 @@
 ### Stubbing 
-
 **Konfiguracja mocka, by zachował się w określony sposób, gdy zostanie wywołana na nim metoda**. Dokonywana poprzez zdefiniowanie zwracanych wartości dla określonych parametrów poprzez konstrukcję ***when-then***.
 
 ###### Przykłady użycia
@@ -29,6 +28,4 @@ when(listMock.add(anyString()))
 Każde kolejne wywołanie wygeneruje zachowanie, które zostało zdefiniowane jako ostatnie.
 
 ---
-
-
 #tech-area/testing/unit-testing/mockito 

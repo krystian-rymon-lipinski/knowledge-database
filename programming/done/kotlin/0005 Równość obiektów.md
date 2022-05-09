@@ -24,5 +24,7 @@ override fun equals(other: Any?) : Boolean {
 }
 ```
 
+---
+
 #tech-area/kotlin 
 [[0008 (MOC) Kotlin]]

@@ -1,5 +1,5 @@
 ### Argument Matcher
-**Wykorzystywany przy [[001D Stubbing|stubbingu]], wywołaniu i [[001E Weryfikacja|weryfikacji]] Mocków. Służy do narzucenia warunków na argumenty metody, zamiast spodziewania się konkretnych wartości. ** Nie może być wartością zwracaną ani zmienną.
+**Wykorzystywany przy [[001D Stubbing|stubbingu]], wywołaniu i [[001E Weryfikacja|weryfikacji]] Mocków. Służy do narzucenia warunków na argumenty metody, zamiast spodziewania się konkretnych wartości.** Nie może być wartością zwracaną ani zmienną.
 ###### Przykład
 
 ```java

@@ -4,5 +4,4 @@ Robi się to w czasie trwania programu, a nie wczasie kompilacji.
 https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
 
 [[dependencja]]
-
-Dagger np. jest od tego. 
+[[dagger]]

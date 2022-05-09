@@ -21,6 +21,7 @@ int radius = ball.getValue().getRadius(); /* Wyciągnięcie wartości jego skła
 assertEquals(20, radius);
 ```
 Aby móc korzystać z wartości Captora, trzeba najpierw wywołać na nim _capture()_.
+
 ___
 
 #tech-area/testing/unit-testing/mockito

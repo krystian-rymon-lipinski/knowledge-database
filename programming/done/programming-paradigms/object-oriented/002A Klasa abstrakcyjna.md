@@ -10,3 +10,6 @@ Zdefiniowanie choć jednej metody jak abstrakcyjnej zmusza do zdefiniowania cał
 **Wszystkie metody abstrakcyjne trzeba przesłonić w klasie pochodnej!**
 
 W ten sposób można definiować różne zachowania dla różnych klas pochodnych, a jednocześnie mieć pewność, że każda z nich zapewni zestaw zachowań wymaganych przez klasę abstrakcyjną.
+
+---
+#tech-area/theory/programming-paradigms/object-oriented 

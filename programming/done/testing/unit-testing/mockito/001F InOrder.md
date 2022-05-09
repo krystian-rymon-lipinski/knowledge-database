@@ -10,5 +10,5 @@ inOrder.verify(mockedList).add("a parameter");
 inOrder.verify(mockedList).clear();
 ```
 
-
+---
 #tech-area/testing/unit-testing/mockito 

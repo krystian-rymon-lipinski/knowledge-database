@@ -1,6 +1,5 @@
-
 ### Weryfikacja
-**Sprawdzenie, czy mock podlegał  interakcjom podczas testowego wywołania metody na obiekcie.** Możliwe jest skontrolowanie samego faktu wywołania metody, jak również 
+**Sprawdzenie, czy mock podlegał  interakcjom podczas testowego wywołania metody na obiekcie.** Możliwe jest skontrolowanie samego faktu wywołania metody, jak również jej parametrów i kolejności.
 
 ###### Przykłady
 ```java
@@ -20,7 +19,7 @@ verifyZeroInteractions(mockedList)
 verifyNoMoreInteractions(mockedList)
 ```
 Dodatkowe warunki na parametry można definiować poprzez [[0018 Argument Matcher|ArgumentMatchers]] oraz [[0016 Argument Captor|ArgumentCaptors]].
-Kolejność interakcji można sprawdzać przy pomocy [[001F InOrder]].
+Kolejność interakcji można sprawdzać przy pomocy [[001F InOrder|InOrder]].
 
 ---
 

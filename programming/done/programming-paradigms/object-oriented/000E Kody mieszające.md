@@ -8,6 +8,8 @@ Jeżeli dwa obiekty mają być równe, to MUSZĄ MIEĆ TEN SAM KOD MIESZAJĄCY.*
 
 Jeżeli przesłaniamy _equals()_, to trzeba też przesłonić _hashCode()_. W przeciwnym razie "\==" będzie porównywać poprawnie, ale klasa [[000C Zbiór|Set]] (korzystająca z hashCode'ów) nie będzie poprawnie wykrywać duplikatów. Najczęściej osiąga się to przez branie pod uwagę tych samych składowych klasy w obu tych metodach.
 
+---
+#tech-area/theory/programming-paradigms/object-oriented 
 
 
 

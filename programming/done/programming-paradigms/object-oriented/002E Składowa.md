@@ -10,3 +10,6 @@ Nie musi zostać zainicjalizowana wartością, w momencie utworzenia jest równa
 ###### Składowa finalna
 **Nie można zmienić jej wartości.**
 **Musi zostać zainicjalizowana w momencie deklaracji.**
+
+---
+#tech-area/theory/programming-paradigms/object-oriented 

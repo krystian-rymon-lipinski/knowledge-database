@@ -7,5 +7,7 @@ W Kotlinie wszystko jest obiektem, a więc wszystkie zmienne to referencje, nie 
 - [[0006 Nullable vs. non-null|Nullable vs. non-null]]
 - [[Konwersja i rzutowanie]]
 
+---
+
 #tech-area/kotlin
 [[0008 (MOC) Kotlin]]

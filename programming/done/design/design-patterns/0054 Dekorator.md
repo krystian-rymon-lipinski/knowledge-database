@@ -33,4 +33,4 @@ Można zastosować więcej dekoratorów naraz. Najbardziej zewnętrzny **wydeleg
 
 ---
 https://refactoring.guru/design-patterns/decorator
-#tech-area/design-patterns 
+#tech-area/design/design-patterns 

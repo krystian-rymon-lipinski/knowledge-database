@@ -1,4 +1,5 @@
-	### ScanCallback
+### ScanCallback
+	
 ```kotlin
 override fun onScanResult(callbackType: Int, result: ScanResult?) { }  
 override fun onBatchScanResults(results: MutableList<ScanResult>?) { }

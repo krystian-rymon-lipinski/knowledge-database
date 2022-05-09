@@ -33,4 +33,4 @@ Nieco podobną strukturą do Obserwatora jest [[Callback (-)|callback]].
 
 ---
 https://refactoring.guru/design-patterns/observer
-#tech-area/design-patterns 
+#tech-area/design/design-patterns 

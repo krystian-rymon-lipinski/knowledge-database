@@ -27,4 +27,4 @@ class Volleyball : Ball {
 ```
 
 ---
-#tech-area/design-patterns 
+#tech-area/design/design-patterns 

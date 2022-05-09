@@ -31,4 +31,4 @@ Zastosowanie tego wzorca ma sens wówczas, gdy **strategie są wykorzystywane pr
 
 ---
 https://refactoring.guru/design-patterns/strategy
-#tech-area/design-patterns
+#tech-area/design/design-patterns

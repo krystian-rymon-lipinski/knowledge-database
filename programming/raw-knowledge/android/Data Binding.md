@@ -1,1 +1,3 @@
-to jest jakiś inny tam mechanizm, który chyba bezpośrednio wiąże elementy XML-a z konkretnym polem konkretnej klasy; I wouldn't know though, never used it
+to jest jakiś inny tam mechanizm, który chyba bezpośrednio wiąże elementy XML-a z konkretnym polem konkretnej klasy
+
+https://developer.android.com/codelabs/kotlin-android-training-live-data-data-binding#4

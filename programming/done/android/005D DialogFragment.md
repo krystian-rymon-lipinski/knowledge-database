@@ -1,5 +1,5 @@
 ### DialogFragment
-**Odmiana fragmentu, która została stworzona do wyświetlania dialogów.**
+**Odmiana [[Fragments|fragmentu]], która została stworzona do wyświetlania dialogów.**
 
 Pozwala to podpiąć dialog pod element, który posiada cykl życia, co może się okazać pomocne, gdy aktywność zmienia swoją konfigurację. Wówczas "zwykły" Dialog mógłby nie zachować swojego stanu - a na pewno trzeba wygenerować dodatkowy kod, by temu przeciwdziałać.
 

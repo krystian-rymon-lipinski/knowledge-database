@@ -32,5 +32,8 @@ class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) { }
 ```
 __itemView__ to główny layout elementu zbioru. Poprzez niego można odnieść się do jego składników, które zawiera (TextView, CheckBox, itp.) i ustawić ich wartość.
 
+Można zadeklarować własny ViewHolder jako klasę wewnętrzną własnego Adaptera.
+Wszelkie listenery można zadeklarować w inicjalizatorze ViewHoldera. Wówczas nie trzeba tego robić w _onBindViewHolder()_ (co spowoduje robienie tego za każdym razem po podpięciu nowej zawartości do widoku).
+
 ---
 #tech-area/android 

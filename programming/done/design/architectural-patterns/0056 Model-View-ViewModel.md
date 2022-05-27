@@ -5,9 +5,9 @@
 Widokiem jest zatem Aktywność i Fragment (i być może inne klasy kontrolujące własny layout, np. Dialogi).
 
 Głównym ich przeznaczeniem jest kontrolowanie UI oraz reagowanie na akcje podjęte przez użytkownika i system. Dodatkowa obsługa aktualnego stanu i danych może powodować zbytnie puchnięcie klasy Widoku - dlatego właśnie dobrze jest delegować to zadanie do osobnej klasy.
-
+	
 **Implementacja w Androidzie:** 
-- [[0057 ViewModel]]
+- [[0057 ViewModel|ViewModel]]
 - [[0058 LiveData|LiveData]]
 
 ---

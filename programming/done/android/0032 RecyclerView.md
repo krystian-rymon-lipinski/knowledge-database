@@ -2,6 +2,8 @@
 **Służy do wyświetlania zbiorów danych, ale potrafi odzyskiwać widoki.**
 Dzięki temu nie tworzy on 1000 widoków dla takiego rozmiaru listy, ale tworzy tylko tyle widoków, ile zmieści się na ekranie, plus kilka dodatkowych. Wówczas podczas przewijania widoki są **odzyskiwane** i wyświetlają inne dane.
 
+**Generowanie wszystkich widoków jest czasochłonne i musi odbywać się na wątku UI, więc dobrze jest jak najbardziej ograniczać korzystanie z metody _notifyDataSetChanged()_!**
+
 ###### Klasa RecyclerView
 Odpowiada za sam widok. Należy w nim zdefiniować jego konfigurację. 
 ```kotlin
@@ -24,6 +26,9 @@ class CustomAdapter : RecyclerView.Adapter<RecyclerView.CustomViewHolder>() {
     override fun getItemCount(): Int 
 }
 ```
+
+Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. 
+Można również powiązać z adapterem obiekt typu [[SortedList|SortedList]], wówczas każda zmiana na liście może zostać mu przekazana.
 
 ###### Własny ViewHolder
 Służy do zdefiniowania wszystkich składników interfejsu elementu. Musi dziedziczyć po klasie RecyclerView.ViewHolder.

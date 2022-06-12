@@ -2,6 +2,8 @@
 **Pozwala na wysyłanie requestów po http lub https. Czyli po prostu na korzystanie z internetu.**
 Requesty to np. GET, PUT, POST, DELETE.
 
+Istnieją biblioteki do obsługi zapytań HTTP po REST API, np. [[Retrofit]]
+
 
 Rzeczy potrzebne:
 

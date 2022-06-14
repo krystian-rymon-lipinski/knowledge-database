@@ -10,4 +10,4 @@ ApplicationKey can be used only with ONE NetKey. NetKey might have more AppKeys 
 
 Multiple ApplicationKeys can be bound to a model.
 
-#tech-area/bluetooth-low-energy/bluetooth-mesh 
+#tech-area/bluetooth-mesh 

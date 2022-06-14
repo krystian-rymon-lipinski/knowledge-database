@@ -55,4 +55,4 @@ https://developer.android.com/reference/android/bluetooth/BluetoothGattCallback
 https://developer.android.com/reference/android/bluetooth/le/ScanSettings
 
 #tech-area/android 
-#tech-area/bluetooth-low-energy/bluetooth-mesh
+#tech-area/bluetooth-mesh

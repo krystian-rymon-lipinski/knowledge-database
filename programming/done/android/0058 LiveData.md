@@ -27,7 +27,7 @@ viewModel.field.observe(viewLifecycleOwner, Observer { /* wersja dla fragmentu *
 })
 ```
 
-Zamiast obserwować zmiany w kontrolerze UI można zdefiniować obserwatory LiveData bezpośrednio w widokach xml poprzez [[Data Binding|data binding]].
+Zamiast obserwować zmiany w kontrolerze UI można zdefiniować obserwatory LiveData bezpośrednio w widokach xml poprzez [[Data Binding|Data Binding]].
 
 ---
 #tech-area/android 

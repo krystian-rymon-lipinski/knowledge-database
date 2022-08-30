@@ -13,6 +13,7 @@ Korzytanie z klasy **BluetoothDevice** wymaga korzystania z [[Manifest Permissio
 
 Android BLE error status codes
 https://allmydroids.blogspot.com/2015/06/android-ble-error-status-codes-explained.html
+https://medium.com/@abrisad_it/ble-error-codes-a3c6675b29c1
 
 ---
 

@@ -13,7 +13,7 @@ Służy do synchronizacji czasu i częstotliwości przez odbiorcę pakietu, dlat
 - jeśli 1, wówczas wstępny bajt to 01010101
 
 ###### Access address (4 bajty)
-Dla pakietu rozgłaszania wynosi zawsze **0x8e89bed6**.
+Dla pakietu rozgłaszania wynosi zawsze **0x8e89bed6** - by odróżnić rozgłaszanie się w urządzeń BLE od innych.
 Dla pakietu danych jest losową wartością.
 
 ###### Dane protokołowe (2-257 bajtów)

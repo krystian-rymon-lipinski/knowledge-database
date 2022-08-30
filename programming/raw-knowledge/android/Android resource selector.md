@@ -14,3 +14,4 @@ definiuje się je w osobnym xmlu:
   
 </selector>
 ```
+albo state_checked, zależy od elementu UI, który jest definiowany selektorem

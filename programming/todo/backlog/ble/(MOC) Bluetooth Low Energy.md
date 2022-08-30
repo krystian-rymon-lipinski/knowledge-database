@@ -1,16 +1,15 @@
 ### Bluetooth Low Energy
 **Technologia bezprzewodowej wymiany informacji między urządzeniami skupiona na jak najmniejszym poborze przez nich mocy.**
 
+Oprogramowanie rozdzielone jest na trzech poziomach abstrakcji:
+- Kontroler
+- Host
+- Aplikacja
 
-Urządzenia mogą pełnić różne [[0033 Role urządzeń BLE|role]]. Zachowania dla poszczególnych ról są definiowanie poprzez [[0034 Tryby urządzeń BLE|tryby]] i [[0042 Procedury urządzeń BLE|procedury]].
-
-
-
-###### Aspekty technologii
-- [[003A Rozgłaszanie]]
-- Scanning
-- Connecting
-- Data Exchange
+###### Warstwy stosu protokołów
+- [[0065 Physical Layer|Physical Layer]] (Kontroler)
+- [[0066 Link Layer|Link Layer]] (Kontroler)
+- Interfejs Kontroler-Host (*ang. Host-Controller Interface (HCI)*)
 
 ---
 

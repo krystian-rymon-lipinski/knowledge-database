@@ -19,5 +19,27 @@ override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, saved
 }
 ```
 
+Ponadto można dostosować jego wielkość względem okna. Należy zdefiniować w layoucie *match_parent* na pożądanym kierunku, a w kodzie nadpisać to wartością (już po utworzeniu widoku!). Drugi kierunek może pozostać po staremu.
+
+```kotlin
+override fun onViewCreated(view: View, savedInstanceState: Bundle?) {  
+    super.onViewCreated(view, savedInstanceState)  
+    val width = (resources.displayMetrics.widthPixels * 0.7).toInt()  
+    dialog?.window?.setLayout(width, ViewGroup.LayoutParams.WRAP_CONTENT)  
+}
+```
+
+Ten typ dialogu implementuje interfejs **OnDismissListener**. Można dzięki temu dać znać Widokowi, który go wywołał, że dialog został zamknięty. 
+- w Widoku trzeba zaimplementować interfejs **DialogInterface.OnDismissListener**
+- w dialogu trzeba przesłonić metodę onDismiss() i poza super.(), wywołać metodę Widoku
+
+```kotlin
+override fun onDismiss(dialog: DialogInterface) {  
+    super.onDismiss(dialog)  
+    (parentFragment as? DialogInterface.OnDismissListener)?.onDismiss(dialog)  
+    /* Albo activity, jeśli to stamtąd wołano DialogFragment. */
+} 
+```
+
 ---
 #tech-area/android 

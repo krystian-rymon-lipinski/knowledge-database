@@ -1,0 +1,1 @@
+Żeby ustawiać wagi wewnątrz CardView, trzeba ją wypełnić jakimś innym ViewGroup, np. LinearLayoutem (jego child views mogą mieć wagi).

@@ -1,0 +1,41 @@
+### View Binding
+Kontrolowanie elementów UI w układach poprzez wygenerowanie **binding class** dla każdego układu. Klasa taka posiada referencję do każdego elementu układu, który posiada atrybut *id* oraz do rodzica, wewnątrz którego zawiera się układ.
+
+###### Setup
+```groovy
+android { /* W build.gradle dla modułu. */    
+	...    
+	buildFeatures { 
+		viewBinding true    
+	}  
+}
+```
+
+Wówczas dla wszystkich układów z folderów *layout* wygeneruje się **binding class**. Można manualne oznaczyć te, dla których nie chcemy jej generować poprzez komendę *tools:viewBindingIgnore="true"* zdefiniowaną w układzie najwyżego poziomu (**root layout**).
+Nazwa takiej klasy powstaje wskutek przetworzenia nazwy pliku .xml do [[konwecje nazewnicze|Pascal case]] i dodanie "Binding". Np. activity_main.xml -> ActivityMainBinding.class. Nazwy id zostają podobnie zmienione.
+
+###### Używanie
+```kotlin
+binding = ActivityMainBinding.inflate(layoutInflater)
+val view = binding.root
+setContentView(view)  /* Dla aktywności. Dla innych Widoków będzie to wyglądało inaczej. */
+...
+binding.textId.text = "SomeText" /* Odwołanie się do TextView. */
+binding.btnId.setOnClickListener(someListener) /* Ustawienie listenera na przycisku. */
+```
+
+**Inne możliwości:**
+
+```kotlin
+/* CustomView - można zdefiniować jako pole w klasie */	
+val binding = CustomViewBinding.inflate(LayoutInflater.from(context), this, true)
+/* RecyclerView - zmienna lokalna w onCreateViewHolder */
+val binding = AdapterViewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+return holder = ViewHolder(binding)
+/* ViewHolder daje superklasie binding.root i może korzystać z bindingu */
+```
+
+---
+
+https://developer.android.com/topic/libraries/view-binding#kts
+#tech-area/android 

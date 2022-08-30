@@ -17,7 +17,7 @@ recyclerView?.let {
 ###### Własny Adapter
 Odpowiada za dane i widok pojedynczego elementu zbioru. Musi implementować interfejs RecyclerView.Adapter.
 ```kotlin
-class CustomAdapter : RecyclerView.Adapter<RecyclerView.CustomViewHolder>() {  
+class CustomAdapter : RecyclerView.Adapter<CustomViewHolder>() {  
     override fun onCreateViewHolder(
 	parent: ViewGroup, viewType: Int) : RecyclerView.ViewHolder 
 	/* Tutaj definiuje się widok elementu z layoutu poprzez Inflater. */   
@@ -27,8 +27,10 @@ class CustomAdapter : RecyclerView.Adapter<RecyclerView.CustomViewHolder>() {
 }
 ```
 
-Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. 
+Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. **Jeśli wywoła się *notifyItemChanged()* z parametrem payload, element listy nie będzie mrugał przy zmianie.**
 Można również powiązać z adapterem obiekt typu [[SortedList|SortedList]], wówczas każda zmiana na liście może zostać mu przekazana.
+
+Jeżeli potrzeba kontekstu w _onBindViewHolder_ (np. na potrzeby jakichś zasobów), można go dostać poprzez: _holder.itemView.context_.
 
 ###### Własny ViewHolder
 Służy do zdefiniowania wszystkich składników interfejsu elementu. Musi dziedziczyć po klasie RecyclerView.ViewHolder.
@@ -37,8 +39,18 @@ class CustomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) { }
 ```
 __itemView__ to główny layout elementu zbioru. Poprzez niego można odnieść się do jego składników, które zawiera (TextView, CheckBox, itp.) i ustawić ich wartość.
 
-Można zadeklarować własny ViewHolder jako klasę wewnętrzną własnego Adaptera.
-Wszelkie listenery można zadeklarować w inicjalizatorze ViewHoldera. Wówczas nie trzeba tego robić w _onBindViewHolder()_ (co spowoduje robienie tego za każdym razem po podpięciu nowej zawartości do widoku).
+Można zadeklarować własny ViewHolder jako klasę wewnętrzną własnego Adaptera. (Ale nie może to być prywatna klasa wewnętrzna.)
+
+Wszelkie listenery można zadeklarować w *onCreateViewHolder()* (to funkcja ADAPTERA!) Utworzony *holder* ma 
+- składową *itemView*, poprzez którą można uzyskać dostęp do pojedynczych elementów UI, również tych, które potrzebują słuchacza. 
+- składową *adapterPosition*, potrzebną do zdeterminowania, który właściwie element listy został kliknięty
+
+Podobnie można zrobić ze wszystkimi innymi składnikami, które mają jakieś stałe zachowania. Wówczas nie trzeba tego robić w _onBindViewHolder()_ (co spowoduje robienie tego za każdym razem po podpięciu nowej zawartości do widoku).
+
+**RecyclerView.Adapter nie potrzebuje obiektu typu Context do ściągania zasobów!**
+```kotlin
+val context = holder.itemView.context
+```
 
 ---
 #tech-area/android 

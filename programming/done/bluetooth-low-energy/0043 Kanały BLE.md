@@ -13,10 +13,5 @@ Z każdym kolejnym *[[Połączenie BLE|connection event]]* kanał wymiany danych
 **new_channel = (current_channel + hop) mod 37**,
 gdzie wartość *hop* zostaje przekazana w [[0040 Dane inicjujące|danych inicjujących]] podczas nawiązywania połączenia.
 
-
-
-Kodowanie i dekodowanie częstotliwości fal radiowych na bity odbywa się przez [[Modulacja|modulację]] przy pomocy algorytmu *[[Gaussian Frequency Shift Key]]*.
-Maksymalna szybkość modulacji to **1 Mbit/s** - jest to górna granica, z jaką urządzenia BLE są w stanie transmitować dane.
-
 ---
 #tech-area/bluetooth-low-energy 

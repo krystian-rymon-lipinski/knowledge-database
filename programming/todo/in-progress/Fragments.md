@@ -20,3 +20,17 @@ Zamiast tego można wywołać konstruktor z parameterem:
 ```kotlin
 class DemoFragment : Fragment(R.layout.fragment_demo)
 ```
+
+---
+
+_You'll notice that when a Fragment is detached, its onPause, onStop and onDestroyView methods are called only (in that order). On the other hand, when a Fragment is removed, its onPause, onStop, onDestroyView, onDestroy and onDetach methods are called (in that order). Similarly, when attaching, the Fragment's onCreateView, onStart and onResume methods are called only; and when adding, the Fragment's onAttach, onCreate, onCreateView, onStart and onResume methods are called (in that order)._ – Adil Hussain
+
+Replace to remove + add, więc replacing też powoduje wywołanie *onDetach()* starego fragmentu i *onAttach()* nowego.
+
+---
+
+Czasem może być problem, żeby zareagować na onBackPressed(), zwłaszcza jeśli są nested fragmenty. Można wówczas wykorzystać callback: OnBackPressedCallback. Setupuje się go poprzez:
+```kotlin
+requireActivity().getOnBackPressedDispatcher().addCallback(this, callback)
+```
+I można ustawić flagę *isEnabled*, żeby decydować, czy wykonywać ten callback czy nie.

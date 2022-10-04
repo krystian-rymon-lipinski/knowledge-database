@@ -7,7 +7,7 @@
 
 **General discovery** - obserwowanie w poszukiwaniu danych rozgłoszeniowych z [[0036 Flagi rozgłaszania|flagą]] sugerującą odpowiedni tryb (Limited Discoverable, General discoverable); urządzenia rozgłaszające się w ten sposób zostaną przekazane do aplikacji jako kandydaci do nawiązania połączenia
 
-**Auto connection establishment** - dodanie na [[Biała lista|białą listę]] adresów urządzeń peryferyjnych i połączenie się z pierwszym z nich, które zostanie wyskanowane 
+**Auto connection establishment** - dodanie na [[0068 Biała lista|białą listę]] adresów urządzeń peryferyjnych i połączenie się z pierwszym z nich, które zostanie wyskanowane 
 
 **General connection establishment** - ogólne skanowanie bez filtrów; do aplikacji przekazane zostaną wszystkie wyskanowane urządzenia, by to użytkownik zadecydował, z którym z nich się połączyć; po wybraniu urządzenia wykonana zostanie procedura *direct connection establishment*
 

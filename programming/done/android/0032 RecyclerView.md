@@ -27,10 +27,15 @@ class CustomAdapter : RecyclerView.Adapter<CustomViewHolder>() {
 }
 ```
 
-Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. **Jeśli wywoła się *notifyItemChanged()* z parametrem payload, element listy nie będzie mrugał przy zmianie.**
-Można również powiązać z adapterem obiekt typu [[SortedList|SortedList]], wówczas każda zmiana na liście może zostać mu przekazana.
+Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. Wywołanie *notifyItemChanged()* spowoduje mrugnięcie widoku przy jego odświeżeniu - aby temu zapobiec, można wykorzystać [[Payloads]].
 
-Jeżeli potrzeba kontekstu w _onBindViewHolder_ (np. na potrzeby jakichś zasobów), można go dostać poprzez: _holder.itemView.context_.
+Można powiązać z adapterem obiekt typu [[SortedList|SortedList]], wówczas każda zmiana na liście może zostać mu przekazana.
+Można też wykorzystać [[DiffUtil]] do przeliczenia wszystkich potrzebnych zmian w widoku listy.
+
+**RecyclerView.Adapter nie potrzebuje obiektu typu Context do ściągania zasobów!**
+```kotlin
+val context = holder.itemView.context
+```
 
 ###### Własny ViewHolder
 Służy do zdefiniowania wszystkich składników interfejsu elementu. Musi dziedziczyć po klasie RecyclerView.ViewHolder.
@@ -47,10 +52,6 @@ Wszelkie listenery można zadeklarować w *onCreateViewHolder()* (to funkcja ADA
 
 Podobnie można zrobić ze wszystkimi innymi składnikami, które mają jakieś stałe zachowania. Wówczas nie trzeba tego robić w _onBindViewHolder()_ (co spowoduje robienie tego za każdym razem po podpięciu nowej zawartości do widoku).
 
-**RecyclerView.Adapter nie potrzebuje obiektu typu Context do ściągania zasobów!**
-```kotlin
-val context = holder.itemView.context
-```
 
 ---
 #tech-area/android 

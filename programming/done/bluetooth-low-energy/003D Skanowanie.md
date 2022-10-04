@@ -4,7 +4,7 @@
 **Interwał skanowania** definiuje częstotliwość wykonywania operacji skanowania.
 **Okno skanowania** definiuje czas, w jakim odbiornik jest rzeczywiście włączony. Zawiera się wewnątrz interwału skanowania.
 
-**Skanowanie może się odbywać tylko na jednym kanale na raz!** Nasłuchiwanie na kolejnym jest możliwe dopiero w kolejnym interwale! Jednakże rozgłaszające się urządzenie transmituje dane na wszystkich kanałach podczas jednego interwału skanowania, więc nie jest to aż takim problemem.
+**Skanowanie może się odbywać tylko na jednym kanale na raz!** Nasłuchiwanie na kolejnym jest możliwe dopiero w kolejnym interwale! Jednakże rozgłaszające się urządzenie transmituje dane na wszystkich kanałach podczas jednego interwału rozgłaszania, więc nie jest to aż takim problemem.
 
 Typy skanowania:
 - pasywne - urządzenie nasłuchujące tylko odbiera pakiety rozgłoszeniowe

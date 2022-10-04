@@ -1,5 +1,7 @@
 ### ViewModel
 **Służy do przechowywania stanu wyświetlanego w elementach UI.**
+**To w nim dokonuje się konwersja z klasy danych modelu na klasę danych stanu widoku** (np. tak jak [tu](https://ryanharter.com/blog/2019/07/encapsulating-view-state/) lub [tu](https://proandroiddev.com/supercharge-android-mvvm-part-1-viewstate-and-actionstate-5816500580ed)). Wynika to z tego, że widok nie musi wiedzieć o całym modelu, potrzebuje tylko tych danych, które wyświetla. ViewModel jest właśnie tym miejscem, gdzie powinno się to zrobić.
+
 **Utworzenie własnego ViewModelu wymaga dziedziczenia po klasie ViewModel.**
 
 Przypisanie go do zmiennej odbywa się przy wykorzystaniu klasy **ViewModelProvider**. 
@@ -26,6 +28,10 @@ val viewModel = ViewModelProvider(this, CustomViewModel.Factory(this))
 ViewModel jest związany z obiektem typu **LifecycleOwner**, dopóki ten nie zostanie zniszczony. Jeżeli taki obiekt poprosi kolejny raz o ViewModel, zwrócona zostanie instancja już istniejąca i z nim powiązana.
 
 Specjalną odmianą ViewModelu jest **AndroidViewModel**, który jako argument przyjmuje klasę **Application** - pozwala to operować na kontekście aplikacji wewnątrz tego ViewModelu.
+
+**ViewModel pozostaje w pamięci, dopóki istnieje obiekt, z którym jest związany.**
+Dla [[Activities|Aktywności]] - dopóki nie zostanie zakończona (wywołane *onDestroy()*).
+Dla [[Fragments|Fragmentu]] - dopóki nie zostanie odpięty (wywołane *onDetached()*).
 
 ---
 #tech-area/android 

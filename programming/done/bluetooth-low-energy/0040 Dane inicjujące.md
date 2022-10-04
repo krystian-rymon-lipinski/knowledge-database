@@ -1,5 +1,5 @@
 ### Dane inicjujące
-**22 bajty** (obowiązkowe), które zawierają wszystkie informacje potrzebne do nawiązania [[Połączenie BLE|połączenia]].
+**22 bajty** (obowiązkowe), które zawierają wszystkie informacje potrzebne do nawiązania [[0067 Połączenie BLE|połączenia]].
 Wysyłane w pakiecie rozgłoszeniowym przez urządzenie skanujące do rozgłaszającego się.
 
 Każdy z pakietów inicjujących ma taki sam format danych inicjujących.

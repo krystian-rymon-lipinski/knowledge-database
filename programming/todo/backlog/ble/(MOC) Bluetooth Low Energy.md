@@ -11,8 +11,15 @@ W przypadku niektórych implementacji (np. sensorów BLE) wszystkie te moduły p
 ###### Warstwy stosu protokołów
 - [[0065 Physical Layer|Physical Layer]] (Kontroler)
 - [[0066 Link Layer|Link Layer]] (Kontroler)
-- [[0069 Interfejs Kontroler-Host]] (*ang. Host-Controller Interface (HCI)*)
+- [[0069 Interfejs Kontroler-Host|Interfejs Kontroler-Host]] (*ang. Host-Controller Interface (HCI)*)
+
+- [[006A L2CAP Layer|L2CAP layer]]
 
 ---
 
 Characteristic format types - Assigned Numbers on Bluetooth SIG
+
+https://infocenter.nordicsemi.com/index.jsp?topic=%2Fsds_s140%2Fdita_common%2Fglossary%2Fglossary.html&anchor=l2cap - wrzucić to do głównego pliku, może się przydać dla wielu rzeczy
+
+
+trzeba zrobić słowniczek! MTU, SDU, xxU, yyU, duuużo tego!

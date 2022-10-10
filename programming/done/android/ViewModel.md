@@ -36,5 +36,7 @@ Dla [[Fragments|Fragmentu]] - dopóki nie zostanie odpięty (wywołane *onDetach
 ---
 #tech-area/android 
 
+https://ryanharter.com/blog/2019/07/encapsulating-view-state/
+https://proandroiddev.com/supercharge-android-mvvm-part-1-viewstate-and-actionstate-5816500580ed
 
 

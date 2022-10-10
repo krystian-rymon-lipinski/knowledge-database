@@ -1,3 +1,4 @@
+### DiffUtils
 Algorytm porównujący dwie listy i wywołujący na adapterze odpowiednie operacje. 
 **Zapobiega wywoływaniu *onNotifyDataSetChanged()*, więc jest całkiem przydatne - na przykład przy filtrowaniu lub sortowaniu. A przy tym proste. 
 

@@ -27,10 +27,9 @@ class CustomAdapter : RecyclerView.Adapter<CustomViewHolder>() {
 }
 ```
 
-Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. Wywołanie *notifyItemChanged()* spowoduje mrugnięcie widoku przy jego odświeżeniu - aby temu zapobiec, można wykorzystać [[Payloads]].
+Aby wywołać ponowne przeliczanie widoków w recyclerze należy wywołać metody typu *notifyDataSetChanged()*, *notifyItemInserted()*, etc. Wywołanie *notifyItemChanged()* spowoduje mrugnięcie widoku przy jego odświeżeniu - aby temu zapobiec, można wykorzystać [[Payloads]] do spółki z klasą [[DiffUtil]] potrzebną do przeliczenia wszystkich potrzebnych zmian w widoku listy.
 
 Można powiązać z adapterem obiekt typu [[SortedList|SortedList]], wówczas każda zmiana na liście może zostać mu przekazana.
-Można też wykorzystać [[DiffUtil]] do przeliczenia wszystkich potrzebnych zmian w widoku listy.
 
 **RecyclerView.Adapter nie potrzebuje obiektu typu Context do ściągania zasobów!**
 ```kotlin

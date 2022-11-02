@@ -19,11 +19,11 @@ override fun getChangePayload(oldItemPosition: Int, newItemPosition: Int): Any {
     return PayloadChange(oldList[oldItemPosition], newList[newItemPosition])  
 }
 
-private class PayloadChange(val oldItem: T, val newItem: T)
+private class PayloadChange(val oldState: T, val newState: T)
 
 fun showChanges(payloads: List<Any>) {  
-    val oldState = (payloads.first() as PayloadChange).oldItem  
-    val newState = (payloads.last() as PayloadChange).newItem  
+    val oldState = (payloads.first() as PayloadChange).oldState
+    val newState = (payloads.last() as PayloadChange).newState 
 
 	/* Tu zdefiniuj zmiany w widokach layoutu elementu listy */
 }

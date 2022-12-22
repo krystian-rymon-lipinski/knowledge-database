@@ -14,6 +14,10 @@ W przypadku niektórych implementacji (np. sensorów BLE) wszystkie te moduły p
 - [[0069 Interfejs Kontroler-Host|Interfejs Kontroler-Host]] (*ang. Host-Controller Interface (HCI)*)
 
 - [[006A L2CAP Layer|L2CAP layer]]
+- [[006D ATT Layer|ATT Layer]]
+- [[0073 Security Manager|Security Manager]]
+- [[GATT Layer]]
+- [[0078 GAP Layer|GAP Layer]]
 
 ---
 
@@ -22,4 +26,3 @@ Characteristic format types - Assigned Numbers on Bluetooth SIG
 https://infocenter.nordicsemi.com/index.jsp?topic=%2Fsds_s140%2Fdita_common%2Fglossary%2Fglossary.html&anchor=l2cap - wrzucić to do głównego pliku, może się przydać dla wielu rzeczy
 
 
-trzeba zrobić słowniczek! MTU, SDU, xxU, yyU, duuużo tego!

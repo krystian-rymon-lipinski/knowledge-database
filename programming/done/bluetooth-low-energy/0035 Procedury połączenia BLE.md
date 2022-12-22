@@ -2,7 +2,7 @@
 **Dodatkowe procedury ustanowione dla istniejącego już połączenia.**
 **Może je wykonać zarówno urządzenie centralne jak i peryferyjne.**
 
-**Name discovery** - wysłanie zapytania o nazwę urządzenia do drugiego uczestnika połączenia
+**Name discovery** - odczytanie characterystyki **Device Name** z [[0077 Serwis GAP|serwisu GAP]]
 
 **Connection parameter update** - zmiana [[003F Parametry połączenia BLE|parametrów połączenia]]; urządzenie centralne może je zmienić, peryferyjne może o to jedynie poprosić, a wówczas to pierwsze decyduje, czy to zrobić; może ono zmienić parametry, ale niekoniecznie dokładnie na takie, o jakie poprosiło urządzenie peryferyjne - może też tego w ogóle nie robić
 

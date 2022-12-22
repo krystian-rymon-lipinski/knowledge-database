@@ -2,9 +2,7 @@
 **Najmniejsze adresowalne jednostki danych w protokole ATT.**
 **Mogą zawierać dane lub metadane (informacje o ustrukturyzowaniu danych).**
 
-Atrybuty są zlokalizowane na urządzeniu będącym serwerem GATT - najczęściej jest to urządzenie pełniące [[0033 Role urządzeń BLE|rolę]] urządzenia peryferyjnego. Natomiast urządzenie centralne odpytuje je w celu odczytania i/lub nadpisania danych.
-
-**Protokół ATT definiuje tylko atrybuty. [[0048 Struktury GATT|Struktury]] są konkretyzowane dopiero na poziomie protokołu GATT.**
+**Protokół ATT definiuje tylko pojedyncze atrybuty. Większe [[0048 Struktury GATT|struktury]] są konkretyzowane dopiero na poziomie protokołu GATT.**
 
 ###### Pola atrybutów
 Poniższe pola występują dla każdego atrybutu:

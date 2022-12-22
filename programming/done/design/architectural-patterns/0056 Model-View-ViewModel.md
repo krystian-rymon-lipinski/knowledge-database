@@ -8,7 +8,7 @@ Dodatkowa obsługa aktualnego stanu i danych może powodować zbytnie puchnięci
 
 
 **Implementacja w Androidzie:** 
-- [[ViewModel|ViewModel]]
+- [[0076 ViewModel|ViewModel]]
 - [[0058 LiveData|LiveData]]
 
 ---

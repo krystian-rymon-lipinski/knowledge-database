@@ -1,4 +1,5 @@
 ### Logical Link Control and Adaptation Protocol  (L2CAP) Layer
+
 **Jego głównym zadaniem jest konwersja wiadomości z różnych protokołów wyższych warstw (poziomów abstrakcji) na wspólny format pakietu BLE oraz w drugą stronę.**
 
 W praktyce oznacza to transformowanie wiadomości od protokołów:

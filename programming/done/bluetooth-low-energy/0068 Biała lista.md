@@ -8,7 +8,7 @@ Dla urządzenia skanującego będzie ona oznaczać adresy urządzeń, których d
 
 Filtrowanie urządzeń skanujących/rozgłaszających po adresach ma sens tylko w przypadku używania przez te urządzenia adresów niezmiennych. Używanie adresów typu *private random resolvable/non-resolvable* uniemożliwia stosowanie takiej listy - po zmianie adresu urządzenie przestanie spełniać kryteria filtra.
 
-Urządzenia z adresem typu *private random resolvable* można zapisać w pamięci urządzenia po uprzednim nawiązaniu z nim połączenia - służy do tego [[0063 Procedury bezpieczeństwa BLE|procedura wiązania]]. 
+Urządzenia z adresem typu *private random resolvable* można zapisać w pamięci urządzenia po uprzednim nawiązaniu z nim połączenia - służy do tego [[Procedury bezpieczeństwa BLE|procedura wiązania]]. 
 
 ---
 #tech-area/bluetooth-low-energy 

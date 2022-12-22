@@ -1,4 +1,4 @@
-### Role urządzeń BLE
+
 Dopuszczalnym jest, aby jedno urządzenie spełniało kilka ról jednocześnie. Np. telefon może być urządzeniem centralnym dla czujnika i jednocześnie peryferyjnym dla innego telefonu.
 
 ###### Transmiter
@@ -18,7 +18,7 @@ Wymaga stosunkowo dużej mocy obliczeniowej i pamięci. Zazwyczaj przeznaczona d
 **Role Transmitera i Urządzenia Peryferyjnego korzystają z [[003A Rozgłaszanie|rozgłaszania]].**
 **Role Obserwatora i Urządzenia Centralnego korzystają ze [[003D Skanowanie|skanowania]].**
 
- Dodatkowo zdefiniowano [[0034 Tryby urządzeń BLE|tryby]] i [[0042 Procedury urządzeń BLE|procedury]], które dokładniej określają możliwości urządzeń pracujących w określonych rolach.
+Dodatkowo zdefiniowano [[0034 Tryby urządzeń BLE|tryby]] i [[0042 Procedury urządzeń BLE|procedury]], które dokładniej określają możliwości urządzeń pracujących w określonych rolach.
 
 ---
 #tech-area/bluetooth-low-energy 

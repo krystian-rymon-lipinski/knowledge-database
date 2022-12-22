@@ -1,5 +1,4 @@
-### Adres BLE
-**6-bajtowy unikalny identyfikator urządzenia BLE. Akceptowalny format: "00:11:22:33:AA:BB".**
+**6-bajtowy unikalny identyfikator urządzenia BLE.** Akceptowalny format: "00:11:22:33:AA:BB".
 Może być różnego rodzaju.
 
 ###### Public device address
@@ -11,7 +10,7 @@ Adres, który może być zaprogramowany na stałe lub zmieniać się w trakcie p
 Można zdefiniować dalsze jego typy.
 
 - static - adres stały przez całe "życie" lub przynajmniej od włączenia do włączenia urządzenia; używany, gdy producent nie chce rejestrować urządzenia
-- private resolvable - zmieniający się cały czas adres (specyfikacja zaleca co ok. 15 min.), by urządzenie było niemożliwe do śledzenia; generowany przy pomocy [[Klucze bezpieczeństwa BLE|klucza identyfikującego]] i liczby losowej; odszyfrować mogą go tylko urządzenia [[0063 Procedury bezpieczeństwa BLE|sparowane]], ponieważ otrzymały ów klucz
+- private resolvable - zmieniający się cały czas adres (specyfikacja zaleca co ok. 15 min.), by urządzenie było niemożliwe do śledzenia; generowany przy pomocy [[0074 Klucze bezpieczeństwa BLE|klucza identyfikującego]] i liczby losowej; odszyfrować mogą go tylko urządzenia [[Procedury bezpieczeństwa BLE|sparowane]], ponieważ otrzymały ów klucz
 - private non-resolvable - zmieniający się losowo, niemożliwy do odszyfrowania dla nikogo adres; używany w przypadku [[BLE Beacon|beaconów]] (z którymi i tak nie można się łączyć), by uniemożliwić śledzenie, 
 
 **Urządzenie musi posiadać _public address_ lub _random static address_!**

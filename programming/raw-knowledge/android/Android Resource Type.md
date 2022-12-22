@@ -14,3 +14,7 @@ W Androidzie są różne typy resourców. Definiuje się je w różnych
 - res/font/
 
 https://developer.android.com/guide/topics/resources/available-resources
+
+---
+Sam Android posiada bibliotekę różnych resourców, np. kolory, animacje, style, etc.
+Można się do nich odwołać w kodzie poprzez: *android.R.resource_type.resource*

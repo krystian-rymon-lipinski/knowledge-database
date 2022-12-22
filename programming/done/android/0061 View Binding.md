@@ -35,6 +35,21 @@ return holder = ViewHolder(binding)
 /* ViewHolder daje superklasie binding.root i może korzystać z bindingu */
 ```
 
+**Jeśli layout jest zdefiniowany dla różnych konfiguracji, a któregoś z elementów UI nie ma na choćby jednym z nich, nie uda się go wygenerować!** Można to podejrzeć w wygenerowanej klasie:
+```kotlin
+/**  
+ * This binding is not available in all configurations. * <p>  
+ * Present:  
+ * <ul>  
+ *   <li>layout-sw600dp/</li>  
+ * </ul>  
+ *  
+ * Absent: * <ul>  
+ *   <li>layout/</li>  
+ * </ul>  
+ */
+```
+
 ---
 
 https://developer.android.com/topic/libraries/view-binding#kts

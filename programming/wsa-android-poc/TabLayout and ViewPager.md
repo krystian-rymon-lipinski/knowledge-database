@@ -5,6 +5,10 @@ https://material.io/components/tabs#usage
 Służy do przełączania między fragmentami. Klik działa normalnie na setOnClickListenera, ale można jeszcze swipe'ować.
 Żeby ustawić te swipe'y, trzeba zasetupować ViewPager (ViewPager2, bo pierwszy jest w części deprecated).
 
+ViewPager2 ma ma coś takiego jak OnPageChangeCallback.
+view_pager2.registerOnPageChangeCallback()
+
+
 1) Zdefiniowanie widoku - działa on trochę jak FrameLayout, jak widoczkiem, w który wpadają fragmenty.
 <androidx.viewpager2.widget.ViewPager2  
     android:id="@+id/scan_view_pager2"  

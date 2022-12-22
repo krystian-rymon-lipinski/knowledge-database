@@ -51,6 +51,7 @@ Wszelkie listenery można zadeklarować w *onCreateViewHolder()* (to funkcja ADA
 
 Podobnie można zrobić ze wszystkimi innymi składnikami, które mają jakieś stałe zachowania. Wówczas nie trzeba tego robić w _onBindViewHolder()_ (co spowoduje robienie tego za każdym razem po podpięciu nowej zawartości do widoku).
 
+**Ustawianie własności _alpha_ dla ViewHoldera może nie zostać wykonane przez system, ponieważ wykorzystuje on tę wartość do zasygnalizowania innych rzeczy podczas renderowania widoku.** Można albo użyć w to miejsce ustawiania kolorów albo ustawić _itemAnimator_ na null.
 
 ---
 #tech-area/android 

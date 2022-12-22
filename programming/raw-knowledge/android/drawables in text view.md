@@ -7,3 +7,4 @@ W TextView jest to setCompoundDrawable...
 Chodzi o to, że można użyć zasobów Drawable zdefiniowanych przez siebie w projekcie od razu w tekście.
 
 Problem jest z marginesami/paddingami, ciężko je ustawić. 
+android:drawablePadding="@dimen/space_XS" - tak można

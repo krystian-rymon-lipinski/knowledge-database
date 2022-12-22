@@ -15,3 +15,6 @@ definiuje się je w osobnym xmlu:
 </selector>
 ```
 albo state_checked, zależy od elementu UI, który jest definiowany selektorem
+albo state enabled, jeżeli to np. jakiś button
+
+**Wówczas taki selector można zdefiniować jako np. backgroundTint i ma to wpływ na kolor!**

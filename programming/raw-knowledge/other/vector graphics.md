@@ -1,3 +1,33 @@
+```xml
+android:width="@dimen/icon_card_view_dimension"  
+android:height="@dimen/icon_card_view_dimension"  
+android:viewportWidth="68"  
+android:viewportHeight="68">
+```
+
+width i height to rzeczywiste rozmiary widoku na layoucie
+viewport oznacza wymiary płótna, po których rysowana jest grafika; jeśli viewport to 100, a rsywana jest linia H50, to zostanie narysowana do połowy
+
+```xml
+<circle cx="100" cy="100" r="75" />
+```
+
+can be achieved as a path with this:
+
+```xml
+  <path 
+        d="
+        M 100, 100
+        m -75, 0
+        a 75,75 0 1,0 150,0
+        a 75,75 0 1,0 -150,0
+        "
+  />
+```
+
+
+------
+
 Grafika wektorowa.
 Źródło: https://www.w3.org/TR/SVG/paths.html
  Example:

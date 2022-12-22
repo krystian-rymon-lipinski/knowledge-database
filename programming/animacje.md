@@ -9,3 +9,6 @@ on the root node in your layout.
 ---
 
 Jeżeli chcemy "zniknąć" widok, na którym została wywołana animacja (nawet czasowa, która już dawno się skończyła), trzeba wywołać clearAnimation. Inaczej widok zwolni miejsce w layoucie, ale nie zniknie z ekranu.
+
+---
+Android posiada domyślne animacje, których można użyć, zamiast definować własną.

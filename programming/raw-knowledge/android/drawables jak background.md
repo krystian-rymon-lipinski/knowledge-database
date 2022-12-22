@@ -32,5 +32,11 @@ Można też ustawiać różne drawable w zależności od stanu poprzez [[Android
 
 Albo różne drawable w zależności od poziomu poprzez [[level-list]]
 
+Można też ustawić gradient color, jeśli nie ma być jednolity
+
 Albo różne inne rzeczy:
 https://developer.android.com/guide/topics/resources/drawable-resource
+
+---
+
+A w ogóle to dla prostych, ale często używanych ikon (np.  w menu albo notifikacji) można użyć clip artów (zarówno jako .png i .svg). Coś w stylu strzałki wstecz albo ikonki home. Bardzo przydatne i nie trzeba robić tego po swojemu.

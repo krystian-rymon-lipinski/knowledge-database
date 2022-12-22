@@ -17,3 +17,5 @@ Ponadto, jeśli trzeba:
 			androidTestImplementation 'androidx.test.ext:junit:1.1.3'  
 			androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 - podpięcie submodułów gitowych pod moduł
+
+Należy trzymać się [[Standardy wytwarzania oprogramowania|stanardów wytwarzania oprogramowania]].

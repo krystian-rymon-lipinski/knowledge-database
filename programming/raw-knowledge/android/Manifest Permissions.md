@@ -34,6 +34,12 @@ override fun onRequestPermissionsResult(
 }
 ```
 
+---
+Można wykorzystać *shouldShowRequestPermissionRationale*, żeby system zadecydował, czy trzeba wyświetlać ewentualny dialog wyjaśniający, po co są konkretne permisje (co jest generalnie dobrą praktyką). Np. zwraca to false, gdy wszystkie permisje są przyznane - albo gdy wszystkie są odrzucone z "Don't ask again".
+
+**Gdy system już nie pyta o permisje (bo są granted albo user nie życzy sobie o nie pytać ponownie), to i tak wysłanie _requestPermissions_ spowoduje zwrotkę _onRequestPermissionsResults_, więc flow pozostanie taki sam**.
+
+
 https://medium.com/kinandcartacreated/finally-a-clean-way-to-deal-with-permissions-in-android-539786a7846
 https://developer.android.com/training/permissions/declaring
 https://developer.android.com/training/permissions/requesting

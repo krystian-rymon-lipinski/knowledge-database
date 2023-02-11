@@ -40,6 +40,14 @@ Można wykorzystać *shouldShowRequestPermissionRationale*, żeby system zadecyd
 **Gdy system już nie pyta o permisje (bo są granted albo user nie życzy sobie o nie pytać ponownie), to i tak wysłanie _requestPermissions_ spowoduje zwrotkę _onRequestPermissionsResults_, więc flow pozostanie taki sam**.
 
 
+
+**shouldShowRequestPermissionRationale()**
+
+> This method returns true if the app has requested this permission previously and the user denied the request.
+> 
+> Note: If the user turned down the permission request in the past and chose the Don't ask again option in the permission request system dialog, this method returns false.
+
+
 https://medium.com/kinandcartacreated/finally-a-clean-way-to-deal-with-permissions-in-android-539786a7846
 https://developer.android.com/training/permissions/declaring
 https://developer.android.com/training/permissions/requesting

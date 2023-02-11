@@ -26,7 +26,27 @@ android:foreground="?attr/selectableItemBackground"
 android:clickable="true"
 ```
 
-	
+Czasem może to nie zadziałać - niektóre elementy UI jak BottomNavigationView nie mają tego atrybutu, a poza tym foreground nie bierze pod uwagę np. zaokrąglonych narożników, o czym więcej tu: http://michaelevans.org/blog/2015/05/07/android-ripples-with-rounded-corners/.
+
+Dla takich przypadków można zdefiniować <ripple> dla własnego drawable:
+
+```xml
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:color="?android:attr/colorControlHighlight">  <!-- KOLOR JEST KONIECZNY! -->
+  
+    <item android:id="@android:id/mask">  <!-- maska ripple'a -->
+        <shape android:shape="rectangle">  
+            <solid android:color="#000000" />  
+        </shape>    
+	</item>    
+	<item android:drawable="@drawable/bottom_item_selector" />  <!-- customowy background -->
+</ripple>
+```
+
+Ripple może zastępować selectableItemBackground (jak wyżej) lub selectableItemBackgroundBorderless (Jak niżej) - to drugie jest przydatne, gdy elementy mają paddingi lub marginesy.
+https://stackoverflow.com/questions/28464983/ripple-drawable-in-xml-not-working
+
+
 
 Można też ustawiać różne drawable w zależności od stanu poprzez [[Android resource selector|Selector]]
 
@@ -36,6 +56,7 @@ Można też ustawić gradient color, jeśli nie ma być jednolity
 
 Albo różne inne rzeczy:
 https://developer.android.com/guide/topics/resources/drawable-resource
+https://developer.android.com/guide/topics/resources/complex-xml-resources
 
 ---
 

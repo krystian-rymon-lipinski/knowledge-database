@@ -1,0 +1,1 @@
+https://developer.android.com/guide/topics/resources/string-resource#Plurals

@@ -1,0 +1,1 @@
+tool do designu, mockowania UI i UX do zaimplementowania

@@ -1,4 +1,9 @@
 ### Retrofit
+
+biblioteka do REST API 
+Można w nim zapiąć konwerter konkretnego parsowania obiektow typu JSON, np. GSON.
+
+---
 1) Utworzenie serwisu-interfejsu definiującego zapytania:
 
 ```kotlin

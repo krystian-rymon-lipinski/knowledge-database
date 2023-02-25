@@ -84,3 +84,8 @@ Tip of the Day | Productivity Guide | Keyboard Shortcuts
 Pokaż plik z logami | Zbierz logi do analizy | Analiza zużycia pamięci AS
 Usuwanie poprzednich wersji AS (z jej ustawieniami, itp.)
 
+---
+Przy robieniu layoutów:
+Component Tree - można przenosić komponenty z rzeczy do rzeczy! Zamiast kopiować samodzielnie!
+
+Palette - pokazuje różne kontenery i kontrolki UI! Również te, o których mogło się nie słyszeć!

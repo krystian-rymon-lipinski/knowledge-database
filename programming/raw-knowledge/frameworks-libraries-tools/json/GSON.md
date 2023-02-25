@@ -1,4 +1,5 @@
-W Androidzie można używać GSON-a.
+Biblioteka umożliwiająca konwertowanie obiektów języka Java/Kotlin na plik typu [[JSON]] i z powrotem.
+
 ```csharp
 dependencies {
      implementation 'com.google.code.gson:gson:2.8.8' 

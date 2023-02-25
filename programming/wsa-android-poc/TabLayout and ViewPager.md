@@ -3,7 +3,7 @@ https://material.io/components/tabs#usage
 
 ### TabLayout
 Służy do przełączania między fragmentami. Klik działa normalnie na setOnClickListenera, ale można jeszcze swipe'ować.
-Żeby ustawić te swipe'y, trzeba zasetupować ViewPager (ViewPager2, bo pierwszy jest w części deprecated).
+Żeby ustawić te swipe'y, trzeba zasetupować  ViewPager (ViewPager2, bo pierwszy jest w części deprecated).
 
 ViewPager2 ma ma coś takiego jak OnPageChangeCallback.
 view_pager2.registerOnPageChangeCallback()

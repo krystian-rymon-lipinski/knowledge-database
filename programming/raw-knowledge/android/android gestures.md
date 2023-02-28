@@ -1,0 +1,1 @@
+Android supports a range of touch gestures such as **tap, double-tap, pinch, swipe, scroll, long press, drag, and fling**.

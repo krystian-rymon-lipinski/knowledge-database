@@ -1,6 +1,4 @@
 
-
-
 ```kotlin
 supportActionBar?.apply {  
     show()  
@@ -8,3 +6,5 @@ supportActionBar?.apply {
     setHomeAsUpIndicator(R.drawable.ic_small_x) 
 }
 ```
+
+#status/to-do 

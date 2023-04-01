@@ -4,15 +4,11 @@ ogólnie jest to płatne - za darmo dla do dwóch osób
 
 i wystarczy tylko dodać bibliotekę
 
-
-https://www.instabug.com/platforms/android
-
 ```kotlin
+/* Gradle */
 implementation 'com.instabug.library:instabug:10.0.1'
-```
-
-‍
-```kotlin
+...
+/* Application() */
 new Instabug.Builder(this, "YOUR_APP_TOKEN_HERE")
 .setInvocationEvents(
 	InstabugInvocationEvent.SHAKE,
@@ -21,3 +17,5 @@ new Instabug.Builder(this, "YOUR_APP_TOKEN_HERE")
 ```
 
 Token dostaje się po rejestracji i kupieniu (duuh)
+
+https://www.instabug.com/platforms/android

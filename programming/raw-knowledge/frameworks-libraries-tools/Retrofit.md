@@ -10,7 +10,14 @@ Można w nim zapiąć konwerter konkretnego parsowania obiektow typu JSON, np. G
 interface HttpService {
 @GET("relativePath/{id}") // annotacja do metody
 Call<T> getSomethingThroughId(@Path("id") Int id) //metoda do wykorzystania przez kod aplikacji 
-@Query - dodatkowe opcje zapytania, np. sortowanie
+
+@GET("json.php")  
+fun getNumberInfo(@Query("name") numberName: String) : Call<NumberData> //zawołanie z parametrem
+
+@GET  
+fun getImage(@Url url: String) : Call<ResponseBody> // zawołanie dla "twardego" linku
+
+@Query - dodatkowe opcje zapytania, np. konkretne parametry lub opcje (jak choćby sortowanie
 }
 ```
 
@@ -21,7 +28,7 @@ val httpClient = Retrofit.Builder()
 	.baseUrl("chosenUrl.com") // strona, z której będzie się ściągało dane
 	.addConvertedFactory(GsonConvertedFactory.create()) // konwerter obiektów JSON, tutaj konkretnie GSON
 	.build()
-val httpService = retrofit.create(HttpService::class.java)
+val httpService = httpClient.create(HttpService::class.java)
 ```
 3) Utworzenie klasy, która zamieni pola JSON-a na obiekt [[POJO]] w Androidzie. Zadzieje się to automatycznie przez wybrany konwerter.
 ```kotlin

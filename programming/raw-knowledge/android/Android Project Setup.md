@@ -1,10 +1,20 @@
 Setup:
 1) Powiązanie lokalnego repo z remotem.
 	a) Ustawienie nazwy i emaila na lokalnym repo.
+```
+/* [ ] oznacza argument opcjonalny. */
+git config [--global] user.name = "User Name"	
+git config [--global] user.email = "user_mail@example.com"
+```
+
 2) Utworzenie pustego projektu w Android Studio
-	a) zbudowanie i zainstalowanie projektu - prawie na pewno będzie jakiś bug, którego trzeba będzie naprawić (np. przez targetSdkVersion/compileSdkVersion)
+	a) zbudowanie i zainstalowanie projektu - prawie na pewno będzie jakiś bug, którego trzeba będzie naprawić 
+- poprzez przez targetSdkVersion/compileSdkVersion)
+- poprzez zmianę wersji Gradle lub zmianę wersji Android Gradle Plugin (7.5.0 Gradle o 7.0.0 AGP działa na pewno)
 3) Dodanie potrzebnych w projekcie dependencji.
 4) Powiązanie remote repo z CI/CD - w zależności od tego, które CI/CD jest wykorzystywane.
+	a) Jeżeli repo jest w githubie, to można dodać: Actions -> Android CI. Domyślnie będzie to przynajmniej budowało kod. Można później dodać rzeczy typu unit testy. 
+	Pisane jest toto w yaml-u.
 
 Ponadto, jeśli trzeba:
 - dodanie innych modułów (np. bibliotek) w tym samym projekcie

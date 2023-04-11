@@ -18,26 +18,33 @@ CoroutinesScope(chosen_dispatcher).launch { } /* Scope dziedziczący swój konte
 
 
 ###### Builders
-launch
-async
-coś tam
+- **launch** - Dispatcher jest opcjonalny; zwraca obiekt typu **Job**, przez który można taką korutynę kontrolować (np. anulować)
+- **async** - zwraca "jakikolwiek wynik"; musi zostać wywołane *await()* na obiekcie, żeby zacząć wykonywać kod w korutynie
+
+
+- **withContext** - **chyba dopiero ta metoda daje gwarację na suspendowanie kodu i nie siedzenie na głównym wątku**
 
 ###### Dispatchers
-coś tam
+Decydują, na którym wątku zostanie wykonana operacja w korutynie. Android API definiuje 3:
+- Dispatchers.Default - przydatny przy złożonych obliczeniach wykorzystujących CPU
+- Dispatchers.Main - przydatny przy operacjach na UI, takich jak ustawianie tekstu, ustawianie wartości LiveData, **podobno można nawet przeliczanie RecyclerView zrzucić na korutynę!**
+- Dispatchers.IO - przydatny przy operacjach sieciowych oraz związanych z bazą danych
 
 
 **Metoda wywoływana wewnątrz scope'u korutyny musi zostać oznaczona jako `suspend`!**
 ```kotlin
 
-tu launch ze scope'u
+someScope.launch {
+	someWork()
+}
 
 suspend fun someWork() {
 /* tu praca */
 }
 ```
+**Blokowanie głównego wątku powoduje zamrożenie UI. Suspendowanie korutyny utworzonej na głównym wątku - nie!**
 
 
-**Podobno można nawet przeliczanie RecyclerView zrzucić na korutynę!**
 
 
 ---

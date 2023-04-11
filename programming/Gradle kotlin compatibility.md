@@ -1,1 +1,0 @@
-https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin

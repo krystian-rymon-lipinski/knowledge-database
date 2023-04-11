@@ -52,5 +52,12 @@ return holder = ViewHolder(binding)
 
 ---
 
+**Różnica między `inflate` i `bind`:**
+
+- można zawołać `SomeBinding.inflate` - wówczas wygeneruje się hierarchia widoków poprzez `LayoutInflater.inflate()`, a za kulisami wywoła się `SomeBinding.bind`, które zwróci binding to tej hierarchii
+- można też zawołać `SomeBinding.bind` - ale wówczas trzeba już mieć wygenerowaną hierarchię widoków, czy to przez `LayoutInflater.inflate()`, czy `setContentView`, etc.
+
+
+
 https://developer.android.com/topic/libraries/view-binding#kts
 #tech-area/android 

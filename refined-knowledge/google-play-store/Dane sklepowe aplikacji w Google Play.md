@@ -12,6 +12,3 @@ up: [[Konsola Google Play]]
 
 **Można ustawić tzw. marketing zewnętrzny - czy aplikacja może być reklamowana poza Google Play.**
 **Można również ustawić [_głębokie linki_](https://developer.android.com/training/app-links/deep-linking)**.
-
-#status/in-progress 
-#tech-area/android/google-play

@@ -4,6 +4,8 @@ up: [[Konsola Google Play]]
 
 **Każdy nowa paczka udostępniona do testowania musi mieć nowy _code version_!** Później (po testach) można ją promować jako release przeznaczony na produkcję, nie trzeba tworzyć kopii releasu.
 
+Dostępne są raporty po-teststowe wyszczególniające ewentualne problemy i/lub uwagi w następujących obszarach: **stabilność, performance, dostępność, bezpieczeństwo**.
+
 ###### Testowanie wewnętrzne
 
 1. Dodanie maila/maili testerów. Można też dodać jakieś miejsce (URL/mail), gdzie testerzy mogą dawać swój feedback.

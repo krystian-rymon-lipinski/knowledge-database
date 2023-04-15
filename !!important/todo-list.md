@@ -1,4 +1,4 @@
-- [ ] home page
+- [x] home page
 - [x] knowledge migration:
 	- [x] migrate BLE
 	- [x] migrate Android

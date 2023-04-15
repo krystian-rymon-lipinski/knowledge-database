@@ -17,4 +17,4 @@ Ponadto możliwe:
 - [własne informacje](https://support.google.com/googleplay/android-developer/answer/9867158?visit_id=638071672451249938-3318334199&rd=1)
 
 
-**Jest możliwe kreowanie alternatywnych widoków prezencji aplikacji na potrzeby [[Testy AB|testów A/B]] oraz parametryzowanie ich występowania (np. czas wyświetlania poszczególnych wersji).** 
+**Możliwe jest kreowanie alternatywnych widoków prezencji aplikacji na potrzeby [[Testy AB|testów A/B]] oraz parametryzowanie ich występowania (np. czas wyświetlania poszczególnych wersji).** 

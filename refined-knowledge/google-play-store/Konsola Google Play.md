@@ -9,7 +9,7 @@ Możliwe do podjęcia akcje do podjęcia przez dewelopera:
 - przeglądanie [[Statystyki konsoli Google Play|statystyk aplikacji]]
 - dostęp do starszych wersji aplikacji
 - edycja [[Prezencja aplikacji w konsoli Google Play|prezencji aplikacji]]
-- ustawianie [[Dane aplikacji w Google Play|danych aplikacji]]
+- ustawianie [[Dane sklepowe aplikacji w Google Play|danych sklepowych aplikacji]]
 - przeglądanie powodów (logów) crashy i zawieszeń aplikacji
 - monetyzacja aplikacji
 - [[Określanie zawartości aplikacji w Google Store|określanie zawartości aplikacji]]

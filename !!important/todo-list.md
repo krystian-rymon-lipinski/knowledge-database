@@ -1,9 +1,10 @@
 - [ ] home page
-- [ ] knowledge migration:
+- [x] knowledge migration:
 	- [x] migrate BLE
 	- [x] migrate Android
-	- [ ] migrate raw and in-progress knowledge
-- [ ] notatki
-	- [ ] posprzątać [[0032 RecyclerView]]
-- [ ] ponadawać tagi dla elementów powiązanych
+	- [x] migrate raw and in-progress knowledge
+- [x] notatki
+	- [x] posprzątać [[0032 RecyclerView]]
+- [x] ponadawać tagi dla elementów powiązanych
 - [ ] [[BLE - TODO]]
+- [ ] Google Play Console things

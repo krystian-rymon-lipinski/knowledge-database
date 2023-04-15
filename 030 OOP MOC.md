@@ -1,3 +1,5 @@
+up: [[000 HOME]]
+
 ### Programowanie obiektowe 
 Paradygmat programowania opierający się na __obiektach__ opisanych przez _stan_ i _zachowanie_. 
 

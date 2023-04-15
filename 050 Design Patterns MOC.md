@@ -1,3 +1,5 @@
+up: [[000 HOME]]
+
 **Wzorce projektowe rozwiązują problemy poprzez zdefiniowanie struktury klas, wykorzystujących zasady [[030 OOP MOC|programowania obiektowego]] oraz zasad [[SOLID]].**
 
 **Wzorce kreujące:**

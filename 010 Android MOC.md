@@ -1,3 +1,5 @@
+up: [[000 HOME]]
+
 **System operacyjny dla urządzeń mobilnych.**
 [[Android Project Setup]]
 [[Manifest Permissions]]

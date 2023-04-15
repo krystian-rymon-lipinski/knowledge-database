@@ -1,3 +1,5 @@
+up: [[000 HOME]]
+
 **Język programowania opierający się na paradygmatach [[030 OOP MOC|obiektowym]] i [[Programowanie funkcyjne|funkcyjnym]].**
 Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
 

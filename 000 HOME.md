@@ -1,0 +1,11 @@
+### Gałęzie wiedzy:
+
+- [[010 Android MOC]]
+	- [[011 Google Play Store]]
+	- [[012 Android Studio MOC]]
+	- [[013 Android Libraries MOC]]
+- [[020 Kotlin MOC]]
+- [[030 OOP MOC]]
+- [[041 Junit MOC]]
+- [[042 Mockito MOC]]
+- [[050 Design Patterns MOC]]

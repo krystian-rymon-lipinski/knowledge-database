@@ -1,3 +1,6 @@
+#status/freezer 
+#tech-area/android/ble 
+
 BluetoothDevice#connectGatt() - metoda do łączenia się z urządzeniem
 Ta metoda zwraca *BluetoothGatt*, na której można dokonać resztę odpytek.
 

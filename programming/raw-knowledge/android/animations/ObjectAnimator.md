@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen 
+#tech-area/android 
+
 Klasa ułatwiająca robienie animacji wszelakich!
 
 Np. fadeout:

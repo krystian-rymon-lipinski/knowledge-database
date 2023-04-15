@@ -1,3 +1,7 @@
+up: [[Usługi powiązane]]
+#status/in-progress  
+#tech-area/android 
+
 Można je powiązać z komponentami aplikacji (najczęściej z aktywnością). Serwisy te giną w momencie, w którym ginie komponent, który jest z nią powiązany.
 Można też powiązać serwis z aplikacją, ale zamknięcie aplikacji nie musi oznaczać ubicia procesu przez system, więc może to prowadzić do wycieków pamięci.
 

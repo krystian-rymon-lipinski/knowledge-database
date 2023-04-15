@@ -1,3 +1,6 @@
+#status/freezer 
+#tech-area/android/ble 
+
 Wykrycie zmian w lokalizacji i bluetoothie - dwóch managerach, których potrzeba do operacji BLE. Lokalizacja tylko do skanowania, bluetooth do wszystkiego. XD
 
 ```kotlin

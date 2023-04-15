@@ -1,4 +1,6 @@
-### REST API
+#android/permission-needed
+#status/backlog 
+
 **Pozwala na wysyłanie requestów po http lub https. Czyli po prostu na korzystanie z internetu.**
 Requesty to np. GET, PUT, POST, DELETE.
 
@@ -19,8 +21,5 @@ Struktura odpowiedzi z serwera przychodzi w formie JSON-a.
 
 Serwery mogą oczywiście blokować poszczególne zapytania, o ile nie zidentyfikują nadawcy zapytania, np. podczas z logowaniem. 
 Logowanie może się odbywać poprzez facebooka, google, etc. albo przez certyfikat OAuth2.
-
-
-
 
 https://code.tutsplus.com/tutorials/android-from-scratch-using-rest-apis--cms-27117

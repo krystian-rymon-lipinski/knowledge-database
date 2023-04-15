@@ -1,9 +1,14 @@
+#status/backlog 
+#tech-area/android 
+#android/gradle-dependency 
+
+```groovy
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+```
+
 Struktury umożliwiające odciążenie głównego wątku z czasochłonnych operacji, mogących powodować [[Android Performance|zacinanie się aplikacji]].
 Podobne w swojej funkcji do wątków, są jednak znacznie "lżejsze". Każdy wątek może zawierać wiele korutyn.
 
-```kotlin
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
-```
 
 ###### Scopes
 **Każda korutyna musi zostać wywołana na zasięgu. Wówczas w momencie zniknięcia pewnego komponentu aplikacji, również korutyna zostaje zakończona.**
@@ -75,5 +80,3 @@ suspend fun doWorld() = coroutineScope { /* Korutyna nieblokująca */
 https://developer.android.com/kotlin/coroutines
 https://stackoverflow.com/questions/65008486/globalscope-vs-coroutinescope-vs-lifecyclescope
 https://medium.com/@androidx/a-to-z-complete-tutorial-on-kotlin-coroutines-coroutine-the-black-magic-of-kotlin-e384bb4cbb4c
-
-#status/in-progress 

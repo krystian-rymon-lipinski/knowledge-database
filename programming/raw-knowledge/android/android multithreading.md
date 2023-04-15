@@ -1,3 +1,6 @@
+#status/freezer 
+#tech-area/android 
+
 Threading in Android
 
 Każda aplikacja ma swój UI Thread. Tylko obiekty, które istnieją w stacku UI Threada mają dostęp do widoków i mogą je aktualizować (np. zmieniać teksty itp.).
@@ -21,8 +24,3 @@ Generalnie Handler tworzy się, żeby mieć nowy Thread, ale można też stworzy
 
 Co do powtarzających się zadań można wykorzystać po prostu Timer, na którym można wykonać schedule i wrzucić mu Runnable, któego on wykona na osobnym wątku.
 Można też wykorzystać rozmaite klasy typu Executor. Np. SchedulerThreadPoolExecutor, który generalnie jest bardziej robust niż zwykły Timer.
-
-
-____________________________
-
-#tech-area/android 

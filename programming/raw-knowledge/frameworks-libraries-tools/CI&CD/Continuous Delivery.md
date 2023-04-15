@@ -1,3 +1,5 @@
+#status/backlog 
+
 ### Continuous Delivery
 Automatyzacja czynności potrzebnych do wypuszczenia w świat kolejnej wersji aplikacji (**deployu**). Wykonywana po to, aby deweloperzy nie musieli za każdym razem robić tego sami. 
 

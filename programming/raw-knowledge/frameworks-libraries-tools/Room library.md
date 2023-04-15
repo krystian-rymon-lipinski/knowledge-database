@@ -1,8 +1,14 @@
-Bliblioteka do tworzenia baz danych w aplikacji
-https://developer.android.com/training/data-storage/room
+#status/backlog 
+#android/gradle-dependency 
+#tech-area/data-storage 
 
+```groovy
 implementation("androidx.room:room-runtime:$roomVersion")    
 annotationProcessor("androidx.room:room-compiler:$roomVersion")
+```
+
+**Bliblioteka do tworzenia baz danych w aplikacji/**
+https://developer.android.com/training/data-storage/room
 
 Architektura jest taka:
 

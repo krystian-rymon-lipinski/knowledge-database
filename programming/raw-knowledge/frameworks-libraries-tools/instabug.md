@@ -1,3 +1,5 @@
+#status/4-liquid-nitrogen 
+
 narzędzie do prostszego śledzenia i zgłaszania błędów  - wystarczy potrząsnąć telefonem, by zasygnalizować, że coś poszło nie tak
 
 ogólnie jest to płatne - za darmo dla do dwóch osób

@@ -1,3 +1,8 @@
+up: [[010 Android MOC]]
+
+#status/in-progress 
+#tech-area/android 
+
 Komponenty aplikacji nie posiadające UI mogące robić rzeczy, ale nie mają UI.
 Trzeba je zdefiniować w manifeście - nazwę klasy i atrybut exported, opisujący czy inne aplikacje mogą z nich skorzystać. (Jest też atrybut enabled, który może nie być domyślnie true.)
 
@@ -15,3 +20,7 @@ W ich miejsce do obsługiwania zakulisowych operacji należy użyć klasy [[Work
 - są skojarzone z komponentem (np. aktywność); kiedy komponent ginie, usługa również
 - klasa serwisu powinna rozszerzać Service; startuje się usługę poprzez wywołanie bindService
 - trzeba jeszcze zdefiniować klasę rozszerzającą klasę *Binder* (np. jako klasę wewnętrzną); obiekt typu binder jest zwracany w metodzie *onBind()* klasy serwisu
+
+---
+
+Są jeszcze [[Foreground service]]

@@ -1,3 +1,5 @@
+#status/backlog 
+
 ### Continuous Integration
 Automatyzacja pewnych czynności, aby wykonywały się w reakcji na określone zdarzenie (**trigger**). Wykonywana po to, aby deweloperzy nie musieli za każdym razem sprawdzać, czy czegoś nie popsuli.
 

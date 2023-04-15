@@ -1,3 +1,7 @@
+up: [[010 Android MOC]]
+#status/in-progress 
+#tech-area/android 
+
 Setup:
 1) Powiązanie lokalnego repo z remotem.
 	a) Ustawienie nazwy i emaila na lokalnym repo.

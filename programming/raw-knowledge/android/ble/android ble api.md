@@ -1,3 +1,5 @@
+#status/backlog 
+
 android.bluetooth API
 
 BluetoothManager - jest po to, żeby dostać adapter

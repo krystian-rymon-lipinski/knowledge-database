@@ -1,13 +1,16 @@
-Opiera się na klasach daggera, tworzy na ich podstawie prostszy w obsłudze interfejs.
+up: [[013 Android Libraries MOC]]
+#android/gradle-dependency 
+#status/backlog 
 
-Potrzebne dependencje:
 ```groovy
 /* Top level build gradle: */
 id 'com.google.dagger.hilt.android' version '2.44' apply false
 /* Module level build gradle: */
-implementation "com.google.dagger:hilt-android:2.44"  
+implementation "com.google.dagger:hilt-android:2.44" /* Dla Kotlina 1.7.21 */
 kapt "com.google.dagger:hilt-compiler:2.44"
 ```
+
+**Opiera się na klasach daggera, tworzy na ich podstawie prostszy w obsłudze interfejs.**
 
 Aby cokolwiek z Hiltem zacząć, należy oznaczyć aplikację:
 ```kotlin

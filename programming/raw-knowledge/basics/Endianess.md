@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen
+#tech-area/basics 
+
 Kolejność **bajtów** w słowie bajtowym.
 - Big Endian (BE) - pierwszy bajt jest najważniejszy / ma najmniejszy adres / jest najwięcej warty po przeliczeniu na dziesiętny
 - Little Endian (LE) - ostatni bajt jest najważniejszy / ma największy adres 

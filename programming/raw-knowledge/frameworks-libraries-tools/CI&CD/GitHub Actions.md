@@ -1,3 +1,5 @@
+#status/freezer
+
 Narzędzie do stawiania CI/CD dla kodu, który jest wrzucany na githuba.
 
 https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables - environmental variables

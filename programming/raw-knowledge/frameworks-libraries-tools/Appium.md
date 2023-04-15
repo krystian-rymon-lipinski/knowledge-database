@@ -1,3 +1,5 @@
+#status/4-liquid-nitrogen 
+
 Biblioteka do pisania testów UI - coś jak [[Espresso]], ale na obie platformy jednocześnie.
 
 I generalnie jest ooooogrom setupu.

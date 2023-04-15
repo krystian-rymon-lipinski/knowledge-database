@@ -1,3 +1,11 @@
+#status/backlog  
+#tech-area/android
+#android/gradle-dependency 
+
+```groovy
+implementation 'androidx.core:core-splashscreen:1.0.0'
+```
+
 ekran, który użytkownik widzi jako pierwszy, najczęściej z jakimś brandingiem (podczas [[app startup time|cold startu i warm startu]]); podczas jego wyświetlania można zasetupować potrzebne aplikacji rzeczy, np. dane z bazy, serwisy, etc.
 
 Potrzebuje kotlina przynajmniej w wersji 1.6.21:
@@ -6,9 +14,6 @@ https://androidx.tech/artifacts/core/core-splashscreen/1.0.0
 Od Androida 12 system sam ogarnia splash screeeny, ale dla Androidów wcześniejszych powstała wstecznie kompatybilna biblioteka, która emuluje zachowanie systemu na późniejszych wersjach: https://developer.android.com/develop/ui/views/launch/splash-screen/migrate#splashscreen_compat_library
 Aczkolwiek domyślnie Android 12 pokazuje splash screena tylko jako launcher ikonkę, więc można ją nadpisać czymś lepszym.
 
-```kotlin
-implementation 'androidx.core:core-splashscreen:1.0.0'
-```
 
 ```xml
 <style name="SplashTheme" parent="Theme.SplashScreen">  

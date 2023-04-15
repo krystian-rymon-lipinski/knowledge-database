@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen 
+#tech-area/basics 
+
 W systemie U2 zakres np. byte jest równy [-128; 127]
 Pierwszy bit daje mnożnik 0 lub -1. Reszta bitów daje 0 lub 1.
 

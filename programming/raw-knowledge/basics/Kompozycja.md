@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen
+#tech-area/uml 
+
 Szczególny przypadek agregacji??
 Co to agregacja?
 

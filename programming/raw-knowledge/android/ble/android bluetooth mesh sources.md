@@ -1,5 +1,4 @@
-BTMESH-3306 (comment)
-BTMESH-3182 (comment) : 
+
 
 
 Sources:
@@ -56,3 +55,4 @@ https://developer.android.com/reference/android/bluetooth/le/ScanSettings
 
 #tech-area/android 
 #tech-area/bluetooth-mesh
+#status/4-liquid-nitrogen 

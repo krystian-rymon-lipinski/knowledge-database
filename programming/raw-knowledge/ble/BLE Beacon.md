@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen 
+#tech-area/bluetooth-low-energy 
+
 ### BLE Beacon
 Urządzenie BLE, którego dane rozgłoszeniowe są ustandaryzowane i podane do publicznej wiadomości przez producenta. 
 

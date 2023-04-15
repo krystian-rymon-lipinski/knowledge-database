@@ -6,3 +6,4 @@ https://devzone.nordicsemi.com/f/nordic-q-a/27856/android-disconnect-reason
 
 #tech-area/android 
 #tech-area/bluetooth-low-energy 
+#tech-area/android/ble 

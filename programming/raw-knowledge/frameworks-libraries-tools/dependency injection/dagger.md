@@ -1,3 +1,6 @@
+up: [[013 Android Libraries MOC]]
+#status/freezer 
+
 Wstrzykiwanie zależności. 
 Zamiast inicjalizować samemu wszystkie obiekty, jest to przez zewnętrzną klasę.
 Jest jeszcze [[Hilt]], który robi te same rzeczy, ale upraszcza i nie wymaga tyle pisania.

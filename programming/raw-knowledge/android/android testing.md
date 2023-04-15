@@ -1,3 +1,7 @@
+#tech-area/android 
+#tech-area/testing 
+#status/freezer 
+
 Testing in Android
 
 app/src/androidTest -> for tests in UI (clicking buttons, checking fields, etc.); requires real or virtual device and testing framework (Espresso, UI automator) [instrumented tests]
@@ -15,6 +19,4 @@ Android Test Runners
 
 https://www.artima.com/weblogs/viewpost.jsp?thread=126923
 
-#tech-area/android 
-#tech-area/testing
 

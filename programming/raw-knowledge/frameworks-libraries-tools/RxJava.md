@@ -1,3 +1,5 @@
+#status/4-liquid-nitrogen 
+
 Biblioteka (framework?). Opiera się na wzorcu Obserwatora.
 
 Trzeba utworzyć obiekt typu np. PublishSubject lub BehavioSubject po czym wywołać na nim:

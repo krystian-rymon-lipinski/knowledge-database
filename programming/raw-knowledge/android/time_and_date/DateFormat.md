@@ -1,3 +1,6 @@
+#status/4-liquid-nitrogen 
+#tech-area/android 
+
 ###### DateFormat
 
 formatowanie daty i czasu można wyjść od pełnej daty do samego czasu itp.
@@ -13,5 +16,4 @@ Każda cząstka daty ma swoją literę, np. miesiące, milisekundy czy strefa cz
 I można sobie składać te daty, jak tylko się chce.
 
 ---
-#tech-area/android 
 https://developer.android.com/reference/java/text/DateFormat

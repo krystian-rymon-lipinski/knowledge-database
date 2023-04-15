@@ -1,3 +1,7 @@
+up: [[BLE Beacon]]
+#status/4-liquid-nitrogen 
+#tech-area/bluetooth-low-energy 
+
 Beacon BLE, który standaryzuje Advertisement Data
 https://github.com/AltBeacon/spec
 

@@ -1,3 +1,6 @@
+#status/freezer 
+#tech-area/android 
+
 Generalnie, żeby zapewnić odświeżanie na poziomie 60 Hz, system mniej więcej co 16 ms odświeża ekran.
 
 Więc wszystko co przeliczane powinno się zawierać w tych 16 ms, aby było wrażenie płynności.
@@ -8,3 +11,5 @@ https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering#
 
 ### GPU Profiler
 ### GPU overdraw
+
+[[app startup time]]

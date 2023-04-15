@@ -1,3 +1,7 @@
+up: [[BLE Beacon]]
+#status/5-absolute-zero 
+#tech-area/bluetooth-low-energy 
+
 Byte 0-2: Standard BLE Flags (Not necessary but standard)
 
  Byte 0: Length :  0x02

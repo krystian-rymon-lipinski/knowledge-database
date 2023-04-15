@@ -1,3 +1,7 @@
+#status/freezer 
+#tech-area/android 
+
+
 ListView pokazuje zbiód danych w liście.
 Potrzeba zdefiniować do niego adapter.
 

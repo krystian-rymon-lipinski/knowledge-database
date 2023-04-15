@@ -1,3 +1,10 @@
+#status/freezer 
+#tech-area/android 
+
+
+> [!NOTE] Jest jakiś plugin serializable chyba. Trzeba by ogarnąć te wszystkie możliwości na parcelable i serializable etc.
+
+
 Interfejs oznaczający, że jakaś klasa może zostać spakowana i rozpakowana (zserializowana i zdeserializowana) na potrzeby np. przesłania jej w Intencie lub argumencie do fragmentu.
 
 ```kotlin

@@ -1,6 +1,12 @@
-### Retrofit
+#android/gradle-dependency 
+#status/backlog 
 
-biblioteka do REST API 
+```groovy
+implementation ‘com.squareup.retrofit2:retrofit:2.1.0’
+implementation ‘com.squareup.retrofit2:converter-gson:2.1.0’
+```
+
+**Biblioteka do REST API** 
 Można w nim zapiąć konwerter konkretnego parsowania obiektow typu JSON, np. GSON.
 
 ---
@@ -49,9 +55,7 @@ httpCall.enqueue(new Callback<ReturnType) {
 }
 ```
 
-Dependencje:
-compile ‘com.squareup.retrofit2:retrofit:2.1.0’
-compile ‘com.squareup.retrofit2:converter-gson:2.1.0’
+
 
 
 https://square.github.io/retrofit/

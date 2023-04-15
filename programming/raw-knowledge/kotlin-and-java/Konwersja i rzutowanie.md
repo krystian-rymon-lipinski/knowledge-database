@@ -1,3 +1,6 @@
+up: [[Zmienne (MOC)]]
+#status/freezer 
+
 ### Konwersja
 ```kotlin
 var x = 20 /* Obiekt typu Int. */
@@ -21,7 +24,3 @@ as?
 is
 is?
 
-
-
-#tech-area/kotlin 
-[[0000 (MOC) Zmienne]]

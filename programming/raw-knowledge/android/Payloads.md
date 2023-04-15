@@ -1,3 +1,8 @@
+up: [[RecyclerView Adapter]]
+#status/freezer 
+#tech-area/android 
+
+
 https://blog.undabot.com/recyclerview-time-to-animate-with-payloads-and-diffutil-4278beb8d4dd
 
 Trzeba się posłużyć drugą metodą onBindViewHolder - ta nie jest obowiązkowa, ale za kulisami to właśnie ona woła tę, której wymaga adapter:

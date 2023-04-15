@@ -1,5 +1,8 @@
-### Manifest Permissions
-Do niektórych funkcji wymagana jest zgoda użytkownika. 
+up: [[010 Android MOC]]
+#status/freezer 
+#tech-area/android 
+
+**Do niektórych funkcji wymagana jest zgoda użytkownika.** 
 
 Rozróżniane są dwa typy permisji:
 - install-time permissions - wszystkie zadeklarowane w manifeście; wszystkie takie permisje są przyznane w momencie instalacji

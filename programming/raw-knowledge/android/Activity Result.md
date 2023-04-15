@@ -1,3 +1,8 @@
+
+#status/freezer 
+#tech-area/android 
+#android/app-navigation 
+
 Czasem zamiast tylko wysłać użytkownika gdzieś, trzeba go wysłać, żeby wrócił z informacją. Na przykład o tym, jaki plik wybrał i na tej podstawie go wczytać.
 
 2 opcje:

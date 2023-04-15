@@ -1,3 +1,6 @@
+#status/5-absolute-zero 
+#tech-area/bluetooth-mesh 
+
 Types of keys in bluetooth mesh (3.8.6)
 
 -> DeviceKey (for a single node)

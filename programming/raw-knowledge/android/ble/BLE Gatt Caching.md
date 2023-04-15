@@ -1,3 +1,7 @@
+#tech-area/android/ble 
+#status/backlog 
+
+
 **Na Androidzie da się to zrobić refleksją:**
 ```java
 try {

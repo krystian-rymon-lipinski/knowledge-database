@@ -1,0 +1,6 @@
+- gitflow
+- coroutines
+- firebase
+- rozbicie projektu na warstwy
+- RXJava/RxKotlin
+- StateFlow / SharedFlow

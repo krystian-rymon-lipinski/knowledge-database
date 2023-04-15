@@ -1,3 +1,7 @@
+#tech-area/android/ble 
+#status/backlog 
+
+
 https://developer.android.com/guide/topics/connectivity/bluetooth/permissions - tu jest wszystko na ten temat
 
 

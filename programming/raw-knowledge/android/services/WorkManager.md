@@ -1,8 +1,13 @@
-Rekomendowana bilbioteka do operacji ciągłch, dziejących się w tle.
+up: [[Usługi]]
+#status/in-progress  
+#tech-area/android 
+#android/gradle-dependency 
+
 ```groovy
-/* Potrzebne dependencje do biblioteki: */
 implementation 'androidx.work:work-runtime-ktx:2.6.0'
 ```
+
+**Rekomendowana bilbioteka do operacji ciągłch, dziejących się w tle.**
 
 Można zakolejkować operacje synchroniczne lub asynchroniczne. Dla operacji synchronicznych należy rozszerzyć klasę `Worker`, dla asynchronicznych - `ListenableWorker`. Oba typy operacji dostają 10 minut, by wyprodukować wynik. Po tym czasie zostają zakończone.
 

@@ -1,3 +1,6 @@
+#tech-area/android/ble 
+#status/backlog 
+
 Starting point dla praktycznie wszystkich operacji bluetoothowych w androidzie.
 
 Można stąd ściągnąć listę bonded devices na przykład.

@@ -1,3 +1,6 @@
+#status/freezer 
+#tech-area/android 
+
 Definiowanie łańcuchów w tablicy, które można później wywołać jak zwykły resource.
 
 Sensowny tylko dla stałych wartości!

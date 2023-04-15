@@ -1,1 +1,3 @@
-#tech-area/testing/unit-testing/junit 
+up: [[0020 Asercje]]
+#tech-area/junit 
+#status/freezer 

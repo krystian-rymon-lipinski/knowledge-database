@@ -6,5 +6,14 @@
 - [x] notatki
 	- [x] posprzątać [[0032 RecyclerView]]
 - [x] ponadawać tagi dla elementów powiązanych
+- [x] Google Play Console things
+---
+- [ ] Gradle
+- [ ] gitflow
+- [ ] firebase
+- [ ] coroutines
+- [ ] [[things-to-learn]]
+- [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] [[BLE - TODO]]
-- [ ] Google Play Console things
+	- [ ] przejść cały dokument i pouzupełniać
+	- [ ] przejść listę ble to-do

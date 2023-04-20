@@ -1,0 +1,12 @@
+up: [[Dependencje Gradle]]
+
+**Definicje oznaczające, do czego jest potrzebny kod z danej dependencji.** Najczęściej definiowane dependencje:
+
+- `implementation` - potrzebna do skompilowania kodu i jego wykonania
+- `testImplementation` - potrzebna do skompilowania i wykonania [[Testy jednostkowe|testów jednostkowych]]
+- `compileOnly` - potrzebna tylko do skompilowania kodu
+- `runtimeOnly` - potrzebna tylko do wykonania kodu
+- `androidTestImplementation` - potrzebna do [[Testy Instrumentacyjne|testów instrumentacyjnych]] na Androida; udostępnianie przez androidowy plugin
+
+- `annotationProcessor` - potrzebna do przeprocesowania [[Annotacje|annotacji]] w bibliotekach opartych na Javie; jeśli jakaś zewnętrzna biblioteka używa swoich własnych annotacji, powinna dostarczyć również narzędzie do ich przeprocesowania, które można włączyć jako dependencję do projektu; 
+- `kapt` - Kotlin Annotation Processing Tool -  annotation processor dla bibliotek opartych na Kotlinie (zintegrowanych z jego kompilatorem)

@@ -1,3 +1,5 @@
+#todo-list 
+
 https://www.bluetooth.com/wp-content/uploads/2022/05/The-Bluetooth-LE-Primer-V1.1.0.pdf?__hstc=&__hssc=&hsCtaTracking=8e3cb9ce-2e7b-471a-b5cc-2343a4915b6a%7C090f705a-f0df-4f4b-8a54-c8f97c73eb69 - strona 12.
 - [ ] Dokończyć opisywanie GATT Layera 
 - [ ] Rozczłonkować definicje Link Layera i GAP Layera odnośnie ról urządzeń.

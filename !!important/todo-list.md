@@ -1,3 +1,5 @@
+#todo-list 
+
 - [x] home page
 - [x] knowledge migration:
 	- [x] migrate BLE
@@ -9,11 +11,15 @@
 - [x] Google Play Console things
 ---
 - [ ] Gradle
+- [ ] CI/CD
 - [ ] gitflow
 - [ ] firebase
 - [ ] coroutines
+- [ ] Hilt/Dagger
 - [ ] [[things-to-learn]]
 - [ ] [[Standardy wytwarzania oprogramowania]]
+- [ ] JSON
+- [ ] Retrofit / REST API
 - [ ] [[BLE - TODO]]
 	- [ ] przejść cały dokument i pouzupełniać
 	- [ ] przejść listę ble to-do

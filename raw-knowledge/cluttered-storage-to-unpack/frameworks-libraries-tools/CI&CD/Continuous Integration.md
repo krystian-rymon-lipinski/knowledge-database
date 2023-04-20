@@ -20,4 +20,4 @@ Generalnie niestety każde środowisko ma inny syntax do tworzenia automatyzacji
 - [[GitHub Actions]] (YAML)
 
 
-Jeżeli chodzi o taski Androidowe, to wystarczy wywołać komendy [[Gradle]]
+Jeżeli chodzi o taski Androidowe, to wystarczy wywołać komendy [[070 Gradle MOC]]

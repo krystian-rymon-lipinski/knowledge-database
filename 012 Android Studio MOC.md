@@ -7,8 +7,9 @@ up: [[000 HOME]]
 - [[Widok okna Android Studio|widok okna Android Studio]]
 - [[Narzędzia Android Studio|narzędzia Android Studio]]
 
-
-
+...
+- [[pluginy Android Studio]]
+- [[skróty klawiszowe Android Studio]]
 
 
 ---
@@ -23,7 +24,7 @@ restartowanie, reindeksowanie, ponowne otwieranie, inwalidacja cashe, etc. - wsz
 eksportowanie i importowanie ustawień IDE, powrót do domyślnych również
 
 ustawienia
-struktura projektu
+[[struktura projektu]]
 2. Edit
 znajdowanie/zastępowanie łańcuchów znaków; znajdowanie użyć metody, klasy, etc.
 edycja pojedynczego miejsca kodu: 

@@ -1,6 +1,6 @@
-up: [[Gradle]]
+up: [[Pluginy binarne Gradle]]
 
-#android/gradle-dependency 
+#android/gradle-plugin  
 #status/backlog 
 #tech-area/gradle 
 

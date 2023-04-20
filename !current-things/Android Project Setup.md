@@ -2,20 +2,31 @@ up: [[010 Android MOC]]
 #status/in-progress 
 #tech-area/android 
 
-Setup:
-1) Powiązanie lokalnego repo z remotem.
-	a) Ustawienie nazwy i emaila na lokalnym repo.
+1) Konfiguracja [[System Kontroli Wersji|systemu kontroli wersji]] \[tutaj gita\]:
+- ustawienie nazwy i emaila na lokalnym repo.
 ```
 /* [ ] oznacza argument opcjonalny. */
 git config [--global] user.name = "User Name"	
 git config [--global] user.email = "user_mail@example.com"
 ```
 
+- dodanie remote'a
+
+> [!NOTE] Tu pokaż, jak dodaje się remote'a
+
 2) Utworzenie pustego projektu w Android Studio
-	a) zbudowanie i zainstalowanie projektu - prawie na pewno będzie jakiś bug, którego trzeba będzie naprawić 
-- poprzez przez targetSdkVersion/compileSdkVersion)
-- poprzez zmianę wersji Gradle lub zmianę wersji Android Gradle Plugin (7.5.0 Gradle o 7.0.0 AGP działa na pewno)
-3) Dodanie potrzebnych w projekcie dependencji.
+3) Setup Gradle
+- skonfigurowanie [[Repozytoria Gradle|repozytoriów Gradle]] dla pluginów:
+	- `google()`
+	- `mavenCentral()`
+	- `gradlePluginPortal()`
+- dodanie [[Pluginy Gradle|pluginów Gradle]]
+	- [[Android Gradle Plugin]]
+	- `com.android.library` (dla biblioteki Adroidowej)
+	- `org.jetbrains.kotlin.android` (dla pisania w Kotlinie)
+	- `java` (dla pisania w Javie)
+- skonfigurowanie repozytoiów Gradle dla [[Dependencje Gradle|dependencji]]
+- zbudowanie projektu
 4) Powiązanie remote repo z CI/CD - w zależności od tego, które CI/CD jest wykorzystywane.
 	a) Jeżeli repo jest w githubie, to można dodać: Actions -> Android CI. Domyślnie będzie to przynajmniej budowało kod. Można później dodać rzeczy typu unit testy. 
 	Pisane jest toto w yaml-u.

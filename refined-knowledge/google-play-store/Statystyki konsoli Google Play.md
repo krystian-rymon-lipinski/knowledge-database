@@ -19,7 +19,7 @@ Te statystyki można filtrować ze względu na:
 
 ###### Metryki jakości aplikacji:
 - ilość crashy i zawieszeń
-- wielkośc aplikacji
+- [[Rozmiar pliku .apk|wielkość aplikacji]]
 - czas startu (od kliku w ikonkę do wyświetlenia pierwszych klatek)
 - renderowanie klatek (mogą być spowolnione lub nawet zamrożone)
 - operacje obciążające baterię

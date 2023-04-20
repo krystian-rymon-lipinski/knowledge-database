@@ -1,11 +1,11 @@
 up: [[013 Android Libraries MOC]]
-#android/gradle-dependency 
+#android/gradle-dependency #android/gradle-plugin
 #status/backlog 
 
 ```groovy
-/* Top level build gradle: */
+/* Dependencja pluginu: */
 id 'com.google.dagger.hilt.android' version '2.44' apply false
-/* Module level build gradle: */
+/* Dependencja biblioteki: */
 implementation "com.google.dagger:hilt-android:2.44" /* Dla Kotlina 1.7.21 */
 kapt "com.google.dagger:hilt-compiler:2.44"
 ```

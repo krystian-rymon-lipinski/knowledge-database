@@ -22,7 +22,7 @@ Można je sobie dodawać lub usuwać z pasków narzędzi, inny do nich dostęp j
 - warianty budowania - dla różnych modułów można zdefiniować np. release albo debug, etc.
 - esplorator plików podłączonego urządzenia - przydatne, gdy trzeba podglądnąć np. jakiś plik konfiguracji tworzony poprzez SharedPreferences
 - log wydarzeń - wydarzeń takich jak ukończony build, (nie)pomyślny push do remote repo, narzędzie (np. jakiś inspector) pracującty w tle
-- gradle - lista modułów i aplikacji, na których można wykonać taski gradle
+- gradle - lista [[Zadania Gradle|zadań Gradle]], które można wykonać dla całego projektu lub wybranych modułów
 - hierarchia - klas lub metod (uwzględniająca te z bibliotek androida, a więc idąca do samego korzenia hierarchii)
 - logcat - logi tego, co dzieje się na aktualnie połączonym urządzeniu
 - **manager zasobów** - drawable, color, layout, etc,; dużo szybciej coś wyszukać stąd niż poprzez scrollowanie całej listy

@@ -20,6 +20,7 @@ Testy:
 
 CI/CD
 - gradle
+	- ograniczanie wielkości dependencji - jeśli jest potrzebna tylko drobna funkcjonalność, to można wyłączyć [[dependencja|dependencje]] tranzytywne; i w ogóle dobrze jest to kontrolować, zamiast bezmyślnie je tylko wrzucać
 - jenkins
 
 ---

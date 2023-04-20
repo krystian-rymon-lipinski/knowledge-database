@@ -5,7 +5,7 @@
 android-modules
 
 
-Aplikacja androida MUSI mieć przynajmniej jeden moduł aplikacji, definiowany w [[Gradle]] poprzez:
+Aplikacja androida MUSI mieć przynajmniej jeden moduł aplikacji, definiowany w [[070 Gradle MOC]] poprzez:
 
 apply plugin: 'com.android.application'
 

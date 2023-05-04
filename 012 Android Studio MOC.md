@@ -10,6 +10,7 @@ up: [[000 HOME]]
 ...
 - [[pluginy Android Studio]]
 - [[skróty klawiszowe Android Studio]]
+- .idea - ustawienia IDE - w tym na przykład wersja Gradle i skąd ją wziąć
 
 
 ---
@@ -62,7 +63,9 @@ Migracja kodu do AppCompat/AndroidX (i inne migracje (np. JUnit 4.0 -> 5.0))
 Dodanie Instant Apps Support lub RTL (right-to-left) support.
 7. Build
 Budowanie projektu/modułu.
-Budowanie podpisanej/niepodpisanej paczki [[APK vs. AAB|.apk lub .aab]].
+Tworzenie podpisanej/niepodpisanej paczki [[APK vs. AAB|.apk lub .aab]].
+[[Podpisywanie release .apk]] - można to zrobić poprzez Gradle albo wyklikać manualnie w UI Android Studio
+[[Generowanie klucza dla pliku .apk]] - zamiast wyklikiwać w konsoli, można poprzez UI
 Budowanie konkretnego wariantu/typu/flavoru projektu/modułu.
 Analiza pliku .apk - z czego się składa: klasy, resources, biblioteki, inne. Oraz ile zajmuje, i ile jest wymagane do pobrania (bo te dwie liczby nie muszą się zgadzać).
 Czyszczenie/rebudowanie projektu, odświeżanie zlinkowanych projektów C++.

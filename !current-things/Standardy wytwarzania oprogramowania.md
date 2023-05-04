@@ -3,6 +3,7 @@
 
 Implementacja:
 - konwencja nazewnicza
+- [[style nazewnicze]]
 - tabowanie (tabs vs. spaces)
 - statyczna analiza kodu (automatyczna)
 - analiza pamięciowo-czasowa kodu

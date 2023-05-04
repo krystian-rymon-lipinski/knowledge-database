@@ -10,3 +10,6 @@
 - [[042 Mockito MOC]]
 - [[050 Design Patterns MOC]]
 - [[060 Bluetooth Low Energy MOC]]
+- [[070 Gradle MOC]]
+- [[080 CI-CD MOC]]
+	- [[081 GitHub Actions]]

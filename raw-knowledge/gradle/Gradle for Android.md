@@ -5,15 +5,10 @@ up: [[070 Gradle MOC]]
 
 https://developer.android.com/build
 
-- settings.gradle - zarządzanie modułami
-```groovy
-include(":<module_name")
-```
-- build.gradle
-- <module_name>/build.gradle
+Android Gradle Plugin definiuje dodatkowy blok kodu, `android`. Wewnątrz niego można deklarować bloki zagnieżdżone, odpowiedzialne za poszczególne aspekty projektu androidowego.
 
-
-Android Gradle Plugin definiuje dodatkowy blok kodu, `android`:
+- [[Typy buildu]]
+- [[Podpisywanie release .apk]]
 
 ```kotlin
 android {  
@@ -36,9 +31,11 @@ android {
             isMinifyEnabled = false  
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")  
         }  
-    }    buildFeatures {  
-        viewBinding = true  
-    }  
+    }    
+    
+	buildFeatures {  
+		viewBinding = true  
+	}  
   
     compileOptions {  
         sourceCompatibility = JavaVersion.VERSION_1_8  

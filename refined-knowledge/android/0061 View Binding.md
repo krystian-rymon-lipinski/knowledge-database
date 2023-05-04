@@ -13,7 +13,7 @@ android { /* W build.gradle dla modułu. */   
 ```
 
 Wówczas dla wszystkich układów z folderów *layout* wygeneruje się **binding class**. Można manualne oznaczyć te, dla których nie chcemy jej generować poprzez komendę *tools:viewBindingIgnore="true"* zdefiniowaną w układzie najwyżego poziomu (**root layout**).
-Nazwa takiej klasy powstaje wskutek przetworzenia nazwy pliku .xml do [[konwecje nazewnicze|Pascal case]] i dodanie "Binding". Np. activity_main.xml -> ActivityMainBinding.class. Nazwy id zostają podobnie zmienione.
+Nazwa takiej klasy powstaje wskutek przetworzenia nazwy pliku .xml do [[style nazewnicze|Pascal case]] i dodanie "Binding". Np. activity_main.xml -> ActivityMainBinding.class. Nazwy id zostają podobnie zmienione.
 
 ###### Używanie
 ```kotlin

@@ -18,7 +18,7 @@ dependencies { /* Blok do deklarowania dependencji */
 ```
 
 Należy również zdefiniować [[Konfiguracje dependencji Gradle|konfigurację dependencji]].
-Dependencje mogą się okazać [[Dependencje tranzytywne|tranzytywne]], co może generować niepotrzebne zwiększanie rozmiaru projektu (i [[Rozmiar pliku .apk|pliku wykonywalnego]]) poprzez dodawanie nieużywanych modułów i klas.
+Dependencje mogą się okazać [[Dependencje tranzytywne|tranzytywne]], co może generować niepotrzebne zwiększanie rozmiaru projektu (i [[Plik wykonywalny .apk|pliku wykonywalnego]]) poprzez dodawanie nieużywanych modułów i klas.
 
 ---
 Wyszukiwarka dependencji: https://search.maven.org/ -> https://central.sonatype.com/?smo=true

@@ -14,5 +14,5 @@ Urządzenie może być we wszystkich stanach na raz - Advertising, Scanning i mi
 	5. Etc.
 - [ ] Zrobić słowniczek! MTU, SDU, xxU, yyU, duuużo tego!
 - [ ] Uporządkować całą wiedzę na temat technologii (foldery? linki?)
-- [ ] Opisać Application layer z punktu widzenia Androida.
+- [ ] Opisać Application layer z punktu widzenia Androida (Android API)
 - [x] Zbadać stronę Bluetootha pod kątem BLE (i mesha?)

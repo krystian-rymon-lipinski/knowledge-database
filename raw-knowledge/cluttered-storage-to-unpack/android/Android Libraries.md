@@ -2,6 +2,8 @@
 #tech-area/android 
 #android/modularity 
 
+[[android modules]]
+
 Można w AS utworzyć bibliotekę androidową, czyli plik o rozszerzeniu .aar.
 Wówczas można go dodać do głównego projektu (File -> Project Structure -> Dependencies) poprzez:
 - library dependency (tak jak wszystkie różne JUnity i inne rzeczy)

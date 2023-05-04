@@ -1,4 +1,7 @@
+up: [[080 CI-CD MOC]]
+X: [[Continuous Delivery]]
 #status/backlog 
+#tech-area/ci-cd 
 
 ### Continuous Integration
 Automatyzacja pewnych czynności, aby wykonywały się w reakcji na określone zdarzenie (**trigger**). Wykonywana po to, aby deweloperzy nie musieli za każdym razem sprawdzać, czy czegoś nie popsuli.
@@ -17,7 +20,7 @@ Skrypty CI tworzy się w:
 Generalnie niestety każde środowisko ma inny syntax do tworzenia automatyzacji (**pipeline'a**).
 - Jenkins (można pisać w bashu, a można też stworzyć plik Jenkinsfile)
 - Azure (YAML)
-- [[GitHub Actions]] (YAML)
+- GitHub Actions (YAML)
 
 
 Jeżeli chodzi o taski Androidowe, to wystarczy wywołać komendy [[070 Gradle MOC]]

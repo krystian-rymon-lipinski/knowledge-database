@@ -25,9 +25,17 @@ git config [--global] user.email = "user_mail@example.com"
 	- `com.android.library` (dla biblioteki Adroidowej)
 	- `org.jetbrains.kotlin.android` (dla pisania w Kotlinie)
 	- `java` (dla pisania w Javie)
-- skonfigurowanie repozytoiów Gradle dla [[Dependencje Gradle|dependencji]]
+- skonfigurowanie repozytoriów Gradle dla [[Dependencje Gradle|dependencji]]
+- dodanie View Bindingu poprzez:
+
+```kotlin
+buildFeatures {  
+	viewBinding = true  
+}  
+```
+
 - zbudowanie projektu
-4) Powiązanie remote repo z CI/CD - w zależności od tego, które CI/CD jest wykorzystywane.
+4) Powiązanie remote repo z [[080 CI-CD MOC]] - w zależności od tego, które CI/CD jest wykorzystywane.
 	a) Jeżeli repo jest w githubie, to można dodać: Actions -> Android CI. Domyślnie będzie to przynajmniej budowało kod. Można później dodać rzeczy typu unit testy. 
 	Pisane jest toto w yaml-u.
 

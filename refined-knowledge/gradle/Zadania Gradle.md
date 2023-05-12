@@ -25,7 +25,8 @@ Można również dodawać zachowania do istniejących już tasków.
 
 ```kotlin
 tasks.named("task_name") {
-	doFirst { /* Zrób coś w tasku */ }
+	/* Wykona się podczas konfiguracji grafu */
+	doFirst { /* Wykona się podczas egzekucji tasków */ }
 	doLast {  }
 }
 ```

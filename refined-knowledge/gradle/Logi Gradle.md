@@ -19,3 +19,6 @@ Do manipulowania logami można użyć [LoggingManagera](https://docs.gradle.org/
 
 **Poziom `DEBUG` może odkrywać wrażliwe dane bezpieczeństwa!** Nie należy z niego korzystać używając publicznego narzędzia CI/CD.
 
+
+**Możliwe jest wygenerowanie raportu o buildzie poprzez dodanie opcji `--profile`.** Spowoduje to pliku w folderze `build/reports/profile`, podsumowującego czas spędzony na konkretnych fazach budowania projektu.
+

@@ -46,6 +46,8 @@ Pozostałe bloki do wykorzystania:
 ├── bundle 
 └── composeOptions
 
+└── dexOptions - nested w `buildTypes` albo `productFlavors`; daje możliwość kontrolowania procesu konwersji kodu bajtowego Javy (plików .class) do plików wykonywalnych .dex
+
 
 ```kotlin
 android {  

@@ -2,7 +2,7 @@ up: [[Dependencje Gradle]]
 
 **Dependencje, które mają swoje dependencje.** A więc na przykład biblioteka, która korzysta z innych bibliotek.
 
-Gradle definiuje [[Zadania Gradle|zadania]], które pozwalają wylistować hierarchię dependencji:
+Gradle definiuje [[Zadania Gradle|zadania]] oraz [[Zadania Gradle AGP|zadania AGP]], które pozwalają wylistować hierarchię dependencji:
 
 ```bash
 ./gradlew buildEnvironment # zależności pluginów

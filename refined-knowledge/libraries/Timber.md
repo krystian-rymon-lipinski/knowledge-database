@@ -20,7 +20,8 @@ class TestExerciseApplication : Application() {
 }
 ```
 
-Ponadto,  zeby działało, trzeba dodać w manifeście nazwę aplikacji:
+Ponadto, żeby działało, trzeba dodać w manifeście nazwę aplikacji:
+
 ```xml
 <application  
     android:name=".TestExerciseApplication" >

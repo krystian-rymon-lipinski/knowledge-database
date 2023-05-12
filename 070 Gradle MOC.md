@@ -33,18 +33,16 @@ Definiuje **zadania** *(ang. tasks)*, które wykonują pojedynczą operację na 
 [[Zarządzanie plikami w Gradle]]
 [[Słuchacze Gradle]]
 
-- [[Gradle for Android]]
+
 **Skrypty można pisać w języku Groovy oraz w Kotlinie.**
 
 **Wersja Gradle'a zależy od wersji Kotlina!**
 https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin
 https://docs.gradle.org/current/userguide/compatibility.html
-**Ponadto trzeba zdefiniować wersję [[Android Gradle Plugin]]!**
+**Ponadto trzeba zdefiniować wersję [[071 Android Gradle Plugin MOC]]!**
 https://developer.android.com/build/releases/gradle-plugin#updating-gradle
 
 **Zmiana czegokolwiek w którymkolwiek ze skryptów Gradle build lub settings)** wymaga synchronizacji projektu (IDE daje taką opcję gdzieś na pasku).
-
-Android Studio daje możliwość zarządzania wieloma aspektami związanymi z Gradle poprzez podejrzenie w [[struktura projektu|strukurę projektu]].
 
 [[Wybrane dependencje gradle z ich znaczeniami]]
 

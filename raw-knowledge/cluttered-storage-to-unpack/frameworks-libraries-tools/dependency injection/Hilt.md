@@ -1,5 +1,5 @@
 up: [[013 Android Libraries MOC]]
-#android/gradle-dependency #android/gradle-plugin
+#android/gradle-dependency #gradle/plugin
 #status/backlog 
 
 ```groovy

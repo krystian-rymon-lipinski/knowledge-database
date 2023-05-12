@@ -1,5 +1,3 @@
-### Gałęzie wiedzy:
-
 - [[010 Android MOC]]
 	- [[011 Google Play Store]]
 	- [[012 Android Studio MOC]]
@@ -11,5 +9,7 @@
 - [[050 Design Patterns MOC]]
 - [[060 Bluetooth Low Energy MOC]]
 - [[070 Gradle MOC]]
+	- [[071 Android Gradle Plugin MOC]]
+	- [[072 Kotlin Gradle Plugin MOC]]
 - [[080 CI-CD MOC]]
 	- [[081 GitHub Actions]]

@@ -1,9 +1,10 @@
 up: [[012 Android Studio MOC]]
 #status/freezer 
-#tech-area/gradle #tech-area/android/android-studio 
+#tech-area/android-gradle-plugin  #tech-area/android/android-studio 
 
 File -> Project Structure
+Praktycznie wszystko, co potrzebne, dla projektu Gradle na Androida.
 
-Moduły, dependencje, warianty (flavory), etc. Zarządzanie nimi poprzez UI (do pewnego stopnia).
+Można podglądnąć i zmieniać defaultConfig.
 
-Można tu ustawić [[Podpisywanie release .apk]], a konkretnie utworzyć signingConfig i przypisać do wybranego buildTypu zamiast robić to ręcznie.
+Można ustawić [[Podpisywanie pliku .apk]], a konkretnie utworzyć signingConfig i przypisać do wybranego buildTypu zamiast robić to ręcznie.

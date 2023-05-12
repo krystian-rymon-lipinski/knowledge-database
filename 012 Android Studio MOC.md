@@ -25,7 +25,7 @@ restartowanie, reindeksowanie, ponowne otwieranie, inwalidacja cashe, etc. - wsz
 eksportowanie i importowanie ustawień IDE, powrót do domyślnych również
 
 ustawienia
-[[struktura projektu]]
+[[Struktura projektu]]
 2. Edit
 znajdowanie/zastępowanie łańcuchów znaków; znajdowanie użyć metody, klasy, etc.
 edycja pojedynczego miejsca kodu: 
@@ -64,7 +64,7 @@ Dodanie Instant Apps Support lub RTL (right-to-left) support.
 7. Build
 Budowanie projektu/modułu.
 Tworzenie podpisanej/niepodpisanej paczki [[APK vs. AAB|.apk lub .aab]].
-[[Podpisywanie release .apk]] - można to zrobić poprzez Gradle albo wyklikać manualnie w UI Android Studio
+[[Podpisywanie pliku .apk]] - można to zrobić poprzez Gradle albo wyklikać manualnie w UI Android Studio
 [[Generowanie klucza dla pliku .apk]] - zamiast wyklikiwać w konsoli, można poprzez UI
 Budowanie konkretnego wariantu/typu/flavoru projektu/modułu.
 Analiza pliku .apk - z czego się składa: klasy, resources, biblioteki, inne. Oraz ile zajmuje, i ile jest wymagane do pobrania (bo te dwie liczby nie muszą się zgadzać).

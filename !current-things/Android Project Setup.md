@@ -21,9 +21,8 @@ git config [--global] user.email = "user_mail@example.com"
 	- `mavenCentral()`
 	- `gradlePluginPortal()`
 - dodanie [[Pluginy Gradle|pluginów Gradle]]
-	- [[Android Gradle Plugin]]
-	- `com.android.library` (dla biblioteki Adroidowej)
-	- `org.jetbrains.kotlin.android` (dla pisania w Kotlinie)
+	- [[071 Android Gradle Plugin MOC]]
+	- [[072 Kotlin Gradle Plugin MOC]]
 	- `java` (dla pisania w Javie)
 - skonfigurowanie repozytoriów Gradle dla [[Dependencje Gradle|dependencji]]
 - dodanie View Bindingu poprzez:

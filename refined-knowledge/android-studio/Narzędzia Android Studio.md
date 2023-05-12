@@ -19,10 +19,10 @@ Można je sobie dodawać lub usuwać z pasków narzędzi, inny do nich dostęp j
 - app inspection - **dla połączonego urządzenia!**; badanie bazy danych, wykorzystania sieci i zadań wykonywanych w tle
 - layout inspector - **dla połączenego urządzenia!**; podgląd atrybutów dla poszczególnych elementów layoutu
 - build - lista wykonywanych tasków gradle przy budowaniu projektu (oraz błędy, jeśli coś poszło nie tak)
-- warianty budowania - dla różnych modułów można zdefiniować np. release albo debug, etc.
-- esplorator plików podłączonego urządzenia - przydatne, gdy trzeba podglądnąć np. jakiś plik konfiguracji tworzony poprzez SharedPreferences
+- warianty budowania -  definiowane są osobne zadania Gradle dla [[Warianty projektu Android|wariantów projektu]] i z tego narzędzia można ustawić, który wariant chcemy budować
+- gradle - lista [[Zadania Gradle|zadań Gradle]] i [[Zadania Gradle AGP|zadań AGP]], które można wykonać dla całego projektu lub wybranych modułów
+- eksplorator plików podłączonego urządzenia - przydatne, gdy trzeba podglądnąć np. jakiś plik konfiguracji tworzony poprzez SharedPreferences
 - log wydarzeń - wydarzeń takich jak ukończony build, (nie)pomyślny push do remote repo, narzędzie (np. jakiś inspector) pracującty w tle
-- gradle - lista [[Zadania Gradle|zadań Gradle]], które można wykonać dla całego projektu lub wybranych modułów
 - hierarchia - klas lub metod (uwzględniająca te z bibliotek androida, a więc idąca do samego korzenia hierarchii)
 - logcat - logi tego, co dzieje się na aktualnie połączonym urządzeniu
 - **manager zasobów** - drawable, color, layout, etc,; dużo szybciej coś wyszukać stąd niż poprzez scrollowanie całej listy

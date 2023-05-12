@@ -17,3 +17,13 @@ Można zrezygnować z taska należącego do grafu, na przykład jeśli jest zbę
 ```bash
 ./gradlew <big_task> --exclude-task <smol_task>
 ```
+
+Można się odwołać do grafu ze skryptu budującego poprzez:
+
+```kotlin
+gradle.taskGraph.whenReady { /* whenReady, czyli kiedy zostanie zbudowany podczas konfiguracji buildu */
+    allTasks.forEach {  
+        println(it)  
+    }  
+}
+```

@@ -1,15 +1,5 @@
 #todo-list 
 
-- [x] home page
-- [x] knowledge migration:
-	- [x] migrate BLE
-	- [x] migrate Android
-	- [x] migrate raw and in-progress knowledge
-- [x] notatki
-	- [x] posprzątać [[0032 RecyclerView]]
-- [x] ponadawać tagi dla elementów powiązanych
-- [x] Google Play Console things
----
 - [ ] Gradle: level 1
 	- [x] plugins
 	- [x] repos
@@ -22,10 +12,15 @@
 		- [x] gradle.properties
 	- [x] variables
 	- [x] multi-modules
+	- [ ] build types
+	- [ ] flavors
+	- [ ] Android Gradle Plugin
 - [ ] CI/CD
 - [ ] git flow
 - [ ] firebase
 - [ ] Hilt/Dagger
+- [ ] Lint
+- [ ] ProGuard
 - [ ] Retrofit / REST API
 - [ ] Android services
 

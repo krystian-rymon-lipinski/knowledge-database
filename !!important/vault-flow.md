@@ -3,7 +3,7 @@
 3. Dodanie taga `#tech-area/*`, żeby łatwo móc powiązać, czego dotyczy.
 4. Praca nad notatką
 5. Zlinkowanie jej do już istniejącej wiedzy!
-6. Po ukończeniu - usunięcie tagów `#status/*` i `#tech-area`. Ewentualne dodanie tagów, które łączą ją luźno z podobnymi.
+6. Po ukończeniu - usunięcie tagów `#status` i `#tech-area`. Ewentualne dodanie tagów, które łączą ją luźno z podobnymi.
 
 **1 notatka powinna być mała - opisywać wyłącznie to, o czym mówi tytuł.**
 **Rule of thumb - powinna mieścić się na ekranie bez przewijania.**

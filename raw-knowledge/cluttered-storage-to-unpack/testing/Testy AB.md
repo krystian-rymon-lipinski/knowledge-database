@@ -1,4 +1,3 @@
-#tech-area/testing 
-#status/freezer 
+up: [[Prezencja aplikacji w konsoli Google Play]]
 
-**Test A/B**, zwany również testem porównawczym, polega na porównaniu co najmniej dwóch nieco odmiennych wersji projektu lub produktu tak, aby stwierdzić, która cecha (zmienna) jest lepsza. **Testy A/B** znalazły zastosowanie przy ocenie zmian wprowadzanych na stronach internetowej, lecz sama idea ich przeprowadzania jest o wiele starsza. Test pozwala bowiem stwierdzić, która z wersji bardziej trafia do klienta i przez to jest skuteczniejsza. Decyduje o tym najczęściej odsetek konwersji - im wyższy, tym content lub produkt skuteczniejszy. Musisz sprawdzić, co bardziej przekona użytkowników do pożądanego przez ciebie działania.
+**Test A/B**, zwany również testem porównawczym, polega na porównaniu co najmniej dwóch nieco odmiennych wersji projektu lub produktu tak, aby stwierdzić, która cecha (zmienna) jest lepsza. **Testy A/B** znalazły zastosowanie przy ocenie zmian wprowadzanych na stronach internetowej, lecz sama idea ich przeprowadzania jest o wiele starsza. Test pozwala bowiem stwierdzić, która z wersji bardziej trafia do klienta i przez to jest skuteczniejsza. Decyduje o tym najczęściej odsetek konwersji - im wyższy, tym content lub produkt skuteczniejszy. Pozwala sprawdzić, co bardziej przekona użytkowników do pożądanego przez twórcę działania.

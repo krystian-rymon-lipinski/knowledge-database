@@ -5,6 +5,8 @@ up: [[000 HOME]]
 **Narzędzie do budowania projektów.**
 Definiuje **zadania** *(ang. tasks)*, które wykonują pojedynczą operację na plikach projektowych: kompilację plików źródłowych, uruchamianie testów jednostkowych, generowanie plików wykonywalnych na konkretną platformę, etc. Zadania można łączyć w sekwencje, co pozwala na automatyzację różnych procesów tworzenia oprogramowania.
 
+**Skrypty można pisać w języku Groovy oraz w Kotlinie.**
+
 [[Folder .gradle w lokalizacji domyślnej użytkownika|Folder .gradle w lokalizacji domyślnej użytkownika]]
 [[Cykl budowania Gradle]]
 [[Logi Gradle]]
@@ -34,7 +36,6 @@ Definiuje **zadania** *(ang. tasks)*, które wykonują pojedynczą operację na 
 [[Słuchacze Gradle]]
 
 
-**Skrypty można pisać w języku Groovy oraz w Kotlinie.**
 
 **Wersja Gradle'a zależy od wersji Kotlina!**
 https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin
@@ -52,7 +53,5 @@ https://developer.android.com/build/releases/gradle-plugin#updating-gradle
 
 
 ---
-
-> [!NOTE] Przerobić dokumentację
 https://docs.gradle.org/current/userguide/userguide.html
 https://docs.gradle.org/current/dsl/

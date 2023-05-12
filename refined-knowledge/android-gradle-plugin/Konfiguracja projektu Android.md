@@ -15,7 +15,7 @@ android {
 		versionCode = 1  /* Wersja aplikacji. Inkrementowana dla każdej kolejnej paczki rzucanej do Google Play Store */
 		versionName = "1.0"  /* Aktualny numer wersji aplikacji widoczny dla użytkowników. Najczęściej w formacie X.Y.Z (2.4.5, 1.1.10, etc.) */
 	  
-		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"  
+		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" /* Potrzebny np. dla biblioteki Espresso */
 	}  
 }
 ```

@@ -1,8 +1,7 @@
+up: [[014 Android Testing]]
 #status/freezer 
 #tech-area/testing 
 
-Testy sprawdzające integrację kilku modułów jednocześnie. 
+Testy sprawdzające integrację kilku funkcjonalności jednocześnie. 
 
 Np. utworzenie danych, zapisanie ich w bazie i odczytanie ich z powrotem.
-
-Czy to nie to samo co [[Testy Instrumentacyjne]]?

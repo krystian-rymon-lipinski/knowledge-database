@@ -8,7 +8,7 @@ Dostępne są raporty po-teststowe wyszczególniające ewentualne problemy i/lub
 
 ###### Testowanie wewnętrzne
 
-1. Dodanie maila/maili testerów. Można też dodać jakieś miejsce (URL/mail), gdzie testerzy mogą dawać swój feedback.
+1. Dodanie maila/maili testerów (gmail!). Można też dodać jakieś miejsce (URL/mail), gdzie testerzy mogą dawać swój feedback.
 2. Wygenerowanie linku i udostępnienie go testerom. Link trzeba odpalić będąc zalogowanym na konto Google, którego mail jest dodany w konsoli!
 3. Wrzucenie paczki i wygenerowanie releasu oraz jego review - dokładnie taki sam algorytm postępowania jak dla releasu na produkcję.
 4. Testowanie.

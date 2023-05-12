@@ -2,8 +2,8 @@ up: [[071 Android Gradle Plugin MOC]]
 
 **Zbiór źródeł *(ang. source set)* to nic innego jak folder zawierający kod źródłowy i zasoby projektu.** Dla każdego nowego modułu androidowego Android Studio automatycznie tworzy foldery, z których korzystają wszystkie warianty *buildu*:
 - `src/main` - dla plików źródłowych implementacji
-- `src/test` - dla plików źródłowych [[Testy jednostkowe|testów jednostkowych]]
-- `src/androidTest` - dla plików źródłowych [[Testy Instrumentacyjne|testów instrumentacyjnych]]
+- `src/test` - dla plików źródłowych [[014 Android Testing|testów lokalnych]]
+- `src/androidTest` - dla plików źródłowych [[014 Android Testing|testów instrumentacyjnych]]
 
 Wewnątrz modułu można również zdefiniować dodatkowe foldery zgodnie z następującą logiką:
 - `src/<flavor_name>/` - dla plików źródłowych implementacji konkretnego [[Flavory projektu Android|flavoru]] 

@@ -2,17 +2,10 @@ up: [[010 Android MOC]]
 #status/in-progress 
 #tech-area/android 
 
-1) Konfiguracja [[System Kontroli Wersji|systemu kontroli wersji]] \[tutaj gita\]:
-- ustawienie nazwy i emaila na lokalnym repo.
-```
-/* [ ] oznacza argument opcjonalny. */
-git config [--global] user.name = "User Name"	
-git config [--global] user.email = "user_mail@example.com"
-```
-
-- dodanie remote'a
-
-> [!NOTE] Tu pokaż, jak dodaje się remote'a
+1) Postawienie systemu kontroli wersji (raczej gita):
+- [[Konfiguracja Gita|konfiguracja użytkownika w Git]]
+- dodanie remote'a i powiązanie go z lokalnym repo projektu
+- initial commit
 
 2) Utworzenie pustego projektu w Android Studio
 3) Setup Gradle

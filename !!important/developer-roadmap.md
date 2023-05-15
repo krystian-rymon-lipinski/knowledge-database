@@ -1,6 +1,6 @@
 #todo-list 
 
-- [ ] Gradle: level 1
+- [x] Gradle: level 1
 	- [x] plugins
 	- [x] repos
 	- [x] tasks
@@ -12,11 +12,11 @@
 		- [x] gradle.properties
 	- [x] variables
 	- [x] multi-modules
-	- [ ] build types
-	- [ ] flavors
-	- [ ] Android Gradle Plugin
-- [ ] CI/CD
+	- [x] build types
+	- [x] flavors
+	- [x] Android Gradle Plugin
 - [ ] git flow
+- [ ] CI/CD
 - [ ] firebase
 - [ ] Hilt/Dagger
 - [ ] Lint

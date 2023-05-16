@@ -19,6 +19,15 @@ git config --global user.email = "user_mail@example.com"
 git config user.name # sprawdzenie konfiguracji
 ```
 
+Można też zapisywać w konfiguracji hasła, żeby nie musieć ich wpisywać za każdym razem:
+
+```bash
+git config --local credential.helper cache
+```
+> [!Jak] Jak to dokładnie działa?
+
+
+
 **Wszystkie ustawienia (i ich źródło) można podejrzeć poprzez:**
 
 ```bash

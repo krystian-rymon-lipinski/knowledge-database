@@ -7,6 +7,7 @@ up: [[090 Git MOC]]
 
 `git init` - tworzy lokalne repozytorium poprzez utworzenie folderu `.git`, który zawiera [[wszystko co potrzebne do funkcjonowania repo gita]]
 `git clone <url> [directory_name]` - tworzy lokalne repozytorium bazując na folderze `.git` z repo klonowanego z internetu; klonowanie ściąga praktycznie wszystko z serwera, każdą wersję pliku, wszystkie branche, historię, etc.
+`git clone <url> -o <name>` - lokalne repo, które odnosi się do remote repo o nazwie "name"
 
 
 **Zdalne:**
@@ -23,7 +24,7 @@ up: [[090 Git MOC]]
 `git pull` - ściągnięcie wszystkich zmian na remote branchu i zmergowanie ich do aktualnie aktywnego branchu na lokalnym repo
 `git push <remote> <branch>` - upload zmian na remote'a; jeśli lokalne repo nie jest up-to-date z remotem (bo ktoś inny już coś spushował), push zostanie odrzucony
 
-Jest ustawienie konfiguracji `pull.rebase ["true"/"false]"` - domyślne zachowanie rebasowania podczas pullu.
+Istnieje ustawienie konfiguracji `pull.rebase ["true"/"false]"` - domyślne zachowanie rebasowania podczas pullu.
 
 
 

@@ -12,8 +12,11 @@ Jest to sytem typu DVCS *(ang. Distributed VCS)*, co oznacza, że każdy użytko
 - [[Konfiguracja Gita]]
 - [[Repozytoria Gita]]
 - [[Sekcje plików Gita]]
+- [[Gałęzie Gita]]
 - [[Tagi Gita]]
 - [[Aliasy Gita]]
+- [[Zapisywanie stanu przez Gita]]
+- [[Rebasing]]
 
 - [[Gitflows]]
 
@@ -26,6 +29,7 @@ Jest to sytem typu DVCS *(ang. Distributed VCS)*, co oznacza, że każdy użytko
 
 - good git practices
 	- annotated tags or lightweight tags?
+	- rebase vs. merge - jak ważna jest historia projektu? czy powinna pokazywać wszystkie wzloty i upadki, czy może jednak dającą się prześledzić koherentną drogę od początku do końca?
 
 
 ---
@@ -34,8 +38,6 @@ Dla projektu Androidowego większość operacji można dokonać z poziomu [[012 
 
 git stash
 git bisect
-git reset - usuwania śledzenie progresu na pliku; można go potem np. dodać do gitignore'a
-
 
 
 > [!NOTE] Przerobić

@@ -1,6 +1,8 @@
 up: [[090 Git MOC]]
-#status/in-progress 
+#status/backlog 
 #tech-area/git 
+
+Git trzyma stan dla każdego commita w [[Folder .git|folderze .git]].
 
 Każdy plik jest zapisywany jest obiekt typu blob. 
 Ponadto Git checksumuje każdy folder i podfolder i trzyma informacje o strukturze jako obiekt typu drzewo. 

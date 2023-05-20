@@ -1,6 +1,4 @@
 up: [[090 Git MOC]]
-#status/in-progress 
-#tech-area/git 
 
 **Konfigurowanie ustawień Gita odbywa się za pomocą komendy `git config` z wybranym parametrem. Pliki zachowujące konfigurację obecne są na trzech poziomach:**
 
@@ -9,6 +7,10 @@ up: [[090 Git MOC]]
 - `<project_path>/.git/config` - plik trzymający ustawienia dla konkretnego projektu; można na nie wpłynąć poprzez parametr `--local`
 
 Ustawienia można nadpisywać, najniżej w hierarchii są systemowe, najwyżej - lokalne. Domyślnym parametrem jest `--local`.
+
+**Wszystkie ustawienia (i ich źródło) można podejrzeć poprzez:**
+`git config --list --show-origin`.
+
 
 Najpopularniejszymi ustawieniami są dane użytkownika:
 
@@ -19,17 +21,12 @@ git config --global user.email = "user_mail@example.com"
 git config user.name # sprawdzenie konfiguracji
 ```
 
-Można też zapisywać w konfiguracji hasła, żeby nie musieć ich wpisywać za każdym razem:
+Można też zapisywać w konfiguracji sposób trzymania haseł, żeby nie musieć ich wprowadzać za każdym razem. Po ich pierwotnym podaniu, Git zapisze je w miejscu zależnym podanego parametru.
 
 ```bash
-git config --local credential.helper cache
+git config --local credential.helper <cache | store | manager>
 ```
-> [!Jak] Jak to dokładnie działa?
 
-
-
-**Wszystkie ustawienia (i ich źródło) można podejrzeć poprzez:**
-
-```bash
-git config --list --show-origin
-```
+_cache_ spowoduje zapisanie w pamięci przez zadany poprzez parametr `--timeout=<seconds>` czas.
+_store_ zapisze je w niezaszyfrowanym pliku.
+_manager_ - we właściwym dla systemu operacyjnego programie z UI.

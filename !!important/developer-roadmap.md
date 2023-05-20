@@ -15,13 +15,23 @@
 	- [x] build types
 	- [x] flavors
 	- [x] Android Gradle Plugin
-- [ ] git flow
-- [ ] CI/CD
+- [x] Git: level 1:
+	- [x] config
+	- [x] repos
+	- [x] branches
+	- [x] commits
+	- [x] files
+	- [x] logs
+	- [x] merges
+	- [x] rebases
+	- [x] tags
+	- [x] aliases
+- [ ] Retrofit / REST API
 - [ ] firebase
+- [ ] CI/CD
 - [ ] Hilt/Dagger
 - [ ] Lint
 - [ ] ProGuard
-- [ ] Retrofit / REST API
 - [ ] Android services
 
 - [ ] coroutines / multithreading
@@ -35,11 +45,19 @@
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 - [ ] Android navigation elements
 - [ ] xml Android resources
+- [ ] Git: level 2
+	- [ ] stashing
+	- [ ] submodules
+	- [ ] refspec
+	- [ ] bisect
+	- [ ] https://martinfowler.com/articles/branching-patterns.html
+	- [ ] .gitignore i [[Wzorce z symbolami wieloznacznymi]]
 - [ ] Gradle: level 2
 	- [ ] build times
 	- [ ] build caching
 	- [ ] plugins publishing
 	- [ ] configuration parameters (gradle.properties)
+	- [ ] .gitignore patterns (glob? regex?)
 
 - [ ] [[BLE - TODO]]
 	- [ ] przejść cały dokument i pouzupełniać

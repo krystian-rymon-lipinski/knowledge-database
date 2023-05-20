@@ -7,6 +7,7 @@ up: [[010 Android MOC]]
 - dodanie remote'a i powiązanie go z lokalnym repo projektu
 - initial commit
 - ustalenie [[Gitflows|git workflow]] i [[Gałęzie Gita|branch workflow]]
+- postawienie [[Serwer Gita|serwera Gita]] lub wykorzystanie [[Hostingi Gita|hostingu]]
 
 2) Utworzenie pustego projektu w Android Studio
 3) Setup Gradle

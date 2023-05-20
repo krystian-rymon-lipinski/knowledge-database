@@ -1,6 +1,6 @@
-**Wzorce z symbolami wieloznacznymi** *(ang. wildcard patterns, glob patterns)*. Podobne do nich (choć znacznie potężniejsze) są [[Regular Expressions]].
+**Wzorce z symbolami wieloznacznymi** *(ang. wildcard patterns, glob patterns)*. Podobne do nich (choć znacznie potężniejsze) są [[Wyrażenia regularne]].
 
-
+Czy one na pewno są w użyciu? Czy nie są zastąpione wszędzie RegExami?
 
 > [!NOTE] ChatGPT
 

@@ -1,5 +1,6 @@
 up: [[013 Android Libraries MOC]]
-#android/gradle-dependency #android/ui 
+#android/gradle-dependency
+#android/ui
 
 ```groovy
 implementation 'com.google.android.flexbox:flexbox:3.0.0'

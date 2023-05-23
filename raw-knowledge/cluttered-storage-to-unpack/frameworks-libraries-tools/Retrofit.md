@@ -1,13 +1,22 @@
+up: [[013 Android Libraries MOC]]
 #android/gradle-dependency 
-#status/backlog 
+#status/in-progress
 
-```groovy
-implementation ‘com.squareup.retrofit2:retrofit:2.1.0’
-implementation ‘com.squareup.retrofit2:converter-gson:2.1.0’
+**Biblioteka do obsługi [[100 REST|REST]] API.**
+
+```kotlin
+implementation("com.squareup.retrofit2:retrofit:2.1.0")
+implementation("com.squareup.retrofit2:converter-gson:2.1.0")
 ```
 
-**Biblioteka do REST API** 
 Można w nim zapiąć konwerter konkretnego parsowania obiektow typu JSON, np. GSON.
+
+#android/permission-needed
+1) Permisja do manifestu.
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+```
+2) Wątek inny niż UI.
 
 ---
 1) Utworzenie serwisu-interfejsu definiującego zapytania:
@@ -56,7 +65,7 @@ httpCall.enqueue(new Callback<ReturnType) {
 ```
 
 
-
+https://code.tutsplus.com/tutorials/android-from-scratch-using-rest-apis--cms-27117
 
 https://square.github.io/retrofit/
 https://medium.com/android-news/consuming-rest-api-using-retrofit-library-in-android-ed47aef01ecb

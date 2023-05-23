@@ -1,5 +1,8 @@
 up: [[000 HOME]]
 
+###### Network operations:
+- [[Retrofit]]
+
 ###### Dependency Injection:
 - [[dagger]]
 - [[Hilt]]

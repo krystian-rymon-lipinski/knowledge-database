@@ -1,3 +1,4 @@
+up: [[013 Android Libraries MOC]]
 #android/gradle-dependency 
 
 **Biblioteka do logowania.**

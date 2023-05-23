@@ -1,5 +1,5 @@
 Udostępnia swoje API i mają fajne snippety, które opisują różne use case'y.
-Jednym z tych API jest REST-owe API, przez które można z serwerów Google'a ściągnąć potrzebne informacje na temat konkretnego obszaru mapy - długość i szerokość geograficzną i różne miejsca w okolicy.
+Jednym z tych API jest [[100 REST]], przez które można z serwerów Google'a ściągnąć potrzebne informacje na temat konkretnego obszaru mapy - długość i szerokość geograficzną i różne miejsca w okolicy.
 
 
 https://developers.google.com/maps/documentation/android-sdk/start#create_a_google_maps_project_in_android_studio - API key setup i bazowe utworzenie mapy z pojedynczym markerem

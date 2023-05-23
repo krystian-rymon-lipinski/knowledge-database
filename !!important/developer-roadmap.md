@@ -28,8 +28,9 @@
 	- [x] aliases
 - [ ] Retrofit / REST API
 - [ ] firebase
-- [ ] CI/CD
 - [ ] Hilt/Dagger
+- [ ] CI/CD
+- [ ] Room
 - [ ] Lint
 - [ ] ProGuard
 - [ ] Android services
@@ -39,7 +40,6 @@
 - [ ] rozbijanie projektu na warstwy
 - [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] JSON -> GSON -> Moshi
-- [ ] Room
 - [ ] RxJava / RxKotlin
 
 - [ ] [[012 Android Studio MOC]] tools / possibilities

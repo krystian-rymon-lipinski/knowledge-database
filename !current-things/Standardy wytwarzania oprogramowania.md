@@ -1,6 +1,8 @@
 #status/backlog  
 #tech-area/standards
 
+https://www.d.umn.edu/~gshute/softeng/principles.html
+
 Implementacja:
 - konwencja nazewnicza
 - [[style nazewnicze]]

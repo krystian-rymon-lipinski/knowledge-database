@@ -1,6 +1,8 @@
 #status/freezer 
 #tech-area/android 
 
+**Nie można podawać żadnych parametrów w konstruktorze Fragmentu! FragmentManager nic o tym nie wie, więc przy odtwarzaniu go (np. przy zmianach orientacji lub jakiejkolwiek innej konfiguracji) i tak nie będzie o tym wiedział.**
+
 - trzeba rozszerzyć klasę fragment z biblioteki AndroidX (można z R.layout.x)
 - supportFragmentManager pomaga robić rzeczy na fragmentach, znajdować po id, po tagach, ogarniać backstacki itd.
 - żeby pokazać/zamieniać/usuwać fragmenty na ekranie, trzeba skorzystać z fragment transcations; każdą transakcję trzeba zacommitować

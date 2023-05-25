@@ -1,6 +1,7 @@
-#status/4-liquid-nitrogen 
+#status/freezer
+#tech-area/rest
 
-Swagger - framework do generowania [[100 REST|REST-owego API]] - daje względne ścieżki zapytania, parametry oraz JSON-a, którego dostaje się w odpowiedzi
+Swagger - framework do generowania [[100 REST|REST]] API - daje względne ścieżki zapytania, parametry oraz JSON-a, którego dostaje się w odpowiedzi
 
 
 https://swagger.io/

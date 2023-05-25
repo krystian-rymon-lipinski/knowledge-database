@@ -1,7 +1,7 @@
 up: [[000 HOME]]
 
 ###### Network operations:
-- [[Retrofit]]
+- [[013.1 Retrofit MOC]]
 
 ###### Dependency Injection:
 - [[dagger]]
@@ -13,7 +13,7 @@ up: [[000 HOME]]
 
 
 ###### Logging:
-- [[Timber]]
+- [[013.2 Timber]]
 
 ###### UI Components
 - [[FlexboxLayout]]

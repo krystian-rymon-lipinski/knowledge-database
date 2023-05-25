@@ -17,5 +17,3 @@ Korzystanie z bibliotek do testów instrumentacyjnych jest możliwe po dodaniu i
 [[Zadania Gradle AGP|Zadanie AGP]], które odpala testy instrumentacyjne to `connectedAndroidTest` (dla wszystkich wariantów).
 
 
-
-

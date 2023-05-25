@@ -29,13 +29,15 @@
 - [ ] Retrofit / REST API
 - [ ] firebase
 - [ ] Hilt/Dagger
+- [ ] coroutines / multithreading
+- [ ] kompozycja / agregacja / UML
 - [ ] CI/CD
+- [ ] SOLID
 - [ ] Room
 - [ ] Lint
 - [ ] ProGuard
 - [ ] Android services
 
-- [ ] coroutines / multithreading
 - [ ] State Flow / Shared Flow
 - [ ] rozbijanie projektu na warstwy
 - [ ] [[Standardy wytwarzania oprogramowania]]

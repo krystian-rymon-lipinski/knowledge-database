@@ -67,6 +67,6 @@ Można również przekazywać argumenty między fragmentem a dialog fragmentem.
 
 https://developer.android.com/guide/navigation/navigation-getting-started
 https://developer.android.com/guide/navigation/navigation-programmatic
-#status/revision-needed 
+#status/0-revision-needed 
 #android/app-navigation 
 #android/app-architecture 

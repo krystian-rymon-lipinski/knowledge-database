@@ -1,5 +1,5 @@
 up: [[0032 RecyclerView]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 Algorytm porównujący dwie listy i wywołujący na adapterze odpowiednie operacje. 

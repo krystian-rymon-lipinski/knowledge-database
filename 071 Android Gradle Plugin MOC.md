@@ -1,7 +1,7 @@
 up: [[000 HOME]]
 
 #gradle/plugin  
-#status/in-progress  
+#status/3-freezer
 #tech-area/android-gradle-plugin 
 
 **[[Pluginy binarne Gradle|Plugin binarny]], rozszerzający możliwości Gradle o funkcjonalności przydatne dla projektów Androidowych**, takich jak podpisywanie plików .apk lub wykonywanie testów instrumentalnych. 

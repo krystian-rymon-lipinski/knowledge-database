@@ -1,5 +1,5 @@
 up: [[BLE Android API]]
-#status/revision-needed (permissions outdated)
+#status/0-revision-needed (permissions outdated)
 
 **Skanowanie w poszukiwaniu urządzeń Bluetooth.**
 Potrzebne [[Manifest Permissions|permisje]]: 

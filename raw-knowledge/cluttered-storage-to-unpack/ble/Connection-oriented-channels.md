@@ -1,5 +1,5 @@
 up: [[006A L2CAP Layer]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth-low-energy 
 
 Powiązane z L2CAP w stacku bluetoothowym.

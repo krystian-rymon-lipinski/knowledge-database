@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/http 
 
 Dane uwierzytelniające (hasła, tokeny), dające dostęp do chronionych zasobów; serwery mogą blokować zapytania o konkretne zasoby w przypadku niezidentyfikowanego nadawcy zapytania; metod uwierzytelnienia jest wiele: hasło, token, facebook, google, certyfikat OAuth2.   

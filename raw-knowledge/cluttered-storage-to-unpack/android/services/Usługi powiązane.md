@@ -1,5 +1,5 @@
 up: [[Usługi powiązane]]
-#status/in-progress  
+#status/2-backlog
 #tech-area/android 
 
 Można je powiązać z komponentami aplikacji (najczęściej z aktywnością). Serwisy te giną w momencie, w którym ginie komponent, który jest z nią powiązany.

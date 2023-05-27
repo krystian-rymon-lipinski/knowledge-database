@@ -1,4 +1,4 @@
-#status/backlog  
+#status/2-backlog  
 #tech-area/standards
 
 https://www.d.umn.edu/~gshute/softeng/principles.html
@@ -53,6 +53,7 @@ CI/CD
 - jenkins
 
 Issue Tracking
+Estymowanie
 
 ---
 

@@ -1,5 +1,5 @@
 up: [[Zmienne (MOC)]]
-#status/freezer 
+#status/3-freezer 
 
 ### Konwersja
 ```kotlin

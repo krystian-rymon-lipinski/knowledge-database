@@ -1,4 +1,4 @@
-#status/backlog 
+#status/2-backlog 
 
 ### Jenkins
 Można robić joby albo pipeline'y. Obie te struktury robią dokładnie to samo.

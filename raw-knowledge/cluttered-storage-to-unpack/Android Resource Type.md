@@ -1,5 +1,5 @@
 #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 W Androidzie są różne typy resourców. Definiuje się je w różnych 
 - animacje

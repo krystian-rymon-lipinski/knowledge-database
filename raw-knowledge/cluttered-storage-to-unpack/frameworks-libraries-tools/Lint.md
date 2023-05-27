@@ -1,4 +1,4 @@
-#status/backlog 
+#status/2-backlog 
 
 Narzędzie do statycznej analizy kodu, która zwraca uwagę na jakość napisanego kodu.
 

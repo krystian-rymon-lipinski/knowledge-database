@@ -1,5 +1,5 @@
 #tech-area/android 
-#status/freezer 
+#status/3-freezer 
 #android/file-management 
 
 Zapewnia API do wybierania plików, lokacji dla nich, tworzenia plików, etc.

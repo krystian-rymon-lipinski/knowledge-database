@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 Jeśli aktywność jest w backstacku, to nie zostaje niszczona!

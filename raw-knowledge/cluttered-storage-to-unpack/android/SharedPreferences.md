@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 Sposób na zapisywanie stanu aplikacji, którego nie traci się po jej wyłączeniu, więc można go później załadować. Te wartości trzymane są w zewnętrznym pliku jako pary klucz-wartość.

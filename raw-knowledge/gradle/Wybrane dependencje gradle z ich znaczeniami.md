@@ -1,5 +1,5 @@
 up: [[070 Gradle MOC]]
-#status/in-progress 
+#status/3-freezer
 #tech-area/gradle 
 
 1) KTX

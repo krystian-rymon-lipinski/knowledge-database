@@ -1,5 +1,5 @@
 up: [[Zadania Gradle]]
-#status/in-progress 
+#status/3-freezer
 #tech-area/gradle 
 
 - `assemble`

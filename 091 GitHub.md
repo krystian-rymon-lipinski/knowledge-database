@@ -1,5 +1,5 @@
 up: [[000 HOME]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/github
 
 **Jeden z najczęściej wykorzystywanych [[Hostingi Gita|hostingów Gita]].** Oprócz tworzenia repozytoriów kodu  pozwala na trzymanie issues, tworzenie projektów, etc.

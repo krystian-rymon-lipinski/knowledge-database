@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/data-storage 
 
 **CRUD** = CREATE & READ & UPDATE & DELETE

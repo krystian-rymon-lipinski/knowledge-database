@@ -1,5 +1,5 @@
 up: [[090 Git MOC]]
-#status/backlog
+#status/3-freezer
 #tech-area/git 
 
 Można dodać plik `.gitignore` - pozwala to automatycznie blokować dodawanie pewnych plików do śledzenia. Nie pokażą się one nawet przy wypisywaniu statusu repo. Można dodać [[Wzorce z symbolami wieloznacznymi|wzorce z symbolami wieloznacznymi]], żeby wykluczać całe rodziny plików lub folderów.

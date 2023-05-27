@@ -1,5 +1,5 @@
 #tech-area/android/xml 
-#status/freezer 
+#status/3-freezer 
 
 **All Android internal styles can be found at [http://developer.android.com/reference/android/R.style.html](http://developer.android.com/reference/android/R.style.html)**
 

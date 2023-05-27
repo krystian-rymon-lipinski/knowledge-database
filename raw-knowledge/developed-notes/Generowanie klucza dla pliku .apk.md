@@ -1,5 +1,5 @@
 up: [[Podpisywanie pliku .apk]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/android-gradle-plugin 
 
 ```bash

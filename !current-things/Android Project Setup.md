@@ -1,5 +1,5 @@
 up: [[010 Android MOC]]
-#status/in-progress 
+#status/2-backlog
 #tech-area/android 
 
 1) Postawienie systemu kontroli wersji (raczej gita):

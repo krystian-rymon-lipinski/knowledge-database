@@ -1,6 +1,6 @@
 up: [[013 Android Libraries MOC]]
 #android/gradle-dependency 
-#status/freezer 
+#status/3-freezer 
 
 ```groovy
 implementation 'com.github.bumptech.glide:glide:4.15.1'

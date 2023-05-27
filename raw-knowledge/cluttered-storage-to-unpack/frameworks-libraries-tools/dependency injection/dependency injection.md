@@ -1,4 +1,4 @@
-#status/backlog 
+#status/2-backlog 
 
 Przerzuca obwiązek tworzenia obiektów potrzebnych danej klasie na inny obiekt. 
 Robi się to w czasie trwania programu, a nie w czasie kompilacji. 

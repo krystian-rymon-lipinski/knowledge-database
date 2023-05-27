@@ -1,5 +1,5 @@
 up: [[050 Design Patterns MOC]]
-#status/revision-needed 
+#status/0-revision-needed 
 
 **Wzorzec strukturalny. Pozwala rozszerzać zachowania obiektów o dodatkowe czynności.** Opiera się na **rekurencyjnej kompozycji** oraz **wspólnym typie obiektów dekorowanych i ich dekoratorów.**
 

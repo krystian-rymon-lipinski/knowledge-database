@@ -1,5 +1,5 @@
 up: [[090 Git MOC]]
-#status/backlog 
+#status/3-freezer
 #tech-area/git 
 
 Git trzyma stan dla każdego commita w [[Folder .git|folderze .git]].

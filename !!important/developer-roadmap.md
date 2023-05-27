@@ -1,5 +1,13 @@
 #todo-list 
 
+"Jeśli chodzi o feedback to Tapptic zwrócił przede wszystkim uwagę na to, że jesteś ciekawy różnych technologii i chcesz się rozwijać żeby mieć możliwość spojrzenia trochę szerzej na projekt oraz to jak powstaje w innych miejscach a nie tylko na sprzęcie programisty. I to po ich stronie było dość pozytywne wrażenie. Z aspektów technicznych to widać że brakuje Ci trochę pokierowania przez seniora i sam masz świadomość, że są obszary w których mógłbyś się jeszcze dużo nauczyć - m.in. korutyny i znajomość RxJavy. Obszar, nad którym na pewno mógłbyś jeszcze popracować to przede wszystkim wiedza z zakresu gitflow czy Firebase. Twoja propozycja implementacji infinite scroll oraz rozbicia rozwiązania na warstwy była dość podstawowa. Dużym plusem jest jednak znajomość wzorców, MVP i MVVM, różnic między merge i rebase, doświadczenie z BLE i smarthome oraz wręcz wzorowa znajomość cyklu życia aktywności
+
+---
+
+"Krystian has good theoretical knowledge for his level. But he had a lack of experience in Android development. Krystian should pay more attention to Clean architecture, and Android framework in general (Services, WorkManager, Activity/Fragments, etc.) Also, Krystian should get more knowledge with DI frameworks, Kotlin Coroutines and Compose UI."
+
+---
+
 - [x] Gradle: level 1
 	- [x] plugins
 	- [x] repos
@@ -26,7 +34,7 @@
 	- [x] rebases
 	- [x] tags
 	- [x] aliases
-- [ ] Retrofit / REST API
+- [x] Retrofit / REST API
 - [ ] firebase
 - [ ] Hilt/Dagger
 - [ ] coroutines / multithreading
@@ -39,10 +47,11 @@
 - [ ] Android services
 
 - [ ] State Flow / Shared Flow
-- [ ] rozbijanie projektu na warstwy
+- [ ] Clean Architecture / rozbijanie projektu na warstwy
 - [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] JSON -> GSON -> Moshi
 - [ ] RxJava / RxKotlin
+	- [ ] Rx module for Retrofit
 
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 - [ ] Android navigation elements

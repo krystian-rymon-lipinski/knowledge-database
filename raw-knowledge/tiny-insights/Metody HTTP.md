@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/http
 
 https://restfulapi.net/http-methods/

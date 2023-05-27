@@ -1,5 +1,5 @@
 up: [[060 Bluetooth Low Energy MOC]]
 
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth-low-energy 
 

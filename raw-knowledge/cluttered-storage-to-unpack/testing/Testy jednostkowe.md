@@ -1,5 +1,5 @@
 up: [[014 Android Testing]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/testing 
 
 Niewielkie i szybkie testy, sprawdzające pojedynczą rzecz (najczęściej klasę) w izolacji od reszty aplikacji.

@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth 
 
 Strona organizacji zajmującej się rozwijaniem technologii bluetooth: https://www.bluetooth.com/

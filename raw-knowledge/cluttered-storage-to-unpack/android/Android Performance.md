@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 Generalnie, żeby zapewnić odświeżanie na poziomie 60 Hz, system mniej więcej co 16 ms odświeża ekran.

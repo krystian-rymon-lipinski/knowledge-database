@@ -1,5 +1,5 @@
 up: [[050 Design Patterns MOC]]
-#status/revision-needed 
+#status/0-revision-needed 
 
 **Wzorzec kreujący.**
 **Składają się na niego klasy będące fabrykami oraz klasy będące produktami fabryk.**

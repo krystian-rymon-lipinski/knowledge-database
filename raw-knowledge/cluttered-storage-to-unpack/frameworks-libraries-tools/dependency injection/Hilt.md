@@ -1,6 +1,6 @@
 up: [[013 Android Libraries MOC]]
 #android/gradle-dependency #gradle/plugin
-#status/backlog 
+#status/2-backlog 
 
 ```groovy
 /* Dependencja pluginu: */

@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 cold start - nie istnieje proces aplikacji i trzeba go utworzyć, a dopiero potem tworzyć widoki czy cokolwiek rysować

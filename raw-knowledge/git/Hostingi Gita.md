@@ -1,5 +1,5 @@
 up: [[090 Git MOC]]
-#status/freezer 
+#status/3-freezer 
 #tech-area 
 
 **Strony pozwalające na trzymanie kodu zamiast stawiania własnego [[Serwer Gita|serwera]].** Popularne hostingi:

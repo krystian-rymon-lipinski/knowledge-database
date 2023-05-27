@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android/ble 
 
 BluetoothDevice#connectGatt() - metoda do łączenia się z urządzeniem

@@ -1,5 +1,5 @@
 #tech-area/android/ble 
-#status/backlog 
+#status/3-freezer
 
 
 https://developer.android.com/guide/topics/connectivity/bluetooth/permissions - tu jest wszystko na ten temat

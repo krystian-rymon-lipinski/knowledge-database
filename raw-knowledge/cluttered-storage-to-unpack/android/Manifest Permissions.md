@@ -1,5 +1,5 @@
 up: [[010 Android MOC]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 **Do niektórych funkcji wymagana jest zgoda użytkownika.** 

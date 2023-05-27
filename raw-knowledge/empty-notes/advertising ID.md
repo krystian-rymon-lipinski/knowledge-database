@@ -1,5 +1,5 @@
 up: [[Określanie zawartości aplikacji w Google Store]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/android/google-play 
 
 

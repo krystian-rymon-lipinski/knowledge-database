@@ -1,5 +1,5 @@
 #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 Można zdefiniować pliki typu drawable, żeby robiły za kształt buttona albo tła.
 

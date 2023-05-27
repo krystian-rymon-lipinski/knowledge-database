@@ -1,5 +1,5 @@
 #tech-area/android/ble 
-#status/backlog 
+#status/3-freezer
 
 Starting point dla praktycznie wszystkich operacji bluetoothowych w androidzie.
 

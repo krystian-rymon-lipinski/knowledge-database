@@ -1,5 +1,5 @@
 up: [[060 Bluetooth Low Energy MOC]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth-low-energy  
 
 3. Czy Obserwator (rola) może być w trybie non-discoverable? Ale on w ogóle nie nadaje, więc czy w jego przypadku można mówić o trybie?

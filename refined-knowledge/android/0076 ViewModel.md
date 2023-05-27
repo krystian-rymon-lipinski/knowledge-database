@@ -1,5 +1,5 @@
 up: [[0056 Model-View-ViewModel]]
-#status/revision-needed 
+#status/0-revision-needed 
 
 **Służy do przechowywania stanu wyświetlanego w elementach UI.**
 **To w nim dokonuje się konwersja z klasy danych modelu na klasę danych stanu widoku** (np. tak jak [tu](https://ryanharter.com/blog/2019/07/encapsulating-view-state/) lub [tu](https://proandroiddev.com/supercharge-android-mvvm-part-1-viewstate-and-actionstate-5816500580ed)). Wynika to z tego, że widok nie musi wiedzieć o całym modelu, potrzebuje tylko tych danych, które wyświetla. ViewModel jest właśnie tym miejscem, gdzie powinno się to zrobić.

@@ -1,5 +1,5 @@
 #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 drawable, dla którego można zdefiniować różne stany w zależności od czegoś
 

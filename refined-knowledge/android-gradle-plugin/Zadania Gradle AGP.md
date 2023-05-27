@@ -1,5 +1,5 @@
 up: [[071 Android Gradle Plugin MOC]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/android-gradle-plugin 
 
 **Dodatkowe [[Zadania Gradle|zadania Gradle]] definiowane przez Android Gradle Plugin.**

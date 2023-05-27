@@ -1,5 +1,5 @@
 up: [[0056 Model-View-ViewModel]]
-#status/revision-needed 
+#status/0-revision-needed 
 #android/app-architecture
 
 **Pojemniki na dane, które są również obiektami obserwowanymi. Ich Obserwatorami są kontrolery UI (aktywności, fragmenty).**  

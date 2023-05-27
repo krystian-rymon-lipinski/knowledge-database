@@ -1,5 +1,5 @@
 #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 **Można sobie zdefiniować dodatkowe atrybuty dla widoków poprzez zdefiniowanie pliku attr.xml w paczce _values_**. 
 

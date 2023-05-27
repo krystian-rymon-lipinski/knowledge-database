@@ -1,5 +1,5 @@
 up: [[070 Gradle MOC]]
-#status/backlog 
+#status/3-freezer 
 #tech-area/gradle 
 
 [[Pliki .gradle]]

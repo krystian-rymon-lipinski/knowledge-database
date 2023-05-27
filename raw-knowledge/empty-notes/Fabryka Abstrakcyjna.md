@@ -1,5 +1,5 @@
 up: [[050 Design Patterns MOC]]
-#status/backlog 
+#status/3-freezer
 #tech-area/design-patterns 
 
 ### Fabryka Abstrakcyjna

@@ -7,3 +7,6 @@
 
 **1 notatka powinna być mała - opisywać wyłącznie to, o czym mówi tytuł.**
 **Rule of thumb - powinna mieścić się na ekranie bez przewijania.**
+
+**Maksimum 5 notatek na _in-progress_!**
+**Maksimum 20 notatek w _backlogu!_**

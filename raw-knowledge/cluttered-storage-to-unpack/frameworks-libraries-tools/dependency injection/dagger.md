@@ -1,5 +1,5 @@
 up: [[013 Android Libraries MOC]]
-#status/freezer 
+#status/3-freezer 
 
 Wstrzykiwanie zależności. 
 Zamiast inicjalizować samemu wszystkie obiekty, jest to przez zewnętrzną klasę.

@@ -1,5 +1,5 @@
 #android/ui #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 Można dodać w stylu, który jest zdefiniowy jako theme aplikacji (w manifeście) dodatkowe style, które będą opisywać wybrane elementy UI, dzięki czemu będą one wszędzie takie same.
 

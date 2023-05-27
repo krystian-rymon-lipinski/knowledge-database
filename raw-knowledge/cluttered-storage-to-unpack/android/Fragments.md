@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 **Nie można podawać żadnych parametrów w konstruktorze Fragmentu! FragmentManager nic o tym nie wie, więc przy odtwarzaniu go (np. przy zmianach orientacji lub jakiejkolwiek innej konfiguracji) i tak nie będzie o tym wiedział.**

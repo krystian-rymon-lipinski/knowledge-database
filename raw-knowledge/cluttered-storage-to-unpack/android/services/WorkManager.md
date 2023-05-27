@@ -1,5 +1,5 @@
 up: [[Usługi]]
-#status/in-progress  
+#status/2-backlog
 #tech-area/android 
 #android/gradle-dependency 
 

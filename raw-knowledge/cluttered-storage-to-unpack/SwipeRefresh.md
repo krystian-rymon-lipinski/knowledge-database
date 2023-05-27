@@ -1,5 +1,5 @@
 #android/ui 
-#status/freezer 
+#status/3-freezer 
 
 Jeżeli użytkownik jest na samej górze listy (albo w ogóle jakiegoś widoku) i zrobi swipe w górę, to pokaże się animacja refreshu.
 

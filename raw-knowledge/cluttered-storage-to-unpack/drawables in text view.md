@@ -1,5 +1,5 @@
 #android/xml 
-#status/freezer 
+#status/3-freezer 
 
 
 app:drawableEndCompat="@drawable/ic_arrow_right" (Można też drawableEnd, ale pojawia się warning)

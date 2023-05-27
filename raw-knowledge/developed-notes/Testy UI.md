@@ -1,5 +1,5 @@
 up: [[014 Android Testing]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/testing 
 
 Testy pozwalające sprawdzić interakcję użytkownika z komponentami interfejsu użytkownika (czy po kliku w nie dzieją się pożądane rzeczy).

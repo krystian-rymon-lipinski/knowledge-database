@@ -1,5 +1,5 @@
 up: [[010 Android MOC]]
-#status/backlog 
+#status/3-freezer
 #tech-area/android/ble
 
 **Implementacja obsługi połączenia Bluetooth z urządzeniami Low Energy.**

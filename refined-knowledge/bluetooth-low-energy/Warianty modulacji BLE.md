@@ -1,5 +1,5 @@
  up: [[0065 Physical Layer]]
-#status/revision-needed 
+#status/0-revision-needed 
 #bluetooth-spec/4-0 #bluetooth-spec/5-0 
 
 **Wybór odpowiedniego wariantu zależy od tego, czy zależy nam na szybkości transmisji, czy też na mocy transmitowanego sygnału. Wzrost jednej z wielkości powoduje spadek drugiej i vice versa.**

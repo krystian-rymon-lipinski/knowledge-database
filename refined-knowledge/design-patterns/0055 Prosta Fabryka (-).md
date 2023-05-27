@@ -1,5 +1,5 @@
 up: [[050 Design Patterns MOC]]
-#status/revision-needed 
+#status/0-revision-needed 
 
 **(-) Nie jest to do końca wzorzec projektowy (gdyby był, byłby kreującym). Opiera się na wydelegowaniu tworzenia różnego rodzaju obiektów (produktów fabryki) do osobnej klasy. Każdy produkt fabryki implementuje/rozszerza abstrakcyjny supertyp.** 
 

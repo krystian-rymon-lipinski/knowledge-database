@@ -1,5 +1,5 @@
 up: [[012 Android Studio MOC]]
-#status/backlog 
+#status/3-freezer
 #tech-area/android/android-studio 
 #todo-list
 

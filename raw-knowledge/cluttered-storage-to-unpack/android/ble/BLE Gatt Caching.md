@@ -1,5 +1,5 @@
 #tech-area/android/ble 
-#status/backlog 
+#status/3-freezer
 
 
 **Na Androidzie da się to zrobić refleksją:**

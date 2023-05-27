@@ -4,7 +4,8 @@
 **O - Open/Closed** - open for extensions, closed for modifications
 **L -  Liskov Substitution** - functions using references to base classes need to be able to use derived ones as well (polymorphism)
 **I - Interface Segregation** - many deidacted interfaces are better than one general one
-**D - Dependency Inversion** - high-level modules should not depend on low-level ones; dependencies should be based on abstractions
+**D - Dependency Inversion** - high-level modules should not depend on low-level ones; dependencies should be based on abstractions;
+Wyższy moduł nie zależy od niższego - zarówno wyższy i niższy zależą od abstrakcji.
 
 ###### OOP cornerstones
 

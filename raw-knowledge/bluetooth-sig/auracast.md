@@ -1,5 +1,5 @@
 up: [[Bluetooth SIG]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth
 
 The primary promoted use case for Auracast™ broadcast audio is for it to become a high-quality, lower-cost augmented and assistive listening technology in venues where a public address (PA) or hearing loop infrastructure is currently deployed. Thanks to the connectionless broadcast capabilities of LE Audio, unlimited numbers of users will be able to effectively tune into various audio streams using their own devices within public venues

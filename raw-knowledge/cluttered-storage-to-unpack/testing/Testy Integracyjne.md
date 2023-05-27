@@ -1,5 +1,5 @@
 up: [[014 Android Testing]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/testing 
 
 Testy sprawdzające integrację kilku funkcjonalności jednocześnie. 

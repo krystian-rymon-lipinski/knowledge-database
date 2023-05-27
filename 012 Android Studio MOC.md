@@ -1,5 +1,5 @@
 up: [[000 HOME]]
-#status/in-progress 
+#status/3-freezer
 #tech-area/android/android-studio
 
 **IDE (_ang. Integrated Developer Environment_) służące do tworzenia aplikacji mobilnych na Androida. Poza edytorem kodu ma wbudowane wiele innych funkcji, ułatwiających zarządzanie projektem programistycznym.**

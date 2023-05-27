@@ -1,5 +1,5 @@
 up: [[090 Git MOC]]
-#status/freezer 
+#status/3-freezer 
 #tech-area/git 
 
 Miejsce, z którego deweloprzy ciągną dane i wrzucają swoje zmiany. Na dobrą sprawę nie potrzebuje working directory, żadne zmiany nie będą tutaj zachodziły. Musi tylko trzymać folder .git, więc jest to tzw. *gołe repozytorium*. Zamiast tworzenia swojego serwera, można wykorzystać [[Hostingi Gita|hostingi]].

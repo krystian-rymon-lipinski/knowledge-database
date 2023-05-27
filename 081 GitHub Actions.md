@@ -1,5 +1,5 @@
 up: [[080 CI-CD MOC]]
-#status/backlog 
+#status/2-backlog
 #tech-area/ci-cd
 
 **Jedna z platform do implementowania automatycznej integracji i dostarczania (a bit mouthful).**

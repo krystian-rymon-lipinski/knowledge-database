@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/bluetooth
 
 up: [[Bluetooth SIG]]

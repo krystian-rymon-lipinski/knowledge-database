@@ -1,4 +1,4 @@
-#status/freezer 
+#status/3-freezer 
 #tech-area/android 
 
 Żeby wykryć zmiany orientacji urządzenia, trzeba w manifeście dodać:

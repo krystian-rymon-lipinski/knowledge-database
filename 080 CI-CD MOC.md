@@ -1,5 +1,5 @@
 up: [[000 HOME]]
-#status/backlog 
+#status/2-backlog 
 #tech-area/ci-cd 
 
 **Continouos Integration/Continuous Delivery** - automatyzacja budowania kodu wrzucanego na zdalne repozytorium

@@ -1,4 +1,6 @@
 up: [[000 HOME]]
+#status/3-freezer
+#tech-area/design-patterns
 
 **Wzorce projektowe rozwiązują problemy poprzez zdefiniowanie struktury klas, wykorzystujących zasady [[030 OOP MOC|programowania obiektowego]] oraz zasad [[SOLID]].**
 
@@ -15,5 +17,3 @@ up: [[000 HOME]]
 - [[0045 Obserwator]]
 - [[0054 Dekorator]]
 
-
-#status/backlog 

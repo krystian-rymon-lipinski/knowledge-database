@@ -1,6 +1,6 @@
 up: [[080 CI-CD MOC]]
 X: [[Continuous Delivery]]
-#status/backlog 
+#status/2-backlog 
 #tech-area/ci-cd 
 
 ### Continuous Integration

@@ -1,4 +1,4 @@
-#status/revision-needed 
+#status/0-revision-needed 
 
 **Odmiana [[Fragments|fragmentu]], która została stworzona do wyświetlania [[005E Dialog|dialogów]].**
 

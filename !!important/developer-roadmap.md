@@ -35,27 +35,45 @@
 	- [x] tags
 	- [x] aliases
 - [x] Retrofit / REST API
-- [ ] firebase
+- [ ] [[Firebase]]
 - [ ] Hilt/Dagger
-- [ ] coroutines / multithreading
-- [ ] kompozycja / agregacja / UML
+- [ ] [[UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
 - [ ] CI/CD
 - [ ] SOLID
 - [ ] Room
+- [ ] JSON -> GSON -> Moshi
+- [ ] Android: level 1
+	- [ ] Clean Architecture / rozbijanie projektu na warstwy
+	- [ ] Android Jetpack
+	- [ ] Android services
+	- [ ] coroutines / multithreading
+	- [ ] State Flow / Shared Flow
+	- [ ] Android navigation elements
+	
 - [ ] Lint
 - [ ] ProGuard
-- [ ] Android services
-
-- [ ] State Flow / Shared Flow
-- [ ] Clean Architecture / rozbijanie projektu na warstwy
+- [ ] [[Annotacje]]
 - [ ] [[Standardy wytwarzania oprogramowania]]
-- [ ] JSON -> GSON -> Moshi
 - [ ] RxJava / RxKotlin
 	- [ ] Rx module for Retrofit
+- [ ] TDD, DDD, EDD, etc. Something Driven Development
 
 - [ ] [[012 Android Studio MOC]] tools / possibilities
-- [ ] Android navigation elements
-- [ ] xml Android resources
+- [ ] Android: level 2
+	- [ ] [[android resources|xml resources]]
+	- [ ] [[android MaterialDesign]]
+	- [ ] android UI design ([[figma]]; mockflow?)
+
+https://infinum.com/blog/top-10-android-libraries-every-android-developer-should-know-about/
+
+---
+
+- [ ] [[BLE - TODO]]
+	- [ ] przejść cały dokument i pouzupełniać
+	- [ ] przejść listę ble to-do
+- [ ] Kotlin: level 2
+	- [ ] wildcards / generics
+	- [ ] lambdas
 - [ ] Git: level 2
 	- [ ] stashing
 	- [ ] submodules
@@ -63,16 +81,43 @@
 	- [ ] bisect
 	- [ ] https://martinfowler.com/articles/branching-patterns.html
 	- [ ] .gitignore i [[Wzorce z symbolami wieloznacznymi]]
+- [ ] Testing: level 1
+	- [ ] unit testing: JUnit 5
+	- [ ] integration tests: espresso
+	- [ ] integration tests: what are those?
+- [ ] RegEx pattern logic
+- [ ] Javadoc / Kotlindoc ([https://blog.joda.org/2012/11/javadoc-coding-standards.html](https://blog.joda.org/2012/11/javadoc-coding-standards.html))
+- [ ] [refactoring](https://refactoring.guru/refactoring)
 - [ ] Gradle: level 2
 	- [ ] build times
 	- [ ] build caching
 	- [ ] plugins publishing
 	- [ ] configuration parameters (gradle.properties)
 	- [ ] .gitignore patterns (glob? regex?)
-
-- [ ] [[BLE - TODO]]
-	- [ ] przejść cały dokument i pouzupełniać
-	- [ ] przejść listę ble to-do
+- [ ] MIME types
 
 
-https://infinum.com/blog/top-10-android-libraries-every-android-developer-should-know-about/
+---
+
+[https://www.amazon.com/Learning-Virtual-Reality-Experiences-Applications-ebook/dp/B01770MBN4?ref_=ast_sto_dp](https://www.amazon.com/Learning-Virtual-Reality-Experiences-Applications-ebook/dp/B01770MBN4?ref_=ast_sto_dp)
+
+[https://www.amazon.com/Designing-Developing-Google-Glass-Differently-ebook/dp/B00QUBHNJE?ref_=ast_sto_dp](https://www.amazon.com/Designing-Developing-Google-Glass-Differently-ebook/dp/B00QUBHNJE?ref_=ast_sto_dp)
+
+[https://helion.pl/ksiazki/programowanie-funkcyjne-krok-po-kroku-joshua-backfield,pfukpk.htm#format/d](https://helion.pl/ksiazki/programowanie-funkcyjne-krok-po-kroku-joshua-backfield,pfukpk.htm#format/d)
+
+[https://helion.pl/ksiazki/raspberry-pi-niesamowite-projekty-szalony-geniusz-donald-norris,rpszge.htm#format/e](https://helion.pl/ksiazki/raspberry-pi-niesamowite-projekty-szalony-geniusz-donald-norris,rpszge.htm#format/e)
+
+- własna domena
+- Google Apps Script - API do aplikacji Google'a (Gmail, YT, etc.)
+- [[Immutables]]
+- JNI
+- Smoke tests / testy regresyjne? / fuzzy testing?
+- files encoding - UTF-8, [[unicode]]
+- Android things - [code source](cs.android.com), android release notes, android dev summit, android emulator,  konto Google Play
+- skrypty windowsowe (języki skryptowe)
+- serwer na raspberry
+- talking Kotlin podcast
+- ctflearn.com - podstawy hakowania
+- Clang / [[CMake]]
+- LaTeX
+- cdefs.h

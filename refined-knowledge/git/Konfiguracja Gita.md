@@ -1,6 +1,6 @@
 up: [[090 Git MOC]]
 
-**Konfigurowanie ustawień Gita odbywa się za pomocą komendy `git config` z wybranym parametrem. Pliki zachowujące konfigurację obecne są na trzech poziomach:**
+**Konfigurowanie lokalnych ustawień Gita odbywa się za pomocą komendy `git config` z wybranym parametrem. Pliki zachowujące konfigurację obecne są na trzech poziomach:**
 
 - `<git_directory_path>/etc/gitconfig` - plik sytemowy, gdzie jego ścieżka zależy od zmiennej środowiskowej podanej podczas [[Setup Gita|setupu Gita]]; można wpłynąć na te ustawienia poprzez parametr `--system`
 - `<user_path/.gitconfig` - plik trzymający ustawienia dla wszystkich projektów Git; można na nie wpłynąć poprzez parametr `--global`

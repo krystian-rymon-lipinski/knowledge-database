@@ -2,25 +2,28 @@ up: [[010 Android MOC]]
 #status/2-backlog
 #tech-area/android 
 
-1) Postawienie systemu kontroli wersji (raczej gita):
-- [[Konfiguracja Gita|konfiguracja użytkownika w Git]]
-- dodanie remote'a i powiązanie go z lokalnym repo projektu
-- initial commit
-- ustalenie [[Gitflows|git workflow]] i [[Gałęzie Gita|branch workflow]]
-- postawienie [[Serwer Gita|serwera Gita]] lub wykorzystanie [[Hostingi Gita|hostingu]]
 
-2) Utworzenie pustego projektu w Android Studio
-3) Setup Gradle
-- skonfigurowanie [[Repozytoria Gradle|repozytoriów Gradle]] dla pluginów:
-	- `google()`
-	- `mavenCentral()`
-	- `gradlePluginPortal()`
-- dodanie [[Pluginy Gradle|pluginów Gradle]]
-	- [[071 Android Gradle Plugin MOC]]
-	- [[072 Kotlin Gradle Plugin MOC]]
-	- `java` (dla pisania w Javie)
-- skonfigurowanie repozytoriów Gradle dla [[Dependencje Gradle|dependencji]]
-- dodanie View Bindingu poprzez:
+1) Utworzenie projektu w systemie DevOps
+2) Postawienie systemu kontroli wersji (raczej gita): 
+	- [[Konfiguracja Gita|konfiguracja użytkownika w Git]]
+	- ustalenie [[Gitflows|git workflow]] i [[Gałęzie Gita|branch workflow]]
+	- postawienie zdalnego repozytorium na [[Serwer Gita|serwerze Gita]] lub z wykorzystaniem [[Hostingi Gita|hostingu]]
+3) Utworzenie projektu w Android Studio
+	- zbudowanie projektu
+	- initial commit i push na zdalne repozytorium
+4) Setup Gradle
+	- konwersja na plików Gradle na DSL Kotlin (.kts)
+	- skonfigurowanie [[Repozytoria Gradle|repozytoriów Gradle]] dla pluginów:
+		- `google()`
+		- `mavenCentral()`
+		- `gradlePluginPortal()`
+	- dodanie [[Pluginy Gradle|pluginów Gradle]]
+		- [[071 Android Gradle Plugin MOC]]
+		- [[072 Kotlin Gradle Plugin MOC]]
+		- `java` (dla pisania w Javie)
+	- skonfigurowanie repozytoriów Gradle dla [[Dependencje Gradle|dependencji]]
+	- dodanie suffixów dla różnych [[Typy buildu projektu Android|typów buildu]]
+	- dodanie View Bindingu poprzez:
 
 ```kotlin
 buildFeatures {  
@@ -28,10 +31,12 @@ buildFeatures {
 }  
 ```
 
-- zbudowanie projektu
-4) Powiązanie remote repo z [[080 CI-CD MOC]] - w zależności od tego, które CI/CD jest wykorzystywane.
-	a) Jeżeli repo jest w githubie, to można dodać: Actions -> Android CI. Domyślnie będzie to przynajmniej budowało kod. Można później dodać rzeczy typu unit testy. 
-	Pisane jest toto w yaml-u.
+5) Dodanie automatyzacji poprzez narzędzia [[080 CI-CD MOC]] - dodanie warunków na testy nowo dodanych commitów:
+	- poprawne zbudowanie projektu
+	- przejście [[Testy jednostkowe|testów jednostkowych]]
+	- przejście [[Testy integracyjne|testów integracyjnych]]
+	- wygenerowanie pliku .apk
+	- upload do Google Play Store dla gałęzi releasowych
 
 Ponadto, jeśli trzeba:
 - dodanie innych modułów (np. bibliotek) w tym samym projekcie

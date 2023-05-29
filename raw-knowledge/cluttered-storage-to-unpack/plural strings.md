@@ -1,3 +1,4 @@
+up: [[android resources]]
 #tech-area/android/xml 
 #status/5-absolute-zero 
 

@@ -23,3 +23,6 @@ up: [[000 HOME]]
 
 **Technologie:**
 - [[BLE Android API]]
+
+---
+https://books.goalkicker.com/AndroidBook/

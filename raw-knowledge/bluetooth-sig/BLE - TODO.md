@@ -16,3 +16,4 @@ Urządzenie może być we wszystkich stanach na raz - Advertising, Scanning i mi
 - [ ] Uporządkować całą wiedzę na temat technologii (foldery? linki?)
 - [ ] Opisać Application layer z punktu widzenia Androida (Android API)
 - [x] Zbadać stronę Bluetootha pod kątem BLE (i mesha?)
+- [ ] kupić lampkę BLE i pobawić się nią w praktyce (ze snifferem, wiresharkiem np.)

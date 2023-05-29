@@ -15,3 +15,4 @@ drawables-xxxhdpi
 > [!NOTE] Rzucić linkiem do tego, jakie wartości mają poszczególne telefony, tablety, etc.
 
 
+Można definiować własne grafiki ([[custom drawables]])

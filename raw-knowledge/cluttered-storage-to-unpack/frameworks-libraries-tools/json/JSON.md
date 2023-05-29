@@ -1,4 +1,5 @@
 #tech-area/data-storage
+#status/2-backlog
 
 Ustandaryzowany format pliku, który umożliwia przesyłanie informacji między różnymi platformami
 Można zamienić obiekt na JSON-owy string, a można i w drugą stronę - zamienić string z pliku na obiekty [[POJO]].
@@ -31,3 +32,4 @@ Przykład syntaxu:
 
 ```
 
+https://jsonformatter.org/

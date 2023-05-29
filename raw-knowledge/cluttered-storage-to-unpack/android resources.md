@@ -5,16 +5,7 @@
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 
-Różne typy resourców:
-- drawable
-- font
-- layout
-- menu
-- navigation (?)
-- transition (?)
-- values (strings, styles, etc.)
-- xml
-- animation(??)
+Istnieją różne [[Android Resource Type|typy resource'ów]].
 
 Qualifiers (można ustawiać różne wartości dla konkretnych konfiguracji urządzeń):
 - country code (?)

@@ -12,3 +12,21 @@ up: [[000 HOME]]
 - [[082 Jenkins]]
 - [[083 TeamCity]]
 - [[084 Travis CI]]
+- [[085 Circle CI]]
+- [[086 Bitrise]]
+
+---
+
+Skrypty można pisać w języku skryptowym (bash, itp.). Można pisać skrypty w Fastlane.
+
+Jenkinsfile
+
+Jenkins
+
+Aplikacja służąca do automatyzacji budowania. Można w niej na przykład "zakodzić" budowanie się projektu codziennie wieczorem.
+
+Można ją powiązać z gitem i budować tylko określone branche.
+
+Każdy build to tzw. job.
+
+Android - można budować na przykład plik .apk

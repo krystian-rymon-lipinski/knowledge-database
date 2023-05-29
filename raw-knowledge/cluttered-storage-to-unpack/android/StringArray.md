@@ -1,4 +1,5 @@
-#status/3-freezer 
+up: [[android resources]]
+#status/3-freezer
 #tech-area/android 
 
 Definiowanie łańcuchów w tablicy, które można później wywołać jak zwykły resource.

@@ -20,3 +20,7 @@ apply plugin: 'com.android.library'
 ```
 
 Zbudowanie takiego modułu spowoduje utworzenie pliku .AAR. (Podobny do .JAR, ale ma jeszcze np. resources.)
+
+---
+
+Może każdy dający się wyodrębnić feature androidowy powininen być osobnym modułem? Zapisywanie konfiguracji (SharedPreferences), bilbioteka BT, operacje WiFi, REST API… Wówczas te moduły spełniałyby jakąś podstawową funkcjonalność, grupując kilka klas z bilbioteki i można by ich łatwo użyć i rozbudować.

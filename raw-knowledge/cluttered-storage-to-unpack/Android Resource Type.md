@@ -5,7 +5,7 @@ W Androidzie są różne typy resourców. Definiuje się je w różnych
 - animacje
 	- res/animator/
 	- res/anim/
-- res/drawable
+- res/drawable ([[android drawable resources]])
 - res/layout/
 - res/menu/
 - res/color/

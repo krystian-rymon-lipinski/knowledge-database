@@ -2,6 +2,7 @@
 #status/3-freezer 
 
 Można zdefiniować pliki typu drawable, żeby robiły za kształt buttona albo tła.
+Można definiować różne drawable dla różnych stanów poprzez [[Android resource selector]]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  

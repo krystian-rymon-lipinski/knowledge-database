@@ -5,7 +5,7 @@ up: [[013.1 Retrofit MOC]]
 ```kotlin
 val httpClient = Retrofit.Builder()
 	.baseUrl("chosenUrl.com") // główny entry point serwera
-	.addConvertedFactory(GsonConvertedFactory.create()) // konwerter obiektów JSON; są różne konwertery, wybór konkretnego zależy od formatu danych przychodzących z serwera
+	.addConvertedFactory(GsonConvertedFactory.create()) // konwerter dla biblioteki GSON; są różne konwertery, wybór konkretnego zależy od formatu danych przychodzących z serwera
 	.build()
 	
 val httpService = httpClient.create(HttpService::class.java) // utworzenie serwisu

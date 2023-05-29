@@ -29,6 +29,7 @@ W przypadku niektórych implementacji (np. sensorów BLE) wszystkie te moduły p
 - [[0073 Security Manager|Security Manager]]
 - [[GATT Layer]]
 - [[0078 GAP Layer|GAP Layer]]
+- Application Layer, różny w zależności od platformy, np. [[BLE Android API]]
 
 ---
 Na przestrzeni kolejnych wersji poprawie ulegały różne stałe opisujące możliwości technologii. Wykaz zmian dostępny jest tu: [[BLE - Bluetooth 5.0 changes]].

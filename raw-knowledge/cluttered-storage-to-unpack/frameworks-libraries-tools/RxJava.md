@@ -1,4 +1,4 @@
-#status/4-liquid-nitrogen 
+#status/4-liquid-nitrogen
 
 Biblioteka (framework?). Opiera się na wzorcu Obserwatora.
 
@@ -33,3 +33,13 @@ private Subscriber<List<ThunderBoardDevice>> discover =
     };  
 }
 ```
+
+---
+
+Programowanie reaktywne - oparte na wzorcu obserwatora [https://www.tutorialspoint.com/rxjava/rxjava_single_observable.htm](https://www.tutorialspoint.com/rxjava/rxjava_single_observable.htm)
+
+Czy to jest Functional Reactive Programming?
+
+Observable i Observer - dwa kluczowe obiekty programowania reakcyjnego Observable - strumień danych [tak jakby], ich źródło Observer - subskrybuje strumień danych - odbiera te dane
+
+Observable wysyła - Observer wywołuje onNext() Observable kończy wysyłanie - Observer wywołuje onCompleted() Observable rzuca bład - Observer wywołuje onError()

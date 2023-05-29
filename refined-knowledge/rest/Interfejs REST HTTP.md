@@ -8,7 +8,7 @@ up: [[100 REST]]
 3. **Nagłówki HTTP** - dostarczają dodatkowych informacji o zapytaniu; najczęściej używane to:
 	- _Content-Type_: format danych zapytania, np. "application/json" dla danych typu JSON
 	- _Authorization_: [[Uwierzytelnienie zapytania HTTP|uwierzytelnienie zapytania HTTP]]
-	- _Accept_: oczekiwany format odpowiedzi (sformatowanie danych w konkretny sposób, np. JSON, XML, etc.)
+	- _Accept_: oczekiwany format odpowiedzi, np. JSON, XML, etc.
 4. **Parametry zapytania** - używane do filtrowania, sortowania, kryteriów wyszukiwania, etc.
 5. **Dane zapytania _(ang. request body)_** - potrzebne dla niektórych niektóre metod (POST, PUT, etc.) wymagających wysłania danych na serwer; format danych może być różny i zależy od wymagań API serwera
 

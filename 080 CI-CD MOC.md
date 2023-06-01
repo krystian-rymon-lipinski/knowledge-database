@@ -1,32 +1,19 @@
 up: [[000 HOME]]
-#status/2-backlog 
-#tech-area/ci-cd 
 
-**Continouos Integration/Continuous Delivery** - automatyzacja budowania kodu wrzucanego na zdalne repozytorium
+**Continuous Integration/Continuous Delivery** - automatyczne wykonywanie operacji na kodzie źródłowym trzymanym na zdalnym repozytorium w reakcji na określone zdarzenie _(trigger)_
 
 - [[Continuous Integration]]
 - [[Continuous Delivery]]
 
-**Można wybrać różne narzędzia oferujące funkcjonalności CI/CD:**
-- [[081 GitHub Actions]]
-- [[082 Jenkins]]
-- [[083 TeamCity]]
-- [[084 Travis CI]]
-- [[085 Circle CI]]
-- [[086 Bitrise]]
+**Różne narzędzia oferują funkcjonalności CI/CD:**
+- [[081 GitHub Actions]] (YAML)
+- [[110 Azure DevOps]] (YAML)
+- [[083 Jenkins]] (Jenkinsfile pisany w Groovy DSL)
+- [[084 TeamCity]]
+- [[085 Travis CI]]
+- [[086 Circle CI]]
+- [[087 Bitrise]]
 
----
+Automatyzację można zaimplementować korzystając z interfejsu narzędzia lub pisząc skrypt w rozmaitych językach: [[YAML]], bash, PowerShell, Groovy, Python, etc.
 
-Skrypty można pisać w języku skryptowym (bash, itp.). Można pisać skrypty w Fastlane.
-
-Jenkinsfile
-
-Jenkins
-
-Aplikacja służąca do automatyzacji budowania. Można w niej na przykład "zakodzić" budowanie się projektu codziennie wieczorem.
-
-Można ją powiązać z gitem i budować tylko określone branche.
-
-Każdy build to tzw. job.
-
-Android - można budować na przykład plik .apk
+Konkretne operacje automatyzacji projektu Androidowego można definiować w skrypcie jako [[Zadania Gradle|zadania Gradle]], np. `assembleDebug`, etc.

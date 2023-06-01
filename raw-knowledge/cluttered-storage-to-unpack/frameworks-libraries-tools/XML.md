@@ -1,3 +1,4 @@
+#tech-area/data-storage
 xml-knowledge
 
 Docs: https://www.w3.org/TR/REC-xml/
@@ -57,5 +58,3 @@ Do tworzenia zawartości plików XML służy XMLSerializer.
 I ogólnie android.util.xml.
 
 Do odczytu zawartości plików XML służy XMLPullParser.
-
-#tech-area/data-storage 

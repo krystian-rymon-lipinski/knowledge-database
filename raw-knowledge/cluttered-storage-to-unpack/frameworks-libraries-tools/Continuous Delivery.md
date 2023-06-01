@@ -3,7 +3,6 @@ X: [[Continuous Integration]]
 #status/2-backlog 
 #tech-area/ci-cd 
 
-### Continuous Delivery
-Automatyzacja czynności potrzebnych do wypuszczenia w świat kolejnej wersji aplikacji (**deployu**). Wykonywana po to, aby deweloperzy nie musieli za każdym razem robić tego sami. 
+**Automatyzacja wypuszczenia aplikacji (lub jej kolejnej wersji) na produkcję.**
 
 Chodzi o takie rzeczy jak np. podpisanie aplikacji kluczem, wypchnięcie jej do sklepu, dołączenie do pliku aplikacji dokumentacji, etc.

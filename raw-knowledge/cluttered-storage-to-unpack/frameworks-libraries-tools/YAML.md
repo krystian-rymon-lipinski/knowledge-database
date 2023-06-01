@@ -1,6 +1,28 @@
 #status/4-liquid-nitrogen 
+#tech-area/data-storage
 
-### YAML
-Język programowania, który jest wykorzystywany do tworzenia danych, które potem można odczytać. 
+**YAML (YAML Ain't Markup Language) to format serializacji danych, wykorzystywany do ich trzymania i wymiany między dwoma zainteresowanymi stronami** (np. między dwoma różnymi językami programowania).
 
-Jest zbiorem nadrzędnym dla [[JSON]]-a.
+**Spacje i wcięcia są istotne i są częścią syntaxu!**
+
+```yaml
+key: value
+number: 42
+float: 3.14
+boolean: true
+nullValue: null
+array:
+  - item1
+  - item2
+  - item3
+nestedObject:
+  key1: value1
+  key2: value2
+multilineString: |
+  This is a
+  multiline
+  string
+```
+
+---
+https://yaml.org/spec/1.2.2/

@@ -35,10 +35,11 @@
 	- [x] tags
 	- [x] aliases
 - [x] Retrofit / REST API
+- [ ] [[080 CI-CD MOC]]
+- [ ] [[YAML]]
 - [ ] [[Firebase]]
 - [ ] Hilt/Dagger
 - [ ] [[UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
-- [ ] CI/CD
 - [ ] SOLID
 - [ ] Room
 - [ ] JSON -> GSON -> Moshi
@@ -61,8 +62,8 @@
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 - [ ] Android: level 2
 	- [ ] [[android resources|xml resources]]
-	- [ ] [[android MaterialDesign]]
-	- [ ] android UI design ([[figma]]; mockflow?)
+	- [ ] [[Material Design]]
+	- [ ] android UI design ([[Figma]]; mockflow?)
 
 https://infinum.com/blog/top-10-android-libraries-every-android-developer-should-know-about/
 

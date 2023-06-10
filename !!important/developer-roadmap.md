@@ -35,14 +35,15 @@
 	- [x] tags
 	- [x] aliases
 - [x] Retrofit / REST API
-- [ ] [[080 CI-CD MOC]]
-- [ ] [[YAML]]
-- [ ] [[Firebase]]
-- [ ] Hilt/Dagger
+- [x] [[080 CI-CD MOC]]
+- [x] [[YAML]]
+- [ ] [[013.3 Espresso MOC]]
 - [ ] [[UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
-- [ ] SOLID
 - [ ] Room
+- [ ] Hilt/Dagger
+- [ ] SOLID
 - [ ] JSON -> GSON -> Moshi
+- [ ] [[Firebase]]
 - [ ] Android: level 1
 	- [ ] Clean Architecture / rozbijanie projektu na warstwy
 	- [ ] Android Jetpack
@@ -50,7 +51,10 @@
 	- [ ] coroutines / multithreading
 	- [ ] State Flow / Shared Flow
 	- [ ] Android navigation elements
-	
+- [ ] Kotlin: level 1
+	- [ ] Java / Kotlin interoperability annotations: @JvmStatic, @JvmField, @Nullable, @Non-null
+	- [ ] enums vs. sealed classes
+	- [ ] lambdas / higher order functions
 - [ ] Lint
 - [ ] ProGuard
 - [ ] [[Annotacje]]
@@ -84,9 +88,10 @@ https://infinum.com/blog/top-10-android-libraries-every-android-developer-should
 	- [ ] .gitignore i [[Wzorce z symbolami wieloznacznymi]]
 - [ ] Testing: level 1
 	- [ ] unit testing: JUnit 5
-	- [ ] integration tests: espresso
+	- [ ] UI tests: espresso
 	- [ ] integration tests: what are those?
 - [ ] RegEx pattern logic
+- [ ] DRY - don't repeat yourself, YAGNI - you ain't gonna need it
 - [ ] Javadoc / Kotlindoc ([https://blog.joda.org/2012/11/javadoc-coding-standards.html](https://blog.joda.org/2012/11/javadoc-coding-standards.html))
 - [ ] [refactoring](https://refactoring.guru/refactoring)
 - [ ] Gradle: level 2

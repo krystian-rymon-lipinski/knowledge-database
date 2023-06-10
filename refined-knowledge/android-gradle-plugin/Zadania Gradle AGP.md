@@ -5,7 +5,8 @@ up: [[071 Android Gradle Plugin MOC]]
 **Dodatkowe [[Zadania Gradle|zadania Gradle]] definiowane przez Android Gradle Plugin.**
 
 Przydatne:
-- `assemble` - tworzy [[Plik wykonywalny .apk|plik wykonywalny .apk]] dla wybranych [[Warianty projektu Android|wariantów projektu]]
+- `assemble` - buduje projekt bez instalowania go i tworzy [[Plik wykonywalny .apk|plik wykonywalny .apk]] dla wybranych [[Warianty projektu Android|wariantów projektu]]
+- `test` - odpalenie [[014 Android Testing|testów lokalnych]] projektu; dla wariantów konwencja nazewnicza tego zadania to `test<Variant>UnitTest`
 - `install<variant_name>` - instaluje konkretny wariant aplikacji na urządzeniu
 - `sourceSets` - pokazuje domyślną strukturę [[Zbiory źródeł|zbiorów źródeł]] dla wszystkich wariantów
 - `androidDependencies` - pokazuje aktualne zależności w projekcie, łącznie z [[Dependencje tranzytywne|dependencjami tranzytywnymi]]

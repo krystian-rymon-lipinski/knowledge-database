@@ -9,7 +9,9 @@ Odpalane są na maszynie programisty lub na serwerze odpowiedzialnym za automaty
 
 ###### Testy instrumentacyjne  
 
-Odpalane są na zewnętrznym urządzeniu z Androidem (telefonie, tablecie, etc.) lub w emulatorze. Są to albo [[Testy UI|testy UI]] albo [[Testy integracyjne|testy integracyjne]].
+Odpalane są na zewnętrznym urządzeniu z Androidem (telefonie, tablecie, etc.) lub w [[Emulator Android Studio|emulatorze]]. Są to albo [[Testy UI|testy UI]] albo [[Testy integracyjne|testy integracyjne]].
+
+**Jeżeli są odpalane na fizycznym urządzeniu, musi ono być włączone i odblokowane!**
 
 Foldery do plików źródłowych dla testów modułu zlokalizowane są pod ścieżką: `src/androidTest/`.
 Korzystanie z bibliotek do testów instrumentacyjnych jest możliwe po dodaniu ich do projektu z konfiguracją `androidTestImplementation`.

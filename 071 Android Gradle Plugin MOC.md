@@ -39,7 +39,7 @@ Pozostałe bloki do wykorzystania:
 ├── externalNativeBuild 
 ├── sourceCompatibility 
 ├── targetCompatibility 
-├── testOptions 
+├── testOptions - poprzez `resultsDir` można zmienić lokalizację generowania rezultatów testów; domyślna wartość to `build/test-results`
 ├── jacoco 
 ├── adbOptions - przydatne np. przy zwiększaniu timeoutu, jeśli na deploy rzeczy dzieją się długo (i wywalają ShellCommandUnresponsiveException)
 ├── advancedProfilingTransforms 

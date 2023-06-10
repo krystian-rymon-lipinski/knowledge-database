@@ -1,10 +1,15 @@
+#status/0-revision-needed
+#android/app-navigation 
+#android/app-architecture
+#android/gradle-dependency
+
 Służy do nawigowania po aplikacji. Pozwala na utworzenie grafu, którego wierzchołki są miejscami docelowymi aplikacji (aktywności, fragmenty). Każda aktywność może mieć tylko jeden graf, można co najwyżej zdefiniować akcję przejścia do innej, ale po wejściu do niej musi ona definiować swój własny graf.
 
 Potrzebne dependencje:
 ```kotlin
-implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"  
-implementation "androidx.navigation:navigation-ui-ktx:$nav_version"  
-implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+implementation("androidx.navigation:navigation-ui-ktx:$nav_version") 
+implementation("androidx.navigation:navigation-dynamic-features-fragment:$nav_version")
 ```
 
 1) Navigation Graph
@@ -27,14 +32,17 @@ Jest to nowy typ resources o typie Navigation. Każdy fragment ma swoje id, name
 
 
 2) NavHostFragment
-W layoucie trzeba zdefiniować widok, który będzie odpowiedzialny za trzymanie poszczególnych zmieniających się fragmentów. 
+W layoucie trzeba zdefiniować widok, który będzie odpowiedzialny za trzymanie poszczególnych zmieniających się fragmentów. **Trzeba dodać id (dowolne), name (klasę tego specjalnego Fragmentu) i plik xml nawigacji, który opisuje graf przejść.**
 ```xml
 <androidx.fragment.app.FragmentContainerView  
-    android:name="androidx.navigation.fragment.NavHostFragment" <-- nazwa fragmentu -->
-    app:navGraph="@navigation/main_navigation" <!-- graf związany z widokiem -->
+	android:id="@+id/fragment_container" 
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:navGraph="@navigation/main_navigation"
     app:defaultNavHost="true"  
     tools:layout="@layout/fragment_scan"/>
 ```
+
+**Trzeba dodać bibliotekę z fragmentami, jeśłi jesxzce jej nie ma!**
 
 3) NavController
 To ta klasa ma za zadanie nawigować po fragmentach, cofać, brać z backstacka, etc.
@@ -67,6 +75,3 @@ Można również przekazywać argumenty między fragmentem a dialog fragmentem.
 
 https://developer.android.com/guide/navigation/navigation-getting-started
 https://developer.android.com/guide/navigation/navigation-programmatic
-#status/0-revision-needed 
-#android/app-navigation 
-#android/app-architecture 

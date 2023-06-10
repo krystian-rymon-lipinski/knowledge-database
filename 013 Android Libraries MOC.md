@@ -2,6 +2,7 @@ up: [[000 HOME]]
 
 ###### Network operations:
 - [[013.1 Retrofit MOC]]
+- [[Ktor]]
 - [[Chuck]]
 
 ###### Dependency Injection:
@@ -9,7 +10,9 @@ up: [[000 HOME]]
 - [[Hilt]]
 
 ###### Testing
-- [[Espresso]]
+- [[041 Junit MOC]]
+- [[042 Mockito MOC]]
+- [[013.3 Espresso MOC]]
 
 
 ###### Image Processing:

@@ -14,8 +14,7 @@ Dzięki temu nie tworzy on 1000 widoków dla takiego rozmiaru listy, ale tworzy 
 ```kotlin
 recyclerView?.let {
 	it.adapter = CustomAdapter() /* Adapter opisujący każdy pojedynczy widok. */
-	it.layoutManager = LinearLayoutManager() /* Manager opisujący układ widoków. */
-	/* Można zdefiniować własny. */
+	it.layoutManager = LinearLayoutManager(requireContext()) /* Manager opisujący układ widoków. Można zdefiniować własny. */
 }
 ```
 

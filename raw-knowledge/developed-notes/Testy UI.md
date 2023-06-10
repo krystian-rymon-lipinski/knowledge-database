@@ -5,7 +5,7 @@ up: [[014 Android Testing]]
 Testy pozwalające sprawdzić interakcję użytkownika z komponentami interfejsu użytkownika (czy po kliku w nie dzieją się pożądane rzeczy).
 
 Biblioteki pozwalające tworzyć testy UI:
-- [[Espresso]]
+- [[013.3 Espresso MOC]]
 - [[Robolectric]] (chyba)
 - Robotium?
 - UI automator?

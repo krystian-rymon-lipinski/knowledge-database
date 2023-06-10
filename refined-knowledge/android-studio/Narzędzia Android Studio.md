@@ -13,7 +13,8 @@ Można je sobie dodawać lub usuwać z pasków narzędzi, inny do nich dostęp j
 - struktura (aktualnie otwartego pliku) - właściwości, metody, etc.
 - serwisy (?)
 - VCS - po integracji z remote repo można tu przeglądać historię, branche, commity, pushować, fetchować i robić to wszystko, co umożliwia VCS
-- manager urządzeń - fizycznych i wirtualnych; to tuaj można utworzyć wirtualne urządzenie, by na nim odpalić emulator
+- manager urządzeń - fizycznych i wirtualnych; to tuaj można utworzyć wirtualne urządzenie, by na nim odpalić emulator; **tutaj można też (dla Android 11+) sparować urządzenie, żeby debuggować je przez Wi-Fi zamiast po kablu (wymaga odblokowania "Wireless debugging" w developer options)**
+- running devices - umożliwia [[phone mirroring]] two-way
 - emulator (by odpalić aplikację na wirtualnym urządzeniu - przewaga jest taka, że może ono być dowolne)
 - profiler - mierzenie zużycia pamięci, CPU, baterii i innych ważnych elementów urządzenia
 - app inspection - **dla połączonego urządzenia!**; badanie bazy danych, wykorzystania sieci i zadań wykonywanych w tle

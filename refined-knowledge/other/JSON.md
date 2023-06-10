@@ -1,6 +1,6 @@
 #data-storage
 
-**JSON (JavaScript Object Notation) to format serializacji danych wykorzystywany do ich trzymania i wymiany między dwiema zainteresowanymi stronami** (np. klientem i serwerem). 
+**JSON (JavaScript Object Notation) to format serializacji danych umożliwiający wymianę informacji między dwiema zainteresowanymi stronami** (np. klientem i serwerem). 
 
 Odebranie danych od drugiej strony wymaga ich deserializacji na [[POJO|obiekty POJO]]. Można do tego użyć konwerterów: [JSON2Kotlin](https://json2kt.com/index.php), [JSON2POJO](https://www.jsonschema2pojo.org/).
 

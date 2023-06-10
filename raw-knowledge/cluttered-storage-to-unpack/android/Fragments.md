@@ -3,6 +3,22 @@
 
 **Nie można podawać żadnych parametrów w konstruktorze Fragmentu! FragmentManager nic o tym nie wie, więc przy odtwarzaniu go (np. przy zmianach orientacji lub jakiejkolwiek innej konfiguracji) i tak nie będzie o tym wiedział.**
 
+**Można wymieniać informacje między fragmentami (na tym samym poziomie lub parent-child) poprzez FragmentListeners i FragmentResults, tak jak [tutaj](https://developer.android.com/guide/fragments/communicate#fragment-result)**.
+
+Dla komunikacji DialogFragment -> Fragment:
+```kotlin
+/* Fragment*/
+parentFragmentManager.setFragmentResultListener(KEY, this) { 
+	key: String, bundle: Bundle ->   
+	    /* Do something */
+}
+
+/* DialogFragment */
+setFragmentResult(KEY, bundleOf())
+```
+
+
+
 - trzeba rozszerzyć klasę fragment z biblioteki AndroidX (można z R.layout.x)
 - supportFragmentManager pomaga robić rzeczy na fragmentach, znajdować po id, po tagach, ogarniać backstacki itd.
 - żeby pokazać/zamieniać/usuwać fragmenty na ekranie, trzeba skorzystać z fragment transcations; każdą transakcję trzeba zacommitować

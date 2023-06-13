@@ -39,7 +39,7 @@
 - [x] [[YAML]]
 - [ ] [[013.3 Espresso MOC]]
 - [ ] [[UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
-- [ ] Room
+- [ ] [[013.4 Room]]
 - [ ] Hilt/Dagger
 - [ ] SOLID
 - [ ] JSON -> GSON -> Moshi

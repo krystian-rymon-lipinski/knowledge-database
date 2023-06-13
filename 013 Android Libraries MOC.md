@@ -9,10 +9,13 @@ up: [[000 HOME]]
 - [[dagger]]
 - [[Hilt]]
 
-###### Testing
+###### Testing:
 - [[041 Junit MOC]]
 - [[042 Mockito MOC]]
 - [[013.3 Espresso MOC]]
+
+###### Data storage:
+- [[013.4 Room]]
 
 
 ###### Image Processing:

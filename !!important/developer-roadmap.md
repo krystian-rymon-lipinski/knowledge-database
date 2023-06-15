@@ -37,11 +37,11 @@
 - [x] Retrofit / REST API
 - [x] [[080 CI-CD MOC]]
 - [x] [[YAML]]
-- [ ] [[013.3 Espresso MOC]]
-- [ ] [[UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
-- [ ] [[013.4 Room]]
-- [ ] Hilt/Dagger
+- [x] [[013.4 Room]]
+- [ ] [[120 UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
+- [ ] [[Hilt]]
 - [ ] SOLID
+- [ ] [[013.3 Espresso MOC]]
 - [ ] JSON -> GSON -> Moshi
 - [ ] [[Firebase]]
 - [ ] Android: level 1

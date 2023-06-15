@@ -9,7 +9,7 @@ interface UserDao {   
 	fun getAll(): List<User>
 
 	@Query("SELECT * FROM user WHERE age > :minAge") /* Parametr włączony do zapytania SQL */
-	fun getAllOlderThen(minAge: Int) : List<USer>
+	fun getAllOlderThan(minAge: Int) : List<USer>
 	
 	@Insert
 	fun insertAll(vararg users: User)

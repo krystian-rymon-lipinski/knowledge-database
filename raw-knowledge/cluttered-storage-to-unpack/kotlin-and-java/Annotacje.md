@@ -1,3 +1,6 @@
+#tech-area/java
+#status/3-freezer
+
 Annotacje. Po coś chyba są.
 Wylistować.
 
@@ -13,4 +16,3 @@ For example: @Override annotation makes the compiler look for the same method in
 
 @NonNull i @Nullable - W polach klas czy w konstruktorze? A może tu i tu?
 
-#tech-area/java

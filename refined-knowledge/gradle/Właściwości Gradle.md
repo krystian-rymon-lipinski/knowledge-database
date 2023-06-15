@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Gradle umożliwia definiowanie właściwości przechowujących wartości na kilka różnych sposobów.**
 

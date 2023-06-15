@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Konfigurowanie lokalnych ustawień Gita odbywa się za pomocą komendy `git config` z wybranym parametrem. Pliki zachowujące konfigurację obecne są na trzech poziomach:**
 

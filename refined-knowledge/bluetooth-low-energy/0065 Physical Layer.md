@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 **Warstwa odpowiedzialna za transmitowanie i odbieranie sygnałów analogowych na dedykowanych [[0043 Kanały BLE|kanałach]].**
 

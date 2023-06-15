@@ -1,4 +1,4 @@
-up: [[080 CI-CD MOC]]
+up: [[070 CI-CD MOC]]
 #status/2-backlog
 #tech-area/ci-cd
 

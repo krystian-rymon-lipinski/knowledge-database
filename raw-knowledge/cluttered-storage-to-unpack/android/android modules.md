@@ -7,7 +7,7 @@ android-modules
 [[Wieloprojektowy build]]
 
 
-Aplikacja androida MUSI mieć przynajmniej jeden moduł aplikacji, definiowany w [[070 Gradle MOC]] poprzez:
+Aplikacja androida MUSI mieć przynajmniej jeden moduł aplikacji, definiowany w [[060 Gradle MOC]] poprzez:
 
 apply plugin: 'com.android.application'
 

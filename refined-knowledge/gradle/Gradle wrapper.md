@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Umożliwia wykonywanie skryptów Gradle i budowanie jego projektów bez manualnego pobierania plików Gradle na lokalne urządzenie.** W to miejsce wystarczy podać pożądaną wersję tego narzędzia w pliku konfiguracyjnym - jeżeli projekt nie będzie jej posiadał, wrapper ją pobierze. Takie podejście ułatwia aktualizację Gradle (wystarczy ją podmienić w pliku konfiguracyjnym) i pracę grupy na tej samej wersji (poprzez wrzucenie pliku konfiguracyjnego wrappera do repozytorium).
 

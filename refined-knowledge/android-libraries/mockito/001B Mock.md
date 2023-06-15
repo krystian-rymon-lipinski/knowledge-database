@@ -1,4 +1,4 @@
-up: [[042 Mockito MOC]]
+up: [[013.2 Mockito MOC]]
 
 **Imitacja obiektu. Jego zachowanie można wymuszać oraz sprawdzać podczas testów jednostkowych.**
 

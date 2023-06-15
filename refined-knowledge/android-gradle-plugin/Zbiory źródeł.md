@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 
 **Zbiór źródeł *(ang. source set)* to nic innego jak folder zawierający kod źródłowy i zasoby projektu.** Dla każdego nowego modułu androidowego Android Studio automatycznie tworzy foldery, z których korzystają wszystkie warianty *buildu*:
 - `src/main` - dla plików źródłowych implementacji

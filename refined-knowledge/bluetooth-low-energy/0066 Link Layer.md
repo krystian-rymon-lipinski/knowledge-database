@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 **Warstwa bezpośrednio powiązana z warstwą fizyczną. Jest implementowana jako mieszanka hardware'u i software'u.** Dokumentacja nakłada na nią ograniczenia czasowe, więc najczęściej jest ona izolowana od pozostałych warstw stosu protokołów interfejsem (Kontroler-Host Interfejs), a jej obliczenia prowadzone są na osobnym procesorze, czy wręcz na osobnym obwodzie elektrycznym.
 

@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 Gradle jako narzędzie samo w sobie nie daje większych możliwości automatyzacji. Do tego służą pluginy, które **definiują dodatkowe zadania, obiekty, konwencje, konfiguracje**, etc., które można później **wykorzystać w skrypcie `build.gradle`** (na poziomie projektu i w każdym z modułów).
 

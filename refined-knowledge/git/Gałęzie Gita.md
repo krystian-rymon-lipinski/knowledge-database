@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Gałęzie, to nic innego jak wskaźniki na konkretne _commity_ w repozytorium.** Utworzenie nowej gałęzi, to tak naprawdę utworzenie nowego wskaźnika. Git trzyma gałęzie jako pliki, które zawierają checksumę wskazującą na konkretny commit. Zawierają więc ledwie 40 bajtów (bo tyle waży checksuma) plus 1 dodatkowy przewidziany na nową linię.
 

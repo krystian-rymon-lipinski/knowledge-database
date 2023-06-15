@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Użyteczne modele przy pracy z gitem w większej grupie autorów.**
 

@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **W ramach [[Konfiguracja Gita|konfiguracji]] można dodać alias do dowolnej komendy Gita.**
 

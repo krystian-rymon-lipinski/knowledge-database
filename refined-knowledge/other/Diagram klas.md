@@ -1,4 +1,4 @@
-up: [[120 UML]]
+up: [[110 UML]]
 #tech-area/design
 #status/1-in-progress
 

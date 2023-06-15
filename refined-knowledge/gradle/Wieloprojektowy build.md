@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 ***Build*, który składa się z projektu głównego (_rootProject)_ i subprojektów, zwnych również modułami.**
 

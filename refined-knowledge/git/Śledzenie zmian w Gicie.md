@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Git nie zapisuje zmian między plikami, ale zapisuje pliki w ich różnych stanach jako tzw. _snapshots_. Każdy nowy commit powoduje wygenerowanie nowego _snapshota_.**
 

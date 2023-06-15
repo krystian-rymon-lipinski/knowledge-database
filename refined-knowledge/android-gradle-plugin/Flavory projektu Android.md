@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 X: [[Typy buildu projektu Android]]
 
 **Jeden z elementów [[Warianty projektu Android|wariantu]]. Pozwala tworzyć różne wersje tej samej aplikacji. Każdy z nich musi należeć do [[Grupy flavorów|grupy]].**

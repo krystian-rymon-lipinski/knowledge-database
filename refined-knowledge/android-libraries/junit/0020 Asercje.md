@@ -1,4 +1,4 @@
-up: [[041 Junit MOC]]
+up: [[013.1 Junit MOC]]
 
 **Metody wspomagające testowanie. Sprawdzają, czy wartości oczekiwane są równe tym rzeczywiście otrzymanym w wyniku wywołania metody.**
 

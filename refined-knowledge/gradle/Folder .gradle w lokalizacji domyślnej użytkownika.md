@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Używany do trzymania globalnej konfiguracji narzędzia Gradle na urządzeniu użytkownika.** Ponadto zawiera skrypty inicjalizacyjne, scache'owane wersje gradle, pliki logów oraz wersje Gradle pobrane przez wrapper.
 

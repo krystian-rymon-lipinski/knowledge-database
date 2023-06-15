@@ -1,6 +1,6 @@
 #status/4-liquid-nitrogen 
 
-Biblioteka do pisania testów UI - coś jak [[013.3 Espresso MOC]], ale na obie platformy jednocześnie.
+Biblioteka do pisania testów UI - coś jak [[013.5 Espresso MOC]], ale na obie platformy jednocześnie.
 
 I generalnie jest ooooogrom setupu.
 Jakaś konfiguracja jest robiona osobno dla poszczególnych platform. Gdzie dla androida jakoś można użyć Espresso i tak?

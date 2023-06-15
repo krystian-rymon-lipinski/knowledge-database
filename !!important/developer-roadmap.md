@@ -35,13 +35,13 @@
 	- [x] tags
 	- [x] aliases
 - [x] Retrofit / REST API
-- [x] [[080 CI-CD MOC]]
+- [x] [[070 CI-CD MOC]]
 - [x] [[YAML]]
-- [x] [[013.4 Room]]
-- [ ] [[120 UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
+- [x] [[013.6 Room]]
+- [ ] [[110 UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
 - [ ] [[Hilt]]
 - [ ] SOLID
-- [ ] [[013.3 Espresso MOC]]
+- [ ] [[013.5 Espresso MOC]]
 - [ ] JSON -> GSON -> Moshi
 - [ ] [[Firebase]]
 - [ ] Android: level 1

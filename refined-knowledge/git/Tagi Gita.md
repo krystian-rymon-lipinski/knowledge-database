@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Umożliwiają oznaczanie istotnych _commitów_, np. _releasowych_.** Istnieją dwa typy tagów:
 - lekkie _(ang. lightweight)_ - wskaźnik na konkretny commit i nic więcej, nie posiada nawet wiadomości

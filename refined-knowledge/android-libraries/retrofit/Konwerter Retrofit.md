@@ -1,4 +1,4 @@
-up: [[013.1 Retrofit MOC]]
+up: [[013.3 Retrofit MOC]]
 #android/gradle-dependency 
 
 **Umożliwia automatyczną transformację surowych danych w konkretnym formacie na obiekty [[POJO Retrofit|POJO Retrofit]] i z powrotem poprzez serializację i deserializację.**

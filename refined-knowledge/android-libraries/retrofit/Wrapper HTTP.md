@@ -1,4 +1,4 @@
-up: [[013.1 Retrofit MOC]]
+up: [[013.3 Retrofit MOC]]
 
 **Zamiana HTTP API na interfejs Java/Kotlin przy użyciu [[Annotacje|annotacji]].** Metody interfejsu powinny zwracać obiekt typu `Call<T>`, gdzie `T` jest typem obiektu [[POJO Retrofit|POJO Retrofit]], który będzie zwrócony przez serwer. Można również zażądać w to miejsce obiektu typu `Call<ResponseBody>` - wówczas przesłane zostaną surowe bajty.
 

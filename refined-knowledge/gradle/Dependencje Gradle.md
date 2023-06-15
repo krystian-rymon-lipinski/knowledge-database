@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Są to zewnętrzne biblioteki i moduły, które definiują przydatną dla projektu funkcjonalność.** Zamiast pisać ją na nowo, można użyć gotowego komponentu.
 

@@ -1,4 +1,4 @@
-up: [[100 REST]]
+up: [[090 REST]]
 
 **Najmniejsza jednostka informacji w architekturze REST _(ang. resource)_.** Jego stan jest definiowany jako **reprezentacja zasobu _(ang. resource representation)_** i składa się z:
 - danych

@@ -3,7 +3,7 @@ up: [[010 Android MOC]]
 #tech-area/android/ble
 
 **Implementacja obsługi połączenia Bluetooth z urządzeniami Low Energy.**
-Opiera się na teorii [[060 Bluetooth Low Energy MOC|Bluetooth Low Energy]].
+Opiera się na teorii [[050 Bluetooth Low Energy MOC|Bluetooth Low Energy]].
 
 Podstawowe klasy do obsługi Bluetootha w Androidzie:
 - **BluetoothManager** - zwraca stan połączenia; może też otworzyć połączenie w roli serwera. wówczas urządzenie się rozgłasza

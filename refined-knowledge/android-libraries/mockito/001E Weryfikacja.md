@@ -1,4 +1,4 @@
-up: [[042 Mockito MOC]]
+up: [[013.2 Mockito MOC]]
 
 **Sprawdzenie, czy mock podlegał  interakcjom podczas testowego wywołania metody na obiekcie.** Możliwe jest skontrolowanie samego faktu wywołania metody, jak również jej parametrów i kolejności.
 

@@ -6,8 +6,8 @@ up: [[000 HOME]]
 - [[Continuous Delivery]]
 
 **Różne narzędzia oferują funkcjonalności CI/CD:**
-- [[081 GitHub Actions]] (YAML)
-- [[110 Azure DevOps]] (YAML)
+- [[071 GitHub Actions]] (YAML)
+- [[100 Azure DevOps]] (YAML)
 - [[083 Jenkins]] (Jenkinsfile pisany w Groovy DSL)
 - [[084 TeamCity]]
 - [[085 Travis CI]]

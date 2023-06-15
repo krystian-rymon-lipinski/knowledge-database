@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Zadania Gradle** (_ang. Gradle tasks_) **to części _buildu_, które wykonują określoną pracę.** Przykładowe zadania to skompilowanie kodu, wygenerowanie dokumentacji lub przejście testów jednostkowych.
 [[Najczęstsze zadania Gradle|Niektóre z nich]] są na tyle podstawowe, że posiadają własne konwencje - niezależnie od pluginu, w którym są zdefiniowane, robią dla projektu bardzo podobne rzeczy.

@@ -80,7 +80,7 @@ Generowanie dokumentacji.
 Dodatkowe narzędzia: App Links Assistant i Android Gradle Plugin Upgrade Assistant
 Firebase! Można się logować i robić tam jakieś rzeczy.
 Dużo konsol - IDE Scripting Console, JShell Console, Groovy Console, 
-10. VCS (np. [[090 Git MOC|Git]])
+10. VCS (np. [[080 Git MOC|Git]])
 Pierwsza rzecz to utworzenie repozytorium z poziomu AS. Wówczas można robić wszystkie rzeczy gitowe: ustawiać remote'y, klonować, commitować, branchować, pushować/pullować (jeśli jest gdzie i skąd), mergować, tagować, przeglądać liste commitów, rebaseować, itd., itp.
 11. Window
 Możliwość ustawienia domyślnego layoutu i powrót do niego - chodzi o ustawienie konkretnych okien narzędzi, nie wybranych tabów.

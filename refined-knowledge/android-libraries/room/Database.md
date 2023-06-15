@@ -1,4 +1,4 @@
-up: [[013.4 Room]]
+up: [[013.6 Room]]
 
 **Annotacja oznaczająca klasę pełniącą funkcję bazy danych.**
 

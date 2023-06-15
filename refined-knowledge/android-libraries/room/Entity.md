@@ -1,4 +1,4 @@
-up: [[013.4 Room]]
+up: [[013.6 Room]]
 
 **Annotacja dla klasy definiującej tablicę bazy danych. Każda instancja tej klasy oznacza kolejny wiersz w tablicy bazy danych, a jej pola - kolumny tablicy. 
 

@@ -1,4 +1,4 @@
-up: [[050 Design Patterns MOC]]
+up: [[040 Design Patterns MOC]]
 #status/3-freezer
 #tech-area/design-patterns 
 

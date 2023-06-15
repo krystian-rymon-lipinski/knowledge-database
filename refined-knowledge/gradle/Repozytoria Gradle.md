@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Lokalizacje, z których Gradle będzie w stanie pobierać wybrane dependencje i pluginy zadeklarowane do użycia w kodzie. Można je definiować zarówno dla całego projektu, jak i dla wybranych modułów.**
 Należy osobno definiować repozytoria dla dependencji i dla pluginów.

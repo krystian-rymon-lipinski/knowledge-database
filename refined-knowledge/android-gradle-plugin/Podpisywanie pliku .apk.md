@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 
 **Wszystkie [[Plik wykonywalny .apk|pliki .apk]] muszą zostać podpisane, jeśli mają zostać zainstalowane na urządzeniu!**
 

@@ -1,4 +1,4 @@
-up: [[050 Design Patterns MOC]]
+up: [[040 Design Patterns MOC]]
 #status/0-revision-needed 
 
 **Wzorzec zachowania. Pozwala powiadamiać obiekty o zdarzeniach.** Obiekt obserwowany posiada jakiś stan, którego zmianą mogą być zainteresowane inne obiekty. Ci interesanci mogą poprosić o dodanie na listę subskrybentów obiektu obserwowanego (lub usunięcie z niej). 

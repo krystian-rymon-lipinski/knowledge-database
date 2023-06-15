@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 Tłumaczy się na: Logical Link Control and Adaptation Protocol Layer
 

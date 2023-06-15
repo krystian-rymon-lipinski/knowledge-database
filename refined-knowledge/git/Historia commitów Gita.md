@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 
 **Zmiany dokonane w repozytorium można listować poprzez `git log`, który listuje WSZYSTKIE commity dla aktualnie aktywnego brancha - ich _checksumy_, autorów i daty. Można dopisać dodatkowe parametry, by wyfiltrować tylko wybrane.
 

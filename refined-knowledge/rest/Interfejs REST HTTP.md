@@ -1,4 +1,4 @@
-up: [[100 REST]]
+up: [[090 REST]]
 
 **Struktura zapytań i odpowiedzi słanych przez klienta i/lub serwer w architekturze REST, w których wymiana informacji odbywa się po protokole HTTP.**
 

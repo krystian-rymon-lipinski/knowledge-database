@@ -1,4 +1,4 @@
-up: [[042 Mockito MOC]]
+up: [[013.2 Mockito MOC]]
 
 **Obiekt z funkcjonalnościami [[001B Mock|mocka]]. Nie jest to imitacja, a pełnoprawny obiekt, na którym można wywoływać metody i oczekiwać efektu, a przy tym pozwala on na [[001D Stubbing|stubbing]] i [[001E Weryfikacja|weryfikację]].**
 

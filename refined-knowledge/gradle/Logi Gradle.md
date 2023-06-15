@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Jako że narzędzie do budowania zazwyczaj nie posiada swojego UI, logi są jedynym sposobem, by dowiedzieć się co dzieje się z projektem podczas wykonywania *tasków***.
 

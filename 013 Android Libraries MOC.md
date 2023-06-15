@@ -1,21 +1,21 @@
 up: [[000 HOME]]
 
 ###### Network operations:
-- [[013.1 Retrofit MOC]]
+- [[013.3 Retrofit MOC]]
 - [[Ktor]]
 - [[Chuck]]
 
 ###### Dependency Injection:
-- [[dagger]]
 - [[Hilt]]
+- [[dagger]]
 
 ###### Testing:
-- [[041 Junit MOC]]
-- [[042 Mockito MOC]]
-- [[013.3 Espresso MOC]]
+- [[013.1 Junit MOC]]
+- [[013.2 Mockito MOC]]
+- [[013.5 Espresso MOC]]
 
 ###### Data storage:
-- [[013.4 Room]]
+- [[013.6 Room]]
 
 
 ###### Image Processing:
@@ -23,7 +23,7 @@ up: [[000 HOME]]
 
 
 ###### Logging:
-- [[013.2 Timber]]
+- [[013.4 Timber]]
 
 ###### UI Components
 - [[FlexboxLayout]]

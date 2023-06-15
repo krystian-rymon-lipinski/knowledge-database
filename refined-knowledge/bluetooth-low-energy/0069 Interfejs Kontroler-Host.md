@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 **Zestaw komend, formatów danych i innych procedur służących do wymiany informacji między Kontrolerem a Hostem.**
 

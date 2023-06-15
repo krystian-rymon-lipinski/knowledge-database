@@ -1,4 +1,4 @@
-up: [[013.4 Room]]
+up: [[013.6 Room]]
 
 **DAO (Database Access Object) - annotacja dla klasy definiującej operacje możliwe do wykonania na tablicy bazy danych. Może być klasą abstrakcyjną lub interfejsem.**
 

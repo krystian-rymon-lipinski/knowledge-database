@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 **Protokół służący do zapewnienia bezpieczeństwa poprzez zastosowanie trzech mechanizmów:**
 - szyfrowanie - zastosowane na wszystkich pakietach wymienianych przez ustanowione połączenie 

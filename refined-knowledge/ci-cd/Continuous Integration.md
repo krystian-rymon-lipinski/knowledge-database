@@ -1,4 +1,4 @@
-up: [[080 CI-CD MOC]]
+up: [[070 CI-CD MOC]]
 X: [[Continuous Delivery]]
 
 **Automatyzacja budowania i testowania kodu wrzucanego na zdalne repozytorium.**

@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 
 **Definiowanie androidowych właściwości projektu Gradle potrzebnych do kompilacji, budowania oraz obecności aplikacji w [[011 Google Play Store|Google Play Store]]**.
 

@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 
 **Kombinacja [[Flavory projektu Android|flavoru]] i [[Typy buildu projektu Android|typu buildu]]. Każdy z elementów wariantu może definiować własny [[Zbiory źródeł|zbiór źródeł]] - osobne zasoby, manifest i kod źródłowy.
 

@@ -1,4 +1,4 @@
-up: [[070 Gradle MOC]]
+up: [[060 Gradle MOC]]
 
 **Plik służący do określania ustawień konfiguracyjnych procesu Javy, który będzie użyty do wykonywania *buildu***. Możliwe do ustawienia parametry wylistowane są [tutaj](https://docs.gradle.org/current/userguide/build_environment.html#sec:gradle_configuration_properties).
 

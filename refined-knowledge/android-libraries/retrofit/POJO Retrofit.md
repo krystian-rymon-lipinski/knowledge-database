@@ -1,4 +1,4 @@
-up: [[013.1 Retrofit MOC]]
+up: [[013.3 Retrofit MOC]]
 
 **Obiekt [[POJO|POJO]] trzymający dane po stronie klienta na potrzeby komunikacji z serwerem. Zdefiniowanie [[Konwerter Retrofit|konwertera]] pozwoli na automatyczną transformację surowych danych w konkretnym formacie na obiekty i z powrotem poprzez serializację i deserializację.**
 

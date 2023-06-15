@@ -1,4 +1,4 @@
-up: [[050 Design Patterns MOC]]
+up: [[040 Design Patterns MOC]]
 #status/0-revision-needed 
 
 **Wzorzec zachowania. Stosowany, gdy główna klasa robi jakąś rzecz na kilka różnych sposobów.** Prawdopodobnym jest, że będzie trzeba dodać kolejny/e sposób/oby robienia tej rzeczy, co spowoduje konieczność zmieniania w niej kodu i ryzyko powstania błędów.

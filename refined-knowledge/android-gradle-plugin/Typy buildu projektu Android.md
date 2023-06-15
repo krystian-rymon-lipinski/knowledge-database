@@ -1,4 +1,4 @@
-up: [[071 Android Gradle Plugin MOC]]
+up: [[061 Android Gradle Plugin MOC]]
 X: [[Flavory projektu Android]]
 
 **Jeden z elementów [[Warianty projektu Android|wariantu]]. Pozwala tworzyć różne wersje tej samej aplikacji.** Domyślnie Android Gradle Plugin dostarcza dwa typy *buildu*: *debug* i *release*. Można też tworzyć własne.

@@ -1,8 +1,8 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 #status/3-freezer 
 #tech-area 
 
 **Strony pozwalające na trzymanie kodu zamiast stawiania własnego [[Serwer Gita|serwera]].** Popularne hostingi:
-- [[091 GitHub]]
+- [[081 GitHub]]
 - GitLab
 - etc.

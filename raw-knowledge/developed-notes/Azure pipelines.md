@@ -1,4 +1,4 @@
-up: [[110 Azure DevOps]]
+up: [[100 Azure DevOps]]
 #status/3-freezer 
 #tech-area/ci-cd 
 

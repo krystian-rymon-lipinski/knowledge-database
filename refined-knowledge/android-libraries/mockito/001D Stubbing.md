@@ -1,4 +1,4 @@
-up: [[042 Mockito MOC]]
+up: [[013.2 Mockito MOC]]
 
 **Konfiguracja mocka, by zachował się w określony sposób, gdy zostanie wywołana na nim metoda**. Dokonywana poprzez zdefiniowanie zwracanych wartości dla określonych parametrów poprzez konstrukcję ***when-then***.
 

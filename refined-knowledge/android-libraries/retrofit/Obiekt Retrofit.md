@@ -1,4 +1,4 @@
-up: [[013.1 Retrofit MOC]]
+up: [[013.3 Retrofit MOC]]
 
 **Obiekt definiujący podstawową konfigurację komunikacji sieciowej (przede wszystkim punkt wejścia do serwera i [[Konwerter Retrofit|konwerter]]) oraz tworzący [[Wrapper HTTP|serwis-interfejs HTTP]].**
 

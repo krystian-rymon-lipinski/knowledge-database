@@ -1,4 +1,4 @@
-up: [[090 Git MOC]]
+up: [[080 Git MOC]]
 X: [[Łączenie gałęzi Gita]]
 
 **Zamiast łączyć dwie gałęzie rekursywnie, dla jednej z nich można zmienić _commit_, z którego wyrasta.** Skutek będzie ten sam (_snapshot_ będzie posiadał ten sam stan plików), ale historia projektu stanie się bardziej linearna i przejrzysta, bowiem wystarczy później dokonać łączenia gałęzi typu _fast-forward_ bez obaw o ewentualne konflikty (trzeba je rozwiązać już przy zmieniania _commita_).

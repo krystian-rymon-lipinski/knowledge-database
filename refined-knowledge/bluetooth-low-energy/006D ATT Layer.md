@@ -1,4 +1,4 @@
-up: [[060 Bluetooth Low Energy MOC]]
+up: [[050 Bluetooth Low Energy MOC]]
 
 **Protokół odpowiedzialny za transfer danych podczas połączenia między urządzeniami BLE. Klient wysyła zapytanie o konkretne [[0047 Atrybuty protokołu ATT|atrybuty]] przechowywane na serwerze, który wysyła odpowiedź.
 

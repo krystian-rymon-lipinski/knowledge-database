@@ -57,5 +57,6 @@ buildFeatures {
 	- CD pipeline: upload do Google Play Store dla gałęzi releasowych
 6) Dodanie NavigationGraph do aplikacji
 7) Dodanie [[013.4 Timber|Timbera]] (albo innej biblioteki do logowania)
+8) Przygotowanie [[110 UML|grafu use case'ów]] i [[Graf aplikacji|grafu aplikacji]].
 
 ---

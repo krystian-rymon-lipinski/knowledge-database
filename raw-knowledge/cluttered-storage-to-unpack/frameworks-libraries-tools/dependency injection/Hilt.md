@@ -2,12 +2,14 @@ up: [[013 Android Libraries MOC]]
 #android/gradle-dependency #gradle/plugin
 #status/2-backlog 
 
-```groovy
+**Biblioteka do [[Wstrzykiwanie zależności|wstrzykiwania zależności]].**
+
+```kotlin
 /* Dependencja pluginu: */
-id 'com.google.dagger.hilt.android' version '2.44' apply false
+id("com.google.dagger.hilt.android") version "2.44" apply false
 /* Dependencja biblioteki: */
-implementation "com.google.dagger:hilt-android:2.44" /* Dla Kotlina 1.7.21 */
-kapt "com.google.dagger:hilt-compiler:2.44"
+implementation("com.google.dagger:hilt-android:2.44") /* Dla Kotlina 1.7.21 */
+kapt("com.google.dagger:hilt-compiler:2.44")
 ```
 
 **Opiera się na klasach daggera, tworzy na ich podstawie prostszy w obsłudze interfejs.**

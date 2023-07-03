@@ -3,8 +3,10 @@
 "Jeśli chodzi o feedback to Tapptic zwrócił przede wszystkim uwagę na to, że jesteś ciekawy różnych technologii i chcesz się rozwijać żeby mieć możliwość spojrzenia trochę szerzej na projekt oraz to jak powstaje w innych miejscach a nie tylko na sprzęcie programisty. I to po ich stronie było dość pozytywne wrażenie. Z aspektów technicznych to widać że brakuje Ci trochę pokierowania przez seniora i sam masz świadomość, że są obszary w których mógłbyś się jeszcze dużo nauczyć - m.in. korutyny i znajomość RxJavy. Obszar, nad którym na pewno mógłbyś jeszcze popracować to przede wszystkim wiedza z zakresu gitflow czy Firebase. Twoja propozycja implementacji infinite scroll oraz rozbicia rozwiązania na warstwy była dość podstawowa. Dużym plusem jest jednak znajomość wzorców, MVP i MVVM, różnic między merge i rebase, doświadczenie z BLE i smarthome oraz wręcz wzorowa znajomość cyklu życia aktywności
 
 ---
-
 "Krystian has good theoretical knowledge for his level. But he had a lack of experience in Android development. Krystian should pay more attention to Clean architecture, and Android framework in general (Services, WorkManager, Activity/Fragments, etc.) Also, Krystian should get more knowledge with DI frameworks, Kotlin Coroutines and Compose UI."
+
+---
+"Pana kompetencje zostały szczegółowo rozpatrzone pod kątem projektu, natomiast po rozmowie technicznej do klienta została zarekomendowana osoba w większym stopniu spełniająca wymagania klienta."
 
 ---
 
@@ -38,8 +40,10 @@
 - [x] [[070 CI-CD MOC]]
 - [x] [[YAML]]
 - [x] [[013.6 Room]]
-- [ ] [[110 UML]] ([[Kompozycja]] / [[dependencja]] / taka sytuacja)
-- [ ] [[Hilt]]
+- [x] [[110 UML]]
+- [x] [[Wstrzykiwanie zależności]]
+	- [ ] [[013.7 Dagger]]
+	- [ ] [[Hilt]]
 - [ ] SOLID
 - [ ] [[013.5 Espresso MOC]]
 - [ ] JSON -> GSON -> Moshi

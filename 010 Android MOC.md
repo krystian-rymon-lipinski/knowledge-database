@@ -3,6 +3,8 @@ up: [[000 HOME]]
 #tech-area/android
 
 **System operacyjny dla urządzeń mobilnych.**
+
+
 [[Android Project Setup]]
 [[Manifest Permissions]]
 
@@ -19,7 +21,7 @@ up: [[000 HOME]]
 - Single Activity / Fragment-Based / Navigation-Based
 - Multiple Activities
 - Reactive Programming
-- Clean Architecture
+- Clean Architecture ([[Architektura aplikacji Android]])
 	- Presentation layer - activities, fragments, viewmodels, UI-related components)
 	- Domain layer - interfaces/contracts for the repositories)
 	- Data layer - data storage and retrieval; implementations of the domain layer interfaces

@@ -2,7 +2,7 @@
 #tech-area/design
 
 **Narzędzie do projektowania UI/UX aplikacji.**
-- UI = _user interface_ = widok poszczególnych ekranów 
+- UI = _[[Interfejs użytkownika|user interface]] = widok poszczególnych ekranów 
 - UX = _user experience_ = logika przechodzenia między nimi
 
 [[Material Design]] udostępnia style i komponenty UI zaprojektowane według najnowszych wytycznych. Można je podejrzeć (i skopiować) [tutaj](https://www.figma.com/community/file/1035203688168086460). Czasem trzeba się trochę namęczyć, żeby móc je przerobić na własne potrzeby (_detach instance_, etc.).

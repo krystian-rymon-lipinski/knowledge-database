@@ -17,3 +17,4 @@
     No i ta druga zmienna jest publiczna i UI kontroler jest z kolei jej obserwatorem.  
   
     Ta dostępna publicznie ma chroniony set na wartość, więc nie można jej ustawiać z zewnątrz! I bardzo dobrze. Dlatego właśnie potrzebne są pary - mutable można ustawiać wartość, ale ją trzeba zrobić prywatną, że ustawiać przez metody. A niemutable służy do obserwowania.
+5. Po co są [[Własne annotacje zasięgu]] w Daggerze? Czy tylko na potrzeby subkomponentów? A jeśli jest tylko jeden komponent, to czy nie wystarczy utworzyć referencji do niego i korzystać tam, gdzie jest potrzebny (aktywność i jej fragmenty)?

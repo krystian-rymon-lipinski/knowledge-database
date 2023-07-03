@@ -8,3 +8,4 @@
 **I - Interface Segregation** - many deidacted interfaces are better than one general one
 **D - Dependency Inversion** - high-level modules should not depend on low-level ones; dependencies should be based on abstractions;
 Wyższy moduł nie zależy od niższego - zarówno wyższy i niższy zależą od abstrakcji.
+Jeżeli na przykład ViewModel chce korzystać z repozytorium, to powinien zależeć tylko od interfejsu definiującego akcje na repozytorium, które to repozytorium implementuje.

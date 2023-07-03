@@ -3,6 +3,8 @@ up: [[000 HOME]]
 #tech-area/kotlin #tech-area/gradle 
 #gradle/plugin 
 
+Chyba chodzi o to, żeby móc kompilować kotlinowy kod w Gradle. I ogarniać rozmaite inne taski Kotlinowe w projekcie.
+
 ```kotlin
 id("org.jetbrains.kotlin.android") version "1.8.0" apply false
 ```
@@ -11,6 +13,9 @@ id("org.jetbrains.kotlin.android") version "1.8.0" apply false
 
 
 
+
+
+---
 > [!NOTE] Co właściwie daje KGP?
 > Czy chodzi tylko o konfigurację dependencji `kapt`?
 
@@ -20,3 +25,4 @@ kapt {
     correctErrorTypes = true  
 }
 ```
+Ale to może mieć związek bardziej z [[063 Kapt Gradle Plugin]]

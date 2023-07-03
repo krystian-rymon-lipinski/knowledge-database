@@ -5,9 +5,9 @@ up: [[000 HOME]]
 - [[Ktor]]
 - [[Chuck]]
 
-###### Dependency Injection:
+###### [[Wstrzykiwanie zależności|Dependency injection]]:
+- [[013.7 Dagger]]
 - [[Hilt]]
-- [[dagger]]
 
 ###### Testing:
 - [[013.1 Junit MOC]]

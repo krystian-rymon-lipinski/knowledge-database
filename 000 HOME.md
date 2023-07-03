@@ -10,6 +10,7 @@
 - [[060 Gradle MOC]]
 	- [[061 Android Gradle Plugin MOC]]
 	- [[062 Kotlin Gradle Plugin MOC]]
+	- [[063 Kapt Gradle Plugin]]
 - [[070 CI-CD MOC]]
 	- [[071 GitHub Actions]]
 - [[080 Git MOC]]

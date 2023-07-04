@@ -15,5 +15,5 @@ System CI jest w stanie dostarczyć informację zwrotną o statusie budowania i 
 **Operacje automatyzowane dla projektu Androidowego:**
 - zbudowanie projektu
 - przejście [[014 Android Testing|testów lokalnych]]
-- przejście [[014 Android Testing|testów instrumentacyjnych]]; wymaga podpięcia pod serwer urządzeń, na których te testy mają zostać odpalone
+- przejście [[014 Android Testing|testów instrumentacyjnych]]; wymaga podpięcia pod serwer urządzeń, na których te testy mają zostać odpalone (lub skonfigurowania na serwerze emulatora)
 - (utworzenie wykonywalnego artefaktu (pliku .apk), który można instalować na urządzeniu)

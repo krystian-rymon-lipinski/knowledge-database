@@ -7,7 +7,7 @@ up: [[000 HOME]]
 
 ###### [[Wstrzykiwanie zależności|Dependency injection]]:
 - [[013.7 Dagger]]
-- [[Hilt]]
+- [[013.8 Hilt]]
 
 ###### Testing:
 - [[013.1 Junit MOC]]

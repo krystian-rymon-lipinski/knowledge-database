@@ -42,12 +42,13 @@
 - [x] [[013.6 Room]]
 - [x] [[110 UML]]
 - [x] [[Wstrzykiwanie zależności]]
-	- [ ] [[013.7 Dagger]]
-	- [ ] [[Hilt]]
-- [ ] SOLID
+	- [x] [[013.7 Dagger]]
+	- [x] [[013.8 Hilt]]
+- [ ] [[SOLID]]
 - [ ] [[013.5 Espresso MOC]]
 - [ ] JSON -> GSON -> Moshi
 - [ ] [[Firebase]]
+- [ ] [[Continuous Delivery]]
 - [ ] Android: level 1
 	- [ ] Clean Architecture / rozbijanie projektu na warstwy
 	- [ ] Android Jetpack

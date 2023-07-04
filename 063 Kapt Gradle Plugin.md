@@ -3,7 +3,7 @@ up: [[000 HOME]]
 #tech-area/kotlin #tech-area/gradle
 #gradle/plugin
 
-**Dla projektu korzystającego z [[062 Kotlin Gradle Plugin MOC|Kotlin Gradle Plugin]] nie można korzystać z [[Konfiguracje dependencji Gradle|konfiguracji dependencji]] `annotationProcessor`, trzeba ją zastąpić `kapt`, która jest dostępna dzięki opisywanemu właśnie pluginowi.**
+**Dla projektu korzystającego z [[062 Kotlin Gradle Plugin|Kotlin Gradle Plugin]] nie można korzystać z [[Konfiguracje dependencji Gradle|konfiguracji dependencji]] `annotationProcessor`, trzeba ją zastąpić `kapt`, która jest dostępna dzięki opisywanemu właśnie pluginowi.**
 
 ```kotlin
 id("org.jetbrains.kotlin.kapt") version "1.8.20" apply false

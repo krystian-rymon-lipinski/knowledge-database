@@ -21,7 +21,7 @@ Należy trzymać się [[Standardy wytwarzania oprogramowania|stanardów wytwarza
 		- `gradlePluginPortal()`
 	- dodanie [[Pluginy Gradle|pluginów Gradle]]
 		- [[061 Android Gradle Plugin MOC]]
-		- [[062 Kotlin Gradle Plugin MOC]]
+		- [[062 Kotlin Gradle Plugin]]
 		- `java` (dla pisania w Javie)
 	- skonfigurowanie repozytoriów Gradle dla [[Dependencje Gradle|dependencji]]
 	- dodanie suffixów dla różnych [[Typy buildu projektu Android|typów buildu]]

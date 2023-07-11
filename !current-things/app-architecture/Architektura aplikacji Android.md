@@ -13,8 +13,8 @@ Cele architektury:
 
 Warstwy aplikacji:
 - [[Warstwa UI|warstwa UI]]
-- [[Warstwa danych|warstwa danych]]
 - [[Warstwa biznesowa|warstwa biznesowa]] (opcjonalna)
+- [[Warstwa danych|warstwa danych]]
 
 **Ponieważ poszczególne warstwy (a zatem ich klasy) zależą od siebie, należy wykorzystywać [[Wstrzykiwanie zależności|wstrzykiwanie zależności]].** Graf zależności najczęściej wygląda następująco:
 

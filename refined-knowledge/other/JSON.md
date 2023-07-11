@@ -1,3 +1,4 @@
+#data-serialization
 #data-storage
 
 **JSON (JavaScript Object Notation) to format serializacji danych umożliwiający wymianę informacji między dwiema zainteresowanymi stronami** (np. klientem i serwerem). 

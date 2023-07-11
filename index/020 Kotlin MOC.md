@@ -17,3 +17,8 @@ Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
 
 - [[0009 Wyjątki|Wyjątki]]
 - [[000A Kolekcje|Kolekcje]]
+
+---
+###### Kotlin Android
+[[Korutyna]]
+[[Flow]]

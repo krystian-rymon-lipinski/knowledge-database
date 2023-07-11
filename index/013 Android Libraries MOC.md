@@ -13,9 +13,15 @@ up: [[000 HOME]]
 - [[013.1 Junit MOC]]
 - [[013.2 Mockito MOC]]
 - [[013.5 Espresso MOC]]
+- [[MockK]] - alternatywa dla Mockito, lepiej przystosowana do Kotlina
 
 ###### Data storage:
 - [[013.6 Room]]
+
+###### [[Data serialization]]:
+- [[GSON]]
+- [[Moshi]]
+
 
 
 ###### Image Processing:
@@ -27,3 +33,6 @@ up: [[000 HOME]]
 
 ###### UI Components
 - [[FlexboxLayout]]
+
+###### Calendar API
+- ThreeTen

@@ -25,3 +25,4 @@ Aby spełnić zasadę inwersji dependencji (z SOLID-a), należy zdefiniować kon
 **Klasy implementujące wzorzec:** 
 - [[0076 ViewModel|ViewModel]]
 - [[0058 LiveData|LiveData]]
+- [[StateFlow]]

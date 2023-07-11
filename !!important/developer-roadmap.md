@@ -9,6 +9,11 @@
 "Pana kompetencje zostały szczegółowo rozpatrzone pod kątem projektu, natomiast po rozmowie technicznej do klienta została zarekomendowana osoba w większym stopniu spełniająca wymagania klienta."
 
 ---
+"You were a silver medalist. We have just one role for now and the manager decided to offer the role to another candidate at this time with more years of experience with Android, but there are no specific areas of improvement that you need to upskill. We were happy with all interviews."
+
+---
+
+
 
 - [x] Gradle: level 1
 	- [x] plugins
@@ -44,24 +49,28 @@
 - [x] [[Wstrzykiwanie zależności]]
 	- [x] [[013.7 Dagger]]
 	- [x] [[013.8 Hilt]]
-- [ ] [[SOLID]]
-- [ ] [[013.5 Espresso MOC]]
-- [ ] JSON -> GSON -> Moshi
-- [ ] [[Firebase]]
-- [ ] [[Continuous Delivery]]
 - [ ] Android: level 1
-	- [ ] Clean Architecture / rozbijanie projektu na warstwy
+	- [ ] [[Architektura aplikacji Android]] - rozbijanie projektu na warstwy
+	- [ ] Jetpack Compose
 	- [ ] Android Jetpack
-	- [ ] Android services
+	- [ ] StateFlow / SharedFlow
 	- [ ] coroutines / multithreading
-	- [ ] State Flow / Shared Flow
+	- [ ] Android services
 	- [ ] Android navigation elements
+
+
+- [ ] [[013.5 Espresso MOC]]
+- [ ] [[Continuous Delivery]]
+- [ ] [[Firebase]]
+- [ ] Lint
+- [ ] ProGuard / R8
+
+- [ ] [[SOLID]]
+- [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] Kotlin: level 1
 	- [ ] Java / Kotlin interoperability annotations: @JvmStatic, @JvmField, @Nullable, @Non-null
 	- [ ] enums vs. sealed classes
 	- [ ] lambdas / higher order functions
-- [ ] Lint
-- [ ] ProGuard
 - [ ] [[Annotacje]]
 - [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] RxJava / RxKotlin

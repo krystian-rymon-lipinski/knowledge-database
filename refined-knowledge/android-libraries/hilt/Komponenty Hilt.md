@@ -17,6 +17,8 @@ Klasy oznaczane tą annotacją to miejsca wstrzykiwania, początki grafu zależn
 - `View` - `ViewComponent` - `@ViewScoped`
 - `Service` - `ServiceComponent` - `@ServiceScoped`
 
+**Fragmenty Hilt muszą być podpięte pod aktywność oznaczoną jako `@AndroidEntryPoint`!
+
 Tworzenie i niszczenie instancji komponentu (oraz klas-zależności, które wygenerował) wykonuje automatycznie Hilt i jest ono powiązane z metodami `onCreate()` i `onDestroy()` klasy Androida, której dotyczy komponent.
 
 Domyślnie dependencje w Hilcie nie definiują zasięgu, co sprawia, że zostanie wygenerowana nowa jej instancja za każdym razem, gdy jakaś klasa zadeklaruje potrzebę jej wstrzyknięcia. Aby to zmienić, należy oznaczyć klasę (lub moduł) annotacją dokładnie w taki sam sposób jak w Daggerze.

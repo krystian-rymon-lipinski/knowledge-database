@@ -1,9 +1,9 @@
 #status/3-freezer 
 #tech-area/android 
 
-Generalnie, żeby zapewnić odświeżanie na poziomie 60 Hz, system mniej więcej co 16 ms odświeża ekran.
+Generalnie, żeby zapewnić odświeżanie na poziomie 60 Hz, system mniej więcej co 16 ms odświeża ekran ma głównym wątku
 
-Więc wszystko co przeliczane powinno się zawierać w tych 16 ms, aby było wrażenie płynności.
+Więc wszelka przeliczana grafika powinna się zawierać w tych 16 ms, aby było wrażenie płynności. Wszelkie pozostałe operacje powinny odbywać się na innych wątkach.
 
 Opcje developerskie dają możliwość podglądnięcia, ile to zajmuje tak naprawdę.
 

@@ -10,7 +10,7 @@ implementation("com.squareup.retrofit2:converter-gson:2.1.0") /* Konwerter dla b
 Zdefiniowane są dedykowane konwertery dla różnych bibliotek serializujących:
 - [[GSON]]
 - Jackson
-- Moshi
+- [[Moshi]]
 - Protobuf
 - Wire
 - Simple XML

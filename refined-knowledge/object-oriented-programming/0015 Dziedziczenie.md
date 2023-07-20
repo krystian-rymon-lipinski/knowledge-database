@@ -1,4 +1,4 @@
-up: [[030 OOP MOC]]
+up: [[031 Programowanie obiektowe]]
 
 **Umożliwia zdefiniowanie zachowań wspólnych dla różnych klas. Klasa dziedzicząca po innej może oprócz swoich składowych i metod posiadać takie, które pochodzą od klasy, po której dziedziczy.**
 

@@ -1,6 +1,6 @@
 up: [[000 HOME]]
 
-**Język programowania opierający się na paradygmatach [[030 OOP MOC|obiektowym]] i [[Programowanie funkcyjne|funkcyjnym]].**
+**Język programowania opierający się na paradygmatach [[031 Programowanie obiektowe|obiektowym]] i [[032 Programowanie funkcyjne|funkcyjnym]].**
 Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
 
 ###### Podstawy języka
@@ -21,4 +21,4 @@ Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
 ---
 ###### Kotlin Android
 [[Korutyna]]
-[[Flow]]
+[[Przepływ]]

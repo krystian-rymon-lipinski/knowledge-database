@@ -2,7 +2,7 @@ up: [[000 HOME]]
 #status/3-freezer
 #tech-area/design-patterns
 
-**Wzorce projektowe rozwiązują problemy poprzez zdefiniowanie struktury klas, wykorzystujących zasady [[030 OOP MOC|programowania obiektowego]] oraz zasad [[SOLID]].**
+**Wzorce projektowe rozwiązują problemy poprzez zdefiniowanie struktury klas, wykorzystujących zasady [[031 Programowanie obiektowe|programowania obiektowego]] oraz zasad [[SOLID]].**
 
 **Wzorce kreujące:**
 - [[0055 Prosta Fabryka (-)]]

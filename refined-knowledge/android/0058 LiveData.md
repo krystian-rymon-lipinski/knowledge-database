@@ -2,7 +2,6 @@ up: [[0056 Model-View-ViewModel]]
 X: [[StateFlow]]
 #status/0-revision-needed 
 #android/app-architecture/state-holder
-#android/state-holder
 
 **Pojemniki na dane, które są również obiektami obserwowanymi. Ich Obserwatorami są kontrolery UI (aktywności, fragmenty).**  
 

@@ -1,4 +1,4 @@
-up: [[030 OOP MOC]]
+up: [[031 Programowanie obiektowe]]
 
 **Dokładna implementacja zachowania obiektu nie jest istotna. Istotne jest to, co obiekt _udostępnia_.**  Końcowy użytkownik nie musi troszczyć się o szczegóły wykonania konkretnego zadania. Interesuje go jedynie, jakie parametry obiektowi dostarczyć i co zwróci.
 

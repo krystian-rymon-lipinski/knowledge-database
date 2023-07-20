@@ -51,22 +51,23 @@
 	- [x] [[013.8 Hilt]]
 - [ ] Android: level 1
 	- [ ] [[Architektura aplikacji Android]] - rozbijanie projektu na warstwy
+	- [ ] Android Architecture Map
+	- [x] coroutines / multithreading
+	- [ ] StateFlow / SharedFlow
 	- [ ] Jetpack Compose
 	- [ ] Android Jetpack
-	- [ ] StateFlow / SharedFlow
-	- [ ] coroutines / multithreading
 	- [ ] Android services
 	- [ ] Android navigation elements
 
-
 - [ ] [[013.5 Espresso MOC]]
+- [ ] [[SOLID]]
+- [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
+
 - [ ] [[Continuous Delivery]]
 - [ ] [[Firebase]]
 - [ ] Lint
 - [ ] ProGuard / R8
 
-- [ ] [[SOLID]]
-- [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] Kotlin: level 1
 	- [ ] Java / Kotlin interoperability annotations: @JvmStatic, @JvmField, @Nullable, @Non-null
 	- [ ] enums vs. sealed classes
@@ -83,7 +84,7 @@
 	- [ ] [[Material Design]]
 	- [ ] android UI design ([[Figma]]; mockflow?)
 
-https://infinum.com/blog/top-10-android-libraries-every-android-developer-should-know-about/
+[GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]]
 
 ---
 

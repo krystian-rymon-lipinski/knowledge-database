@@ -1,6 +1,6 @@
 #status/4-liquid-nitrogen
 
-Biblioteka (framework?). Opiera się na wzorcu Obserwatora.
+Biblioteka (framework?). Opiera się na paradygmacie [[033 Programowanie reaktywne|programowania reaktywnego]].
 
 Trzeba utworzyć obiekt typu np. PublishSubject lub BehavioSubject po czym wywołać na nim:
 

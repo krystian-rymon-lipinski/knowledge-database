@@ -1,4 +1,4 @@
-up: [[030 OOP MOC]]
+up: [[031 Programowanie obiektowe]]
 
 **Do obiektu można się odwoływać przez różne typy referencji.**
 

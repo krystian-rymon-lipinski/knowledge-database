@@ -1,6 +1,5 @@
-up: [[000 HOME]]
+up: [[030 Paradygmaty programowania]]
 
-### Programowanie obiektowe 
 Paradygmat programowania opierający się na __obiektach__ opisanych przez _stan_ i _zachowanie_. 
 
 __Stan__ definiowany jest przez zmienne (pola), przechowujące dane. 

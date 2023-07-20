@@ -1,4 +1,5 @@
-#status/2-backlog 
+up: [[070 CI-CD MOC]]
+#status/3-freezer
 
 ### Jenkins
 Można robić joby albo pipeline'y. Obie te struktury robią dokładnie to samo.

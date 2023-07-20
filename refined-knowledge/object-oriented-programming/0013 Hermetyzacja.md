@@ -1,4 +1,4 @@
-up: [[030 OOP MOC]]
+up: [[031 Programowanie obiektowe]]
 
 **Ukrywanie składowych lub metod obiektu przed obiektami innych klas.**
 Osiągane poprzez modyfikatory dostępu:

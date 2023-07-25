@@ -3,6 +3,7 @@
 	- [[012 Android Studio MOC]]
 	- [[013 Android Libraries MOC]]
 	- [[014 Android Testing]]
+	- [[015 Android Architecture]]
 - [[020 Kotlin MOC]]
 - [[030 Paradygmaty programowania]]
 	- [[031 Programowanie obiektowe]]

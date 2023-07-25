@@ -13,8 +13,6 @@
 
 ---
 
-
-
 - [x] Gradle: level 1
 	- [x] plugins
 	- [x] repos
@@ -50,23 +48,26 @@
 	- [x] [[013.7 Dagger]]
 	- [x] [[013.8 Hilt]]
 - [ ] Android: level 1
-	- [ ] [[Architektura aplikacji Android]] - rozbijanie projektu na warstwy
+	- [ ] [[015 Android Architecture]] - rozbijanie projektu na warstwy
 	- [ ] Android Architecture Map
 	- [x] coroutines / multithreading
-	- [ ] StateFlow / SharedFlow
-	- [ ] Jetpack Compose
+	- [x] StateFlow / SharedFlow
 	- [ ] Android Jetpack
 	- [ ] Android services
 	- [ ] Android navigation elements
 
+- [ ] Jetpack Compose
 - [ ] [[013.5 Espresso MOC]]
 - [ ] [[SOLID]]
 - [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 
 - [ ] [[Continuous Delivery]]
 - [ ] [[Firebase]]
+	- [ ] Crashlytics (albo Bugfender)
 - [ ] Lint
 - [ ] ProGuard / R8
+
+- [ ] [KMM](https://kotlinlang.org/docs/multiplatform.html#get-started) (Kotlin Multiplatform Mobile)
 
 - [ ] Kotlin: level 1
 	- [ ] Java / Kotlin interoperability annotations: @JvmStatic, @JvmField, @Nullable, @Non-null
@@ -103,8 +104,8 @@
 	- [ ] .gitignore i [[Wzorce z symbolami wieloznacznymi]]
 - [ ] Testing: level 1
 	- [ ] unit testing: JUnit 5
-	- [ ] UI tests: espresso
-	- [ ] integration tests: what are those?
+	- [x] UI tests: espresso
+	- [x] integration tests: what are those?
 - [ ] RegEx pattern logic
 - [ ] DRY - don't repeat yourself, YAGNI - you ain't gonna need it
 - [ ] Javadoc / Kotlindoc ([https://blog.joda.org/2012/11/javadoc-coding-standards.html](https://blog.joda.org/2012/11/javadoc-coding-standards.html))

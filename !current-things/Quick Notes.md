@@ -5,6 +5,7 @@
 
 
 ###### Jetpack Compose
+Alternatywa dla layoutów UI tworzonych w XML.
 
 ViewPager, SwipeRefreshLayout, RecyclerView, CardView, Material3
 Navigation (Graph), Lifecycle, ViewModel

@@ -4,6 +4,8 @@ up: [[000 HOME]]
 - [[013.3 Retrofit MOC]]
 - [[Ktor]]
 - [[Chuck]]
+- [WireMock](https://wiremock.org/)
+- [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)
 
 ###### [[Wstrzykiwanie zależności|Dependency injection]]:
 - [[013.7 Dagger]]

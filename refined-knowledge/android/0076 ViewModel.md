@@ -35,6 +35,17 @@ Specjalną odmianą ViewModelu jest **AndroidViewModel**, który jako argument p
 Dla [[Activities|Aktywności]] - dopóki nie zostanie zakończona (wywołane *onDestroy()*).
 Dla [[Fragments|Fragmentu]] - dopóki nie zostanie odpięty (wywołane *onDetached()*).
 
+---
+
+"The `ViewModel` is scoped to the navigation graph." Jak działa to w ujęciu TaskStacka?
+
+Info [stąd](https://developer.android.com/topic/architecture/ui-layer/stateholders):
+- Integration with [Navigation](https://developer.android.com/jetpack/compose/navigation):
+    - Navigation caches ViewModels while the screen is on the back stack. This is important to have your previously loaded data instantly available when you return to your destination. This is something more difficult to do with a state holder that follows the lifecycle of the composable screen.
+    - The ViewModel is also cleared when the destination is popped off the back stack, ensuring that your state is automatically cleaned up. This is different from listening for the composable disposal that can happen for multiple reasons such as going to a new screen, due to a configuration change, or other reasons.
+
+---
+
 https://ryanharter.com/blog/2019/07/encapsulating-view-state/
 https://proandroiddev.com/supercharge-android-mvvm-part-1-viewstate-and-actionstate-5816500580ed
 https://proandroiddev.com/livedata-with-single-events-2395dea972a8

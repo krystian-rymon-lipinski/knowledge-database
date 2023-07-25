@@ -1,4 +1,5 @@
 up: [[013 Android Libraries MOC]]
+X: [[013.3 Retrofit MOC]]
 #status/3-freezer
 #tech-area/rest
 #android/gradle-dependency

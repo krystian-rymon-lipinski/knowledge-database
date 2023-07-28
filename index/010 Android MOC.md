@@ -37,4 +37,5 @@ up: [[000 HOME]]
 - [[BLE Android API]]
 
 ---
+https://developer.android.com/modern-android-development
 https://books.goalkicker.com/AndroidBook/

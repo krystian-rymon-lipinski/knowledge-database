@@ -48,23 +48,26 @@
 	- [x] [[013.7 Dagger]]
 	- [x] [[013.8 Hilt]]
 - [ ] Android: level 1
-	- [ ] [[015 Android Architecture]] - rozbijanie projektu na warstwy
-	- [ ] Android Architecture Map
+	- [x] [[015 Android Architecture]] - rozbijanie projektu na warstwy
+		- [x] Android Architecture Map
 	- [x] coroutines / multithreading
 	- [x] StateFlow / SharedFlow
 	- [ ] Android Jetpack
-	- [ ] Android services
-	- [ ] Android navigation elements
+	- [ ] Activities / Fragments
+	- [ ] Services / WorkManager
+	- [ ] Navigation elements
+
+- [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
+- [ ] [[SOLID]]
+- [ ] Lint
 
 - [ ] Jetpack Compose
 - [ ] [[013.5 Espresso MOC]]
-- [ ] [[SOLID]]
-- [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
+- [ ] [[012 Android Studio MOC]] tools / possibilities
 
 - [ ] [[Continuous Delivery]]
 - [ ] [[Firebase]]
 	- [ ] Crashlytics (albo Bugfender)
-- [ ] Lint
 - [ ] ProGuard / R8
 
 - [ ] [KMM](https://kotlinlang.org/docs/multiplatform.html#get-started) (Kotlin Multiplatform Mobile)
@@ -74,18 +77,19 @@
 	- [ ] enums vs. sealed classes
 	- [ ] lambdas / higher order functions
 - [ ] [[Annotacje]]
+- [ ] RegEx pattern logic
 - [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] RxJava / RxKotlin
 	- [ ] Rx module for Retrofit
 - [ ] TDD, DDD, EDD, etc. Something Driven Development
 
-- [ ] [[012 Android Studio MOC]] tools / possibilities
 - [ ] Android: level 2
 	- [ ] [[android resources|xml resources]]
 	- [ ] [[Material Design]]
 	- [ ] android UI design ([[Figma]]; mockflow?)
 
 [GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]]
+[Renovate Bot](https://github.com/renovatebot/renovate) - dependency updater
 
 ---
 
@@ -106,7 +110,6 @@
 	- [ ] unit testing: JUnit 5
 	- [x] UI tests: espresso
 	- [x] integration tests: what are those?
-- [ ] RegEx pattern logic
 - [ ] DRY - don't repeat yourself, YAGNI - you ain't gonna need it
 - [ ] Javadoc / Kotlindoc ([https://blog.joda.org/2012/11/javadoc-coding-standards.html](https://blog.joda.org/2012/11/javadoc-coding-standards.html))
 - [ ] [refactoring](https://refactoring.guru/refactoring)

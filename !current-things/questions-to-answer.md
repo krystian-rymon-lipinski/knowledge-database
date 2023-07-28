@@ -20,3 +20,88 @@
 5. Po co są [[Własne annotacje zasięgu]] w Daggerze? Czy tylko na potrzeby subkomponentów? A jeśli jest tylko jeden komponent, to czy nie wystarczy utworzyć referencji do niego i korzystać tam, gdzie jest potrzebny (aktywność i jej fragmenty)?
 
 	Nie do końca. Sam komponent, owszem, wystarczy jedna referencja do niego. Ale potem na tym komponencie trzeba wywołać `inject(target)` - i wówczas te annotacje mają znaczenie, bo bez nich po prostu utworzone zostaną nowe instancje klas grafu wszędzie tam, gdzie w miejscu wstrzykiwania pojawia się `@Inject`.
+
+6. Jak poprawnie testować [[Produkcja stanu ekranu|operator .stateIn]]? Testowanie flow wydaje się działać przy zdefiniowaniu pary MutableStateFlow/StateFlow i aktualizowaniu pierwszego. Wówczas drugi odbiera wszystkie zmiany wartości. Ale już przy zdefiniowaniu StateFlow przy pomocy .stateIn testowanie nie działa.
+Są problemy, opisane [tu](https://github.com/cashapp/turbine/issues/204), [tu](https://github.com/Kotlin/kotlinx.coroutines/issues/3143) i [tu](https://www.billjings.com/posts/title/testing-stateflow-is-annoying/). Można spróbować z [[Turbine]], ale też chyba niewiele pomaga.
+
+
+To działa:
+```kotlin
+class FakeViewModel(  
+    private val repository: FakeRepository  
+) : ViewModel() {  
+  
+    val score: StateFlow<Int> = repository.scores  
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), 0)  
+}
+
+@Test  
+fun testFakeRepository() = runTest {  
+    val unconfinedTestDispatcher = UnconfinedTestDispatcher(testScheduler)  
+    Dispatchers.setMain(StandardTestDispatcher(testScheduler))  
+    val fakeRepository = FakeRepository()  
+    val viewModel = FakeViewModel(fakeRepository)  
+  
+    val items = mutableListOf<Int>()  
+    val job = launch(unconfinedTestDispatcher) {  
+        viewModel.score.collect {  
+            items.add(it)  
+        }  
+    }  
+    runCurrent()  
+    fakeRepository.emit(1)  
+    runCurrent()  
+    fakeRepository.emit(2)  
+    runCurrent()  
+    fakeRepository.emit(3)  
+  
+    assertEquals(4, items.size)  
+    assertEquals(listOf(0, 1, 2, 3), items)  
+    assertEquals(3, viewModel.score.value)  
+  
+    job.cancel()  
+    Dispatchers.resetMain()
+```
+
+A to już nie:
+
+```kotlin
+val uiState = tasklistRepository.getAllTasklists()  
+    .stateIn(  
+        scope = viewModelScope,  
+        started = SharingStarted.WhileSubscribed(),  
+        initialValue = emptyList()  
+    )
+
+@Test  
+fun observeUiStateFromStateFlow() = runTest {  
+    val unconfined = UnconfinedTestDispatcher(testScheduler)  
+    val standard = StandardTestDispatcher(testScheduler)  
+    Dispatchers.setMain(standard)  
+  
+    var collected = 0  
+  
+    val collectJob = launch(unconfined) {  
+        testObj.uiState.collect {  
+            collected = collected.inc()  
+            println("collecting list")  
+        }  
+    }  
+    val firstTasklist = Tasklist("aName")  
+    val secondTasklist = Tasklist("bName")  
+    val thirdTasklist = Tasklist("cName")  
+  
+    runCurrent()  
+    fakeTasklistsRepository.emit(listOf(firstTasklist))  
+    runCurrent()  
+    fakeTasklistsRepository.emit(listOf(secondTasklist, thirdTasklist))  
+  
+    assertEquals(2, testObj.uiState.value.size)  
+    assertEquals(secondTasklist, testObj.uiState.value[0])  
+    assertEquals(thirdTasklist, testObj.uiState.value[1])  
+  
+  
+    collectJob.cancel()  
+    Dispatchers.resetMain()  
+}
+```

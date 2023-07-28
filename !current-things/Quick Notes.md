@@ -1,9 +1,4 @@
 
-###### OOP cornerstones
-
-**Abstraction, Inheritance, Polymorphysm, Encapsulation**
-
-
 ###### Jetpack Compose
 Alternatywa dla layoutów UI tworzonych w XML.
 

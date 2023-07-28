@@ -2,6 +2,7 @@
 #tech-area/standards
 
 https://www.d.umn.edu/~gshute/softeng/principles.html
+[Semantyka wersjonowania](https://semver.org/)
 
 # Project elements
 

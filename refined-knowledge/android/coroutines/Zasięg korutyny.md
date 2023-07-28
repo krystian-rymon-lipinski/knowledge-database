@@ -15,6 +15,7 @@ Biblioteki Androida definiują zasięgi powiązane z konkretnym komponentem apli
 ```kotlin
 viewModelScope.launch { } 
 lifecycleScope.launch { } /* Np. Aktywność lub Fragment */
+backgroundScope.launch { } /* Do testowania - anulowany wraz z zakończeniem testu */
 GlobalScope.launch { } /* Powiązany z komponentem Application (lub nawet jej procesem) */
 ```
 

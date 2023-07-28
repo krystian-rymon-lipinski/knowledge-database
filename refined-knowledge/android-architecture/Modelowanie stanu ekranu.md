@@ -3,10 +3,10 @@ up: [[Przechowalnik stanu ekranu]]
 Poza wyświetlanymi danymi stan powinien też zawierać informacje o ewentualnych operacjach w trakcie lub błędach - aby ekran mógł przekazać użytkownikowi również takie informacje. 
 
 ```kotlin
-sealed class State {
-	class Idle(loadedData: Data) : State()
-	class Loading() : State()
-	class Error(message: String) : State()
+sealed class NewsUiState {
+	class News(loadedNews: List<News>) : NewsUiState()
+	class Loading : NewsUiState()
+	class Error(message: String) : NewsUiState()
 }
 ```
 

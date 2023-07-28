@@ -1,4 +1,6 @@
-  1. Czy naprawdę nie da się zmienić nazwy urządzenia widocznego dla innych skanerów poprzez BluetoothAdapter? czy zawsze trzeba to robić przez advertisingData?  
+#status/3-freezer
+  
+1. Czy naprawdę nie da się zmienić nazwy urządzenia widocznego dla innych skanerów poprzez BluetoothAdapter? czy zawsze trzeba to robić przez advertisingData?  
     - a co z urządzeniami typu Classic? one nie mają advertising data (chyba?)  
   
 2. Czy recyclerView.Adapter powininen (może) robić coś więcej niż tylko wyświetlać widoki? czy nie należy wyabstrahować całej logiki odpowiedzialnej za np. sortowanie czy filtrowanie do innego miejsca?  

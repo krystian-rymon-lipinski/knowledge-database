@@ -1,8 +1,8 @@
+#status/1-in-progress 
 #android/gradle-dependency 
-#status/2-backlog 
 
-```groovy
-implementation 'com.google.code.gson:gson:2.8.8' 
+```kotlin
+implementation("com.google.code.gson:gson:2.8.8")
 ```
 
 **Biblioteka umożliwiająca konwertowanie obiektów języka Java/Kotlin na plik typu [[JSON]] i z powrotem.**

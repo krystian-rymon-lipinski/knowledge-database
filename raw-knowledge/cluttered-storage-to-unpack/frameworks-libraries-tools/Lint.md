@@ -1,4 +1,4 @@
-#status/2-backlog 
+#status/1-in-progress 
 
 Narzędzie do statycznej analizy kodu, która zwraca uwagę na jakość napisanego kodu.
 

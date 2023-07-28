@@ -47,21 +47,19 @@
 - [x] [[Wstrzykiwanie zależności]]
 	- [x] [[013.7 Dagger]]
 	- [x] [[013.8 Hilt]]
-- [ ] Android: level 1
+- [x] Android: batch 1
 	- [x] [[015 Android Architecture]] - rozbijanie projektu na warstwy
 		- [x] Android Architecture Map
 	- [x] coroutines / multithreading
 	- [x] StateFlow / SharedFlow
-	- [ ] Android Jetpack
-	- [ ] Activities / Fragments
-	- [ ] Services / WorkManager
-	- [ ] Navigation elements
+	- [x] Android Jetpack
 
 - [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] [[SOLID]]
-- [ ] Lint
+- [ ] [[Lint]]
+- [ ] powiązanie [[016 Android Project Setup]] i [[Standardy wytwarzania oprogramowania]]
 
-- [ ] Jetpack Compose
+- [ ] [[Jetpack Compose]]
 - [ ] [[013.5 Espresso MOC]]
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 
@@ -69,6 +67,11 @@
 - [ ] [[Firebase]]
 	- [ ] Crashlytics (albo Bugfender)
 - [ ] ProGuard / R8
+
+- [ ] Android: batch 2
+	- [ ] Activities / Fragments
+	- [ ] Services / WorkManager
+	- [ ] Navigation elements
 
 - [ ] [KMM](https://kotlinlang.org/docs/multiplatform.html#get-started) (Kotlin Multiplatform Mobile)
 

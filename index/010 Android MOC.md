@@ -5,7 +5,7 @@ up: [[000 HOME]]
 **System operacyjny dla urządzeń mobilnych.**
 
 
-[[Android Project Setup]]
+[[016 Android Project Setup]]
 [[Manifest Permissions]]
 
 
@@ -28,13 +28,11 @@ up: [[000 HOME]]
 - Multiple Activities
 - hexagonal architecture (?)
 
-
-
-
-
-
 **Technologie:**
 - [[BLE Android API]]
+
+###### Inne:
+[[Jetpack Compose]]
 
 ---
 https://developer.android.com/modern-android-development

@@ -1,5 +1,5 @@
 #status/2-backlog  
-#tech-area/standards
+#tech-area/project-management
 
 https://www.d.umn.edu/~gshute/softeng/principles.html
 [Semantyka wersjonowania](https://semver.org/)

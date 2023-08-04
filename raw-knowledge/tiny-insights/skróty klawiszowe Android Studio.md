@@ -12,5 +12,6 @@ up: [[012 Android Studio MOC]]
 - [ ] przejść wszelkie opcje Android Studio i poustawiać dodatkowe skróty klawiszowe
 	- Double Shift - pokazanie znajdowania wszystkiego
 	- Ctrl + Space - pokazanie sugestii od IDE
+	- Alt + Enter - akcje kontekstowe
 	- mnóstwo innych
 - [ ] zapisać konfigurację skrótów klawiszowych (i w ogóle wszelaką konfigurację Android Studio) gdzieś na githubie

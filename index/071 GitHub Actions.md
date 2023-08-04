@@ -1,5 +1,5 @@
 up: [[070 CI-CD MOC]]
-#status/2-backlog
+#status/3-freezer
 #tech-area/ci-cd
 
 **Jedna z platform do implementowania automatycznej integracji i dostarczania (a bit mouthful).**

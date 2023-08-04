@@ -1,5 +1,6 @@
 up: [[0060 Kontrolowanie elementów UI]]
-#status/0-revision-needed 
+#status/0-revision-needed
+#gradle/build-feature
 
 Kontrolowanie elementów UI w układach **poprzez wygenerowanie _binding class_ dla każdego układu**. Klasa taka posiada referencję do każdego elementu układu, który posiada atrybut *id* oraz do rodzica, wewnątrz którego zawiera się układ.
 

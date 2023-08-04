@@ -12,3 +12,4 @@
 	- [ ] [[020 Kotlin MOC|Kotlinie]]
 	- [ ] [[050 Bluetooth Low Energy MOC|BLE]]
 	- [ ] [[031 Programowanie obiektowe|OOP]]
+- [ ] po polsku czy po angielsku?

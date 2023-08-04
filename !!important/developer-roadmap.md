@@ -54,18 +54,25 @@
 	- [x] StateFlow / SharedFlow
 	- [x] Android Jetpack
 
+- [ ] [[Jetpack Compose]]
+- [ ] [[Material Design]]
+- [ ] Android Studio Bot
+
 - [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] [[SOLID]]
 - [ ] [[Lint]]
 - [ ] powiązanie [[016 Android Project Setup]] i [[Standardy wytwarzania oprogramowania]]
+- [ ] powiązanie [[Interfejs użytkownika]], [[Komponenty UI]], [[Material Design]], [[Figma]], XML layouts, [[Jetpack Compose]],
 
-- [ ] [[Jetpack Compose]]
 - [ ] [[013.5 Espresso MOC]]
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 
 - [ ] [[Continuous Delivery]]
 - [ ] [[Firebase]]
 	- [ ] Crashlytics (albo Bugfender)
+	- [ ] metryki codebase'u
+		- [ ] test coverage
+		- [ ] app startup
 - [ ] ProGuard / R8
 
 - [ ] Android: batch 2
@@ -81,7 +88,6 @@
 	- [ ] lambdas / higher order functions
 - [ ] [[Annotacje]]
 - [ ] RegEx pattern logic
-- [ ] [[Standardy wytwarzania oprogramowania]]
 - [ ] RxJava / RxKotlin
 	- [ ] Rx module for Retrofit
 - [ ] TDD, DDD, EDD, etc. Something Driven Development

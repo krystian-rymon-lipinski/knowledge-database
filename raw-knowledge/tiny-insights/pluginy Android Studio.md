@@ -8,3 +8,4 @@ up: [[012 Android Studio MOC]]
 - [JSON2Kotlin](https://plugins.jetbrains.com/plugin/9960-json-to-kotlin-class-jsontokotlinclass-) - deserializacja formatu JSON na obiekty [[POJO]]
 - Kotlin??
 - [[PlantUML]] - tworzenie diagramów [[110 UML]] poprzez tworzenie plików .puml - tekstu opisującego graf
+- [[Relay]] - tworzenie Composables z gotowych paczek UI zaprojektowanych przez designerów

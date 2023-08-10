@@ -12,6 +12,13 @@
 "You were a silver medalist. We have just one role for now and the manager decided to offer the role to another candidate at this time with more years of experience with Android, but there are no specific areas of improvement that you need to upskill. We were happy with all interviews."
 
 ---
+"We had a wonderful conversation with Kristian. He was positive and seemed like a person who'd love to learn more as he's currently a JR. We found him a great match for Kingfisher, however, because of his lack of experience and being a JR, we are hesitant to push him forward at the moment as he'd need a mentor/senior engineer to help him, which at the moment we don't have in place. If further in the future we have some stability and he's still looking, we'd like to talk to him again, but at this time, we are forced to say no unfortunately"
+
+---
+
+
+
+
 
 - [x] Gradle: level 1
 	- [x] plugins
@@ -68,7 +75,7 @@
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 
 - [ ] [[Continuous Delivery]]
-- [ ] [[Firebase]]
+- [ ] [[Firebase]] [tutorial](https://firebase.google.com/docs/android/setup?hl=pl)
 	- [ ] Crashlytics (albo Bugfender)
 	- [ ] metryki codebase'u
 		- [ ] test coverage
@@ -97,7 +104,7 @@
 	- [ ] [[Material Design]]
 	- [ ] android UI design ([[Figma]]; mockflow?)
 
-[GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]]
+[GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]] ("GraphQL is a communication pattern")
 [Renovate Bot](https://github.com/renovatebot/renovate) - dependency updater
 
 ---

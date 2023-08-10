@@ -54,6 +54,15 @@ buildFeatures {
 6) Dodanie dependencji [[013.8 Hilt|Hilta]]
 7) Dodanie [[013.4 Timber|Timbera]] (albo innej biblioteki do logowania)
 8) Przygotowanie [[110 UML|grafu use case'ów]] i [[Graf aplikacji|grafu aplikacji]]
-9) Dodanie NavigationGraph do aplikacji
+9) Dodanie [[Navigation Component]] (a przede wszystkim graf) do aplikacji
+
+10) **Ekrany! Dobrze jest przed startem projektu zdefiniować, co każdy z nich ma dokładnie robić.**
+
+> [!NOTE] Ekrany
+> "Define your screen as state in, events out"
+It shouldn't care, where it gets the state from (ViewModel? StateHolder?). 
+It also shouldn't care, who receives the events it puts out.
+
+
 
 ---

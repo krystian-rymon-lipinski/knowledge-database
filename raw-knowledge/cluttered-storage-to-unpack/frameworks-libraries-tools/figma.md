@@ -13,7 +13,8 @@ W przypadku tworzenia własnych elementów, kontenery dobrze jest tworzyć jako 
 
 **Można także tworzyć diagramy przypominające diagramy UML, przydatne przy planowaniu architektury aplikacji i zależności między poszczególnymi jej komponentami.** Aczkolwiek strzałki można tworzyć tylko zwykłe, co trochę uniemożliwia przedstawienie dokładnych relacji między obiektami.
 
-
+https://www.figma.com/community/file/1035203688168086460/Material-3-Design-Kit
+https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder
 > [!NOTE] To chyba ważne!
 > https://developer.android.com/jetpack/compose/tooling/relay/relay-workflow
 > https://www.figma.com/community/plugin/1088610476491668236/Material-Symbols

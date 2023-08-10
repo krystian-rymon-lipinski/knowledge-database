@@ -18,7 +18,7 @@ Można je sobie dodawać lub usuwać z pasków narzędzi, inny do nich dostęp j
 - emulator (by odpalić aplikację na wirtualnym urządzeniu - przewaga jest taka, że może ono być dowolne)
 - profiler - mierzenie zużycia pamięci, CPU, baterii i innych ważnych elementów urządzenia
 - app inspection - **dla połączonego urządzenia!**; badanie bazy danych, wykorzystania sieci i zadań wykonywanych w tle
-- layout inspector - **dla połączenego urządzenia!**; podgląd atrybutów dla poszczególnych elementów layoutu
+- layout inspector - **dla połączonego urządzenia!**; podgląd atrybutów dla poszczególnych elementów layoutu
 - build - lista wykonywanych tasków gradle przy budowaniu projektu (oraz błędy, jeśli coś poszło nie tak)
 - warianty budowania -  definiowane są osobne zadania Gradle dla [[Warianty projektu Android|wariantów projektu]] i z tego narzędzia można ustawić, który wariant chcemy budować
 - gradle - lista [[Zadania Gradle|zadań Gradle]] i [[Zadania Gradle AGP|zadań AGP]], które można wykonać dla całego projektu lub wybranych modułów

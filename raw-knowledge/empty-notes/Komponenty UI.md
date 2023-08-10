@@ -10,5 +10,3 @@ Tak zwane foundational components jak:
 - seekbar
 - lista
 - etc.
-
-Na ich podstawie [[Material Design]] definiuje dodatkowe komponenty.

@@ -22,3 +22,6 @@ Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
 ###### Kotlin Android
 [[Korutyna]]
 [[Przepływ]]
+
+###### Inne:
+- [Delegated properties](https://kotlinlang.org/docs/delegated-properties.html)

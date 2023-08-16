@@ -12,7 +12,7 @@ Pozwala to szybko wykrywać błędy i utrzymywać stabilny kod.
 
 System CI jest w stanie dostarczyć informację zwrotną o statusie budowania i ewentualnych błędach na dowolnie wybrany kanał komunikacyjny (e-mail, Slack, etc.). Można również zaimplementować dodatkowe akcje dla określonych statusów.
 
-**Operacje automatyzowane dla projektu Androidowego:**
+**Operacje najczęściej wykonywane po triggerze dla projektu Androidowego:**
 - zbudowanie projektu
 - przejście [[014 Android Testing|testów lokalnych]]
 - przejście [[014 Android Testing|testów instrumentacyjnych]]; wymaga podpięcia pod serwer urządzeń, na których te testy mają zostać odpalone (lub skonfigurowania na serwerze emulatora)

@@ -1,7 +1,5 @@
 #status/0-revision-needed
-#android/app-navigation 
-#android/app-architecture
-#android/gradle-dependency
+#android/app-navigation #android/app-architecture #android/gradle-dependency
 
 Służy do nawigowania po aplikacji. Pozwala na utworzenie grafu, którego wierzchołki są miejscami docelowymi aplikacji (aktywności, fragmenty). Każda aktywność może mieć tylko jeden graf, można co najwyżej zdefiniować akcję przejścia do innej, ale po wejściu do niej musi ona definiować swój własny graf.
 

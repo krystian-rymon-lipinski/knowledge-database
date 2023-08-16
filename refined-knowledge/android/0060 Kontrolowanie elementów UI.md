@@ -1,3 +1,5 @@
+#android/ui
+
 **Odwoływanie się do elementów UI przez Widok i podejmowanie na nich akcji** (np. zmiana tekstu lub widoczności). Może się dokonywać na [kilka sposobów](https://stackoverflow.com/questions/46482018/kotlin-android-view-binding-findviewbyid-vs-butterknife-vs-kotlin-android-exten):
 
 1) findViewById() - przestarzała metoda
@@ -6,4 +8,4 @@
 4) [[0061 View Binding|ViewBinding]]
 5) [[Data Binding|Data Binding]]
 
-#android/ui 
+**Można również wykorzystać zupełnie inny paradygmat tworzenia UI poprzez [[Jetpack Compose]].**

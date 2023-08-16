@@ -5,7 +5,7 @@
 
 Jest to osiągane przy pomocy dwóch pluginów:
 - [plugin](https://www.figma.com/community/plugin/1041056822461507786/Relay-for-Figma) dla [[Figma|Figmy]] umożliwiający tworzenie paczek UI 
-- plugin dla [[pluginy Android Studio|Android Studio]], generujący z tych paczek kod w formie Composables
+- [plugin](https://plugins.jetbrains.com/plugin/19721-relay-for-android-studio) dla [[pluginy Android Studio|Android Studio]], generujący z tych paczek kod w formie Composables
 
 
 https://developer.android.com/jetpack/compose/tooling/relay/relay-workflow

@@ -62,8 +62,8 @@
 	- [x] Android Jetpack
 
 - [ ] [[Jetpack Compose]]
-- [ ] [[Material Design]]
-- [ ] Android Studio Bot
+- [x] [[Material Design]]
+
 
 - [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] [[SOLID]]
@@ -74,6 +74,7 @@
 - [ ] [[013.5 Espresso MOC]]
 - [ ] [[012 Android Studio MOC]] tools / possibilities
 
+- [ ] Figma Material Design Kit / [[Relay]]
 - [ ] [[Continuous Delivery]]
 - [ ] [[Firebase]] [tutorial](https://firebase.google.com/docs/android/setup?hl=pl)
 	- [ ] Crashlytics (albo Bugfender)

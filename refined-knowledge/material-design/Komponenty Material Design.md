@@ -1,4 +1,4 @@
-up: [[Material Design]]
+up: [[120 Material Design]]
 
 **Elementy interfejsu użytkownika rozszerzające bazowe [[Komponenty UI|komponenty UI]]. Pogrupowane w kategorie, opisujące ich cel: https://m3.material.io/components.**
 

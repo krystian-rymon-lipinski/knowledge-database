@@ -62,14 +62,14 @@
 	- [x] Android Jetpack
 
 - [ ] [[Jetpack Compose]]
-- [x] [[Material Design]]
+- [x] [[120 Material Design]]
 
 
 - [ ] [[JSON]] -> [[GSON]] -> [[Moshi]]
 - [ ] [[SOLID]]
 - [ ] [[Lint]]
 - [ ] powiązanie [[016 Android Project Setup]] i [[Standardy wytwarzania oprogramowania]]
-- [ ] powiązanie [[Interfejs użytkownika]], [[Komponenty UI]], [[Material Design]], [[Figma]], XML layouts, [[Jetpack Compose]],
+- [ ] powiązanie [[Interfejs użytkownika]], [[Komponenty UI]], [[120 Material Design]], [[Figma]], XML layouts, [[Jetpack Compose]],
 
 - [ ] [[013.5 Espresso MOC]]
 - [ ] [[012 Android Studio MOC]] tools / possibilities
@@ -102,7 +102,7 @@
 
 - [ ] Android: level 2
 	- [ ] [[android resources|xml resources]]
-	- [ ] [[Material Design]]
+	- [ ] [[120 Material Design]]
 	- [ ] android UI design ([[Figma]]; mockflow?)
 
 [GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]] ("GraphQL is a communication pattern")

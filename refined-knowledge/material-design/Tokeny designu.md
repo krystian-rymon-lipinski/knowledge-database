@@ -1,4 +1,4 @@
-up: [[Material Design]]
+up: [[120 Material Design]]
 
 **Etykiety wskazujące na statyczne wartości definiujące element stylu. Większa ilość elementów, a nawet cały system designu może odwoływać się do tokenów (zamiast wartości), co upraszcza tworzenie spójnego motywu stylistycznego.** Wówczas zmiana statycznej wartości elementu stylu zostaje rozpropagowana na wszystkie komponenty korzystające z tokenu.
 

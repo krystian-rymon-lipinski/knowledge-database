@@ -1,4 +1,4 @@
-up: [[Material Design]]
+up: [[120 Material Design]]
 
 **Rozmieszczenie elementów na ekranie zależy przede wszystkim od szerokości urządzenia oraz jego [[Rozdzielczość ekranów Android|rozdzielczości]]. Material Design definiuje kilka klas rozmiaru okien:**
 - _compact_ - szerokość < 600 dp

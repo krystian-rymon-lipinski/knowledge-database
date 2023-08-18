@@ -72,7 +72,7 @@
 - [ ] powiązanie [[Interfejs użytkownika]], [[Komponenty UI]], [[120 Material Design]], [[Figma]], XML layouts, [[Jetpack Compose]],
 
 - [ ] [[013.5 Espresso MOC]]
-- [ ] [[012 Android Studio MOC]] tools / possibilities
+- [ ] [[012 Android Studio MOC]] tools / possibilities / .idea folders
 
 - [ ] Figma Material Design Kit / [[Relay]]
 - [ ] [[Continuous Delivery]]
@@ -131,6 +131,7 @@
 - [ ] Javadoc / Kotlindoc ([https://blog.joda.org/2012/11/javadoc-coding-standards.html](https://blog.joda.org/2012/11/javadoc-coding-standards.html))
 - [ ] [refactoring](https://refactoring.guru/refactoring)
 - [ ] Gradle: level 2
+	- [ ] [Gradle Build Scan](https://scans.gradle.com/) (?) (można go powiązać z [[071 GitHub Actions]])
 	- [ ] build times
 	- [ ] build caching
 	- [ ] plugins publishing

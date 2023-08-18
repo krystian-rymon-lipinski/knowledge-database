@@ -2,10 +2,11 @@
 
 **YAML (YAML Ain't Markup Language) to format serializacji danych umożliwiający wymianę informacji między dwoma zainteresowanymi stronami** (np. między dwoma różnymi językami programowania).
 
-**Spacje i wcięcia są istotne i są częścią syntaxu!**
+**Tabulatury są niemile widziane!** 
+**Spacje i wcięcia (2 lub 4 spacje) są istotne i są częścią syntaxu!**
 
 ```yaml
-key: value
+key: 'stringValue'
 number: 42
 float: 3.14
 boolean: true

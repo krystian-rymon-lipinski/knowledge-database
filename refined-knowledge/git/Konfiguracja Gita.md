@@ -15,8 +15,8 @@ Ustawienia można nadpisywać, najniżej w hierarchii są systemowe, najwyżej -
 Najpopularniejszymi ustawieniami są dane użytkownika:
 
 ```bash
-git config --global user.name = "User Name" # ustawienie konfiguracji globalnej
-git config --global user.email = "user_mail@example.com"
+git config --global user.name "User Name" # ustawienie konfiguracji globalnej
+git config --global user.email "user_mail@example.com"
 ...
 git config user.name # sprawdzenie konfiguracji
 ```

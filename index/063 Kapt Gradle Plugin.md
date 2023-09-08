@@ -9,6 +9,8 @@ up: [[000 HOME]]
 id("org.jetbrains.kotlin.kapt") version "1.8.20" apply false
 ```
 
+Wersja Kapt Gradle Plugin powinna być zgodna z wersją Kotlin Gradle Plugin.
+
 Dla niektórych konfiguracji Gradle i AGP występuje problem kompatybilności JVM między taskami, opisany [tutaj](https://stackoverflow.com/questions/76030538/android-agp-8-gradle-8-kotlin-1-8-causes-error-in-kapt). Aby go rozwiązać, należy w `build.gradle` dla modułu wrzucić już po dependencjach takie coś:
 
 ```kotlin

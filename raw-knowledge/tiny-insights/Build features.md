@@ -4,10 +4,10 @@
 - viewBinding
 - dataBinding
 - compose
+- buildConfig
 
 - aidl
 - mlModelBinding
-- buildConfig
 
 - prefab
 - renderScript

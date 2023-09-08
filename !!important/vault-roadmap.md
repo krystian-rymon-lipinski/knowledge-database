@@ -5,11 +5,14 @@
 	- [ ] jeśli unikalne numery - zautomatyzować, żeby nadawało te numerki samo przy tworzeniu nowe notatki
 - [ ] skrypt na pushowanie/fetchowanie?
 
-- [ ] LYT Kit
-- [ ] Digital Garden
-
 - [ ] przepisać wiedzę o:
 	- [ ] [[020 Kotlin MOC|Kotlinie]]
 	- [ ] [[050 Bluetooth Low Energy MOC|BLE]]
 	- [ ] [[031 Programowanie obiektowe|OOP]]
+	- [ ] Z Notion
 - [ ] po polsku czy po angielsku?
+
+- [ ] przepisać inną wiedzę z Notion
+
+- [ ] LYT Kit
+- [ ] Digital Garden

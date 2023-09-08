@@ -2,6 +2,7 @@ up: [[000 HOME]]
 
 ###### Network operations:
 - [[013.3 Retrofit MOC]]
+- OkHttp
 - [[Ktor]]
 - [[Chuck]]
 - [WireMock](https://wiremock.org/)
@@ -29,6 +30,9 @@ up: [[000 HOME]]
 
 ###### Image Processing:
 - [[Glide]]
+- [Coil](https://coil-kt.github.io/coil/)
+- Picasso
+- Fresco
 
 
 ###### Logging:

@@ -15,6 +15,7 @@
 	- [[062 Kotlin Gradle Plugin]]
 	- [[063 Kapt Gradle Plugin]]
 	- [[064 Hilt Android Gradle Plugin]]
+	- [[065 Kotlin-Parcelize Gradle Plugin]]
 - [[070 CI-CD MOC]]
 	- [[071 GitHub Actions]]
 - [[080 Git MOC]]

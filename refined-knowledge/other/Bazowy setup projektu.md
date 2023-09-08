@@ -23,6 +23,16 @@ up: [[016 Android Project Setup]]
 5) Setup Gradle
 	- konwersja na plików Gradle na DSL Kotlin (_.kts_)
 	- dodanie suffixów dla różnych [[Typy buildu projektu Android|typów buildu]]
+	**Wymaga podania paczki dla zasobów - w przeciwnym razie przy odpalaniu nie zostanie znaleziona główna aktywność, bo będzie zawierała w paczce również _suffix_.**
+	
+	```kotlin
+kapt {  
+	arguments {  
+		arg("resourcePackageName", android.defaultConfig.applicationId ?: "default"
+	}  
+}
+```
+
 	- skonfigurowanie [[Repozytoria Gradle|repozytoriów Gradle]] dla pluginów:
 		- `google()`
 		- `mavenCentral()`

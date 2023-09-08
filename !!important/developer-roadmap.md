@@ -16,9 +16,7 @@
 
 ---
 
-
-
-
+https://whimsical.com/android-development-roadmap-2023-kotlin-RHgVzHrfbHTzQXhM5usPLm
 
 - [x] Gradle: level 1
 	- [x] plugins
@@ -87,8 +85,9 @@
 	- [ ] Activities / Fragments
 	- [ ] Services / WorkManager
 	- [ ] Navigation elements
+	- [ ] Modularity
 
-- [ ] [KMM](https://kotlinlang.org/docs/multiplatform.html#get-started) (Kotlin Multiplatform Mobile)
+- [ ] [KMM](https://kotlinlang.org/docs/multiplatform.html#get-started) (Kotlin Multiplatform Mobile) -  teraz już [KMP](https://medium.com/tech-takeaways/kotlin-multiplatform-mobile-is-dead-long-live-kotlin-multiplatform-2b107227b2d0)
 
 - [ ] Kotlin: level 1
 	- [ ] Java / Kotlin interoperability annotations: @JvmStatic, @JvmField, @Nullable, @Non-null
@@ -107,6 +106,7 @@
 
 [GraphQL](https://graphql.org/) - coś jak [[090 REST|REST API]] ("GraphQL is a communication pattern")
 [Renovate Bot](https://github.com/renovatebot/renovate) - dependency updater
+[[Time-travel debugging]]
 
 ---
 

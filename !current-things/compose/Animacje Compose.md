@@ -5,7 +5,7 @@ up: [[Jetpack Compose]]
 Można [różnie](https://developer.android.com/jetpack/compose/animation/introduction) wywoływać animacje:
 
 - w modifierze: `animate*AsState` - Dp, Color, Float (np. alpha) - podaje się targetValue, a zmiana wartości z aktualnej w docelową jest rozciągnięta w czasie po jakiejś trajektorii (zależnej od typu animacji)
-- w modifierze `animateContentState` - dostosowuje rozmiar kontenera do treści w nim zawartej poprzez animację
+- w modifierze `animateContentSize` - dostosowuje rozmiar kontenera do treści w nim zawartej poprzez animację
 - `AnimatedVisibility(booleanValue)` - animuje pojawianie się i znikanie komponentów; korzysta z EnterTransition i ExitTransition, by zdefiniować sposób pojawiania się i znikania elementów: np. Scroll_In/Out_Horizontally/Vertically, fadeIn/Out, expandIn, shrinkIn 
 - `AnimatedContent(targetState)` - po czym targetState woła się when
 - `updateTransition` - animowanie większej ilości rzeczy naraz - `Transition` trzeba podać docelowy stan, a później można już definiować poszczególne elementy poprzez `animate*` (np. Dp, Color, Float, Offset, Size, etc.)

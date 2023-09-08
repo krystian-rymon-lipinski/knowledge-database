@@ -28,10 +28,22 @@ setContent {
 - `ComponentActivity()` - aktywność compose'a?
 - Compose BOM - Bill of Materials - taka jakby główna dependencja Compose, która zawiera linki do pozostałych; wówczas nie trzeba podawać wersji we wszyttkich użytkowanych bibliotek, będą one miały wersje [podane w mapowaniu](https://developer.android.com/jetpack/compose/bom/bom-mapping); można to mapowanie z BOM-u oczywiście nadpisać; sam BOM nie dodaje żadnych dependencji do aplikacji, definiuje tylko konkretną wersję do pobrania, gdy w kodzie pojawi się dependencja do biblioteki
 
+---
+
+Side-effect to zmiana stanu aplikacji dokonująca się poza funkcją komponowalną.
 
 ---
 
-Część rzeczy jest [[Funkcja wstrzymująca|funkcjami wstrzymującymi]], więc trzeba je wołać z korutyny. Można dostać scope poprzez `rememberCoroutineScope`.
+Część rzeczy jest [[Funkcja wstrzymująca|funkcjami wstrzymującymi]], więc trzeba je wołać z korutyny. 
+
+Odpalić korutynę można poprzez `LaunchedEffect { }`. Definiuje ona klucze, które przy zmianie ich wartości powodują zrestartowanie korutyny. Można podać stałą jako klucz (np. Unit), wówczas wykona się ona tylko raz. Można również zapisać wartość klucza (gdyby miała się w przyszłości zmienić i coś popsuć) poprzez `rememberUpdatedState`.
+
+Korutynę można również odpalić na zasięgu dostanego poprzez `rememberCoroutineScope()`. Zasięg ten jest związany z kompozycją, gdzie został zdefiniowany i ginie wraz z nią.
+
+LaunchedEffect TRZEBA odpalić z Composable'a. `rememberCoroutineScope` również, ale samą korutynę już nie.
+
+
+Odmianą `LaunchedEffect` jest `DisposableEffect` - różni się o tyle, że może zadeklarować w sobie `onDispose {}` i posprzątać jakieś zasoby.
 
 ---
 
@@ -40,6 +52,10 @@ Rysowanie w Compose
 - `Modifier.drawBehind/drawWithContent/drawWithCache`
 - `Canvas { }` - za kulisami Modifier.drawBehind
 
+---
+
+Można pytać o dokładne położenie elementu na ekranie poprzez `Modifier.onGloballyPositioned`. Argumentem lambdy jest obiekt `LayoutCoordinates`, poprzez którego można pytać o położenie elementu względem rodzica, korzenia lub całego okna. **Zwracane wartości koordynatów są w PIKSELACH, nie w dp!**
 
 ---
+
 https://developer.android.com/jetpack/compose/documentation

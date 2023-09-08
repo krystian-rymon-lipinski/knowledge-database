@@ -40,7 +40,29 @@ shape = MaterialTheme.shapes.medium
 style = MaterialTheme.typography.headlineMedium.copy(
 	fontWeight = FontWeight.ExtraBold)
 ```
-Shapesy są o tyle przydatne, że definiują kształty, na których można układać komponenty, a ponadto można dodać reakcje dla całego Shape'a. Działa to trochę jak CardView (może właśnie tym jest pod powierzchnią). I do tego można zdefiniować różne zaokrąglenia narożników.
+
+Ikonki są dostępne pod: `Icons.*.*` - są różne ich style, Rounded, FIlled, Default, etc. Jeśli trzeba więcej ikonek, trzeba dołożyć dependencję: 
+``implementation "androidx.compose.material:material-icons-extended:$compose_version"
+https://fonts.google.com/icons
+
+```kotlin
+Icon(  
+    imageVector = Icons.Rounded.Window,  
+    contentDescription = "windows_icon"  
+)
+```
+
+
+
+Można rozszerzać zdefiniowane w MaterialDesign kolory, typografie, etc. poprzez:
+```kotlin
+val ColorScheme.dieAdvantage: Color  
+    @Composable get() = 
+    if (isSystemInDarkTheme()) dark_AdvantageGreen 
+    else light_AdvantageGreen
+```
+
+Wówczas można się do tych elementów odwołać w taki sam sposób, poprzez MaterialDesign.colorScheme.*
 
 ---
 
@@ -55,14 +77,18 @@ W aplikacji, która nie jest Compose, można z palca zdefiniować paczkę ui/the
 
 Każdemu [[Komponenty UI|komponentowi UI]] odpowiada jego własna funkcja komponowalna. Np. Text() lub Image(). Można wykorzystać komponenty Material Design lub definiować własne na podstawie API komponentów Androida, w zależności od konkretnej dependencji.
 ###### Przydatne funkcje komponowalne generujące komponenty
-- `Surface` - powierzchnia, którą można pokolorować
+- `Surface` - powierzchnia, którą można pokolorować i ma swój Elevation
 - `Text` - pole tekstowe
+- `Icon` - ikonka
+- `Spacer` - pusty layout generujący przerwę
+- `Divider` - linia-przerywnik
+- `CircularProgressIndicator` - kręcące się kółko, sygnalizujące ładowanie
+- `CheckBox` - jaki jest, każdy widzi
+
 - `Button`, `ElevatedButton`, `IconButton`
 - `FloatingActionButton`
 - `Card`
-- `Icon`
 - `Scaffold` - podobno jakiś komponent, gdzie można zdefiniować osobno topBar i bottomBar, który może być czymkolwiek
 
-Ikonki są dostępne pod: `Icons.*.*` - są różne ich style, Rounded, FIlled, Default, etc. Jeśli trzeba więcej ikonek, trzeba dołożyć dependencję: 
-``implementation "androidx.compose.material:material-icons-extended:$compose_version"
-https://fonts.google.com/icons
+
+

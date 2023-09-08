@@ -7,8 +7,10 @@ up: [[Jetpack Compose]]
 Można mieć więcej funkcji oznaczonych jako @Preview, wyświetlają się wtedy jeden pod drugim.
 Można oznaczyć jednego composable'a większą ilością preview.
 
+Można odpalić preview na fizycznym urządzeniu i zobaczyć element komponowalny w praktyce.
 ###### Przydatne parametry Preview
 - `showBackground = true`
+- `showSystemUi = true` - pokazuje pasek systemowy
 - `name = "Preview Name"`
 - `widthDp = 320` (lub inna dowolna szerokość)
 - `heightDp = 640` (lub dowolna inna wysokość)

@@ -16,6 +16,17 @@ For example: @Override annotation makes the compiler look for the same method in
 
 @NonNull i @Nullable - W polach klas czy w konstruktorze? A może tu i tu?
 
+@JvmOverloads - Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values.
+If a method has N parameters and M of which have default values, M overloads are generated: the first one takes N-1 parameters (all but the last one that takes a default value), the second takes N-2 parameters, and so on.
+
+Put parameters without default value - without this @JvmOverloads doesn't work.
+
+Also: https://medium.com/@mmlodawski/https-medium-com-mmlodawski-do-not-always-trust-jvmoverloads-5251f1ad2cfe
+
+@JvmStatic - ?
+
+@JvmField - ?
+
 
 ---
 

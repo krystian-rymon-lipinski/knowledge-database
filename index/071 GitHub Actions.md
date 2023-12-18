@@ -13,7 +13,15 @@ _Trigger_ dotyczący wszystkich gałęzi osiąga się przez:
 - `branches: '**'` - łapie wszystkie gałęzie; jest to domyślna konfiguracja dla `branches: `
 
 - [[GitHub Actions Android Integration Pipeline|Android Integration Pipeline]]
+- [[GitHub Action Android Delivery Pipeline|Android Delivery Pipeline]]
 
+Można wykorzystywać **sekrety** dla repozytorium, w których można bezpiecznie trzymać różne klucze, potrzebne do uwierzytelniania np. wrzucenia aplikacji na produkcję. Wówczas można się do nich odwołać z poziomu skryptu poprzez kontekst `secrets` -> `${{ secrets.SECRET_NAME }}`
+
+https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository
+
+Można też tworzyć zmienne konfiguracyjne na poziomie repozytorium, organizacji lub środowiska i wykorzystywać je w skrypcie poprzez kontekst `vars` -> `${{ vars.ENVIRONMENT_NAME }}`
+
+https://docs.github.com/en/actions/learn-github-actions/variables
 
 ---
 https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables - environmental variables

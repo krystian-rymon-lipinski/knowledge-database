@@ -1,0 +1,1 @@
+W Compose _steps_ oznaczają liczbę wartości, które Slider może osiągać, rozłożone na zasięgu. Wartości MIN i MAX Slidera nie zaliczają się do stepów!

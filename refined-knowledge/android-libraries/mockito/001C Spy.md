@@ -11,4 +11,4 @@ SomeObj obj = Mockito.spy(new SomeObj()); /* Parametrem musi być prawdziwy obie
 
 Aby ten drugi sposób zadziałał, należy "włączyć" annotacje Mockito poprzez:
 a) wywołanie _MockitoAnnotations.initMocks()_
-b) użycie [[Test Runner|test runnera]]
+b) użycie [[Test Runner|test runnera]] `MockitoJUnitRunner`

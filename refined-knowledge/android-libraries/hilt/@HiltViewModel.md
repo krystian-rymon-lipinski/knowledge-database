@@ -14,3 +14,12 @@ class SomeViewModel @Inject constructor(
     private val httpService: HttpService  
 ) : ViewModel() {
 ```
+
+
+Wstrzykiwanie ViewModelu jest możliwe również w [[Stan funkcji komponowalnych|Compose]]. Potrzebna jest do tego dodatkowa dependencja:
+
+```kotlin
+implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+```
+
+Wówczas można wykorzystać metodę `hiltViewModel<ViewModelClass>()`.

@@ -63,7 +63,7 @@ Migracja kodu do AppCompat/AndroidX (i inne migracje (np. JUnit 4.0 -> 5.0))
 Dodanie Instant Apps Support lub RTL (right-to-left) support.
 7. Build
 Budowanie projektu/modułu.
-Tworzenie podpisanej/niepodpisanej paczki [[APK vs. AAB|.apk lub .aab]].
+Tworzenie podpisanego/niepodpisanego [[Pliki dystrybucji aplikacji Android|pliku dystrybucji aplikacji]].
 [[Podpisywanie pliku .apk]] - można to zrobić poprzez Gradle albo wyklikać manualnie w UI Android Studio
 [[Generowanie klucza dla pliku .apk]] - zamiast wyklikiwać w konsoli, można poprzez UI
 Budowanie konkretnego wariantu/typu/flavoru projektu/modułu.

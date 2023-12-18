@@ -11,7 +11,7 @@ SomeObject obj = Mockito.mock(SomeObject.class);
 
 Aby ten drugi sposób zadziałał, należy "włączyć" annotacje Mockito poprzez:
 a) wywołanie _MockitoAnnotations.initMocks()_
-b) użycie [[Test Runner|test runnera]]
+b) użycie [[Test Runner|test runnera]] `MockitoJUnitRunner`
 
 **Mocki tworzy się, by:**
 - kontrolować ich stan i zachowanie poprzez [[001D Stubbing|stubbing]] 

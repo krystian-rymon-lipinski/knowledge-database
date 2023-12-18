@@ -10,3 +10,5 @@ Tak zwane foundational components jak:
 - seekbar
 - lista
 - etc.
+- [[Snackbar]]
+- [[Slider]]

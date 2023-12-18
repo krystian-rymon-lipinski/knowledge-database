@@ -14,3 +14,7 @@ Możliwe do podjęcia akcje do podjęcia przez dewelopera:
 - monetyzacja aplikacji
 - [[Określanie zawartości aplikacji w Google Store|określanie zawartości aplikacji]]
 
+Można również korzystać z [[Google Play Developer API]].
+
+---
+https://play.google.com/console

@@ -2,7 +2,7 @@ up: [[Konsola Google Play]]
 
 Aby móc wrzucić aplikację (lub jej aktualizację) potrzebne są:
 
-- **podpisany plik _.apk_ / _.aab_** - nowe aplikacje MUSZĄ być udostępnianie jako *.aab* (Android App Bundle), aktualizacje istniejących niekoniecznie (przynajmniej w sklepie Google'a); te typy plików [[APK vs. AAB|nieznacznie się różnią]] w kontekście procesowania instalacji, ale na sam koniec na telefonie użytkownika instalowany jest plik .apk;
+- **podpisany [[Pliki dystrybucji aplikacji Android|plik dystrybucji aplikacji]]** - nowe aplikacje MUSZĄ być udostępnianie jako *.aab*, aktualizacje istniejących niekoniecznie (przynajmniej w sklepie Google'a); te typy plików nieznacznie się różnią w kontekście procesowania instalacji, ale na sam koniec na telefonie użytkownika instalowany jest plik .apk;
 - **nazwa** - służy do identyfikacji poszczególnych aktualizacji na potrzeby dewelopera, użytkownicy jej nie widzą;
 - **opis zmian (_ang. release notes_)** - informacje dla użytkowników, co się zmieniło od ostatniej wersji aplikacji (niewymagane)
 

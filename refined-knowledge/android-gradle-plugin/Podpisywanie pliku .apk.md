@@ -1,4 +1,5 @@
 up: [[061 Android Gradle Plugin MOC]]
+#status/0-revision-needed 
 
 **Wszystkie [[Plik wykonywalny .apk|pliki .apk]] muszą zostać podpisane, jeśli mają zostać zainstalowane na urządzeniu!**
 
@@ -12,10 +13,7 @@ Dla wersji *release* (i każdej innej własnej) należy [[Generowanie klucza dla
 ```kotlin
 signingConfigs { 
 	create("release") { 
-		keyAlias = "my-key-alias" /* Określany podczas tworzenia klucza */
-		keyPassword = "my-key-password" /* Hasło dla aliasu */
-		storeFile = file("path/to/keystore") /* Ścieżka do pliku .keystore */
-		storePassword = "my-store-password" /* Hasło do keystore'a */
+		...
 	} 
 	create("anotherSigningConfig") {
 		...
@@ -30,15 +28,32 @@ buildTypes {
 		signingConfig = signingConfigs.getByName("anotherSigningConfig") 
 	}
 }
-...
-productFlavors {
-	create("customFlavor") {
-		signingConfig = signingConfigs.getByName("release") 
-	}
+```
+
+Dobrze jest nie wpisywać kluczy i haseł "z palca", ponieważ są to dane wrażliwe, których nie należy wysyłać na serwer. W to miejsce można utworzyć nowy plik _.properties_, ignorowany przez Gita:
+
+```makefile
+keystoreFile=path\\to\\keystore  
+keystorePassword=password
+keyAlias=alias
+keyPassword=keyPassword
+```
+
+I dane zapisane tam wyszukać w skrypcie Gradle:
+
+```kotlin
+signingConfigs {  
+	create("release") {  
+		val keystorePropertiesFile: File = rootProject.file("keystore.properties")  
+		val keystoreProperties = Properties()  
+		keystoreProperties.load(FileInputStream(keystorePropertiesFile))  
+  
+		storeFile = file(keystoreProperties["keystoreFile"].toString())  
+		keyAlias = keystoreProperties["keyAlias"].toString()  
+		storePassword = keystoreProperties["keystorePassword"].toString()  
+		keyPassword = keystoreProperties["keyPassword"].toString()  
+	}  
 }
 ```
 
-
-
-
-
+Jeżeli istnieje zautomatyzowany _pipeline_ do dostarczania aplikacji na produkcję, trzeba jakoś dostarczyć wrażliwe dane w taki sposób, by mógł z nich skorzystać bez jednoczesnego udostępniania ich wszystkim na repozytorium (np. poprzez _secrets_ w GitHub Actions, każda platforma będzie oferowała inne możliwości).

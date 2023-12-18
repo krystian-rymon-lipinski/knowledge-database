@@ -1,25 +1,28 @@
 up: [[Jetpack Compose]]
-#status/1-in-progress
-#tech-area/android/ui
 
-**Funkcje komponowalne _(ang. composable functions)_ - jakieś tam funkcje.**
+**Funkcje komponowalne _(ang. composable functions)_ - funkcje generujące komponenty UI. Składają się na kompozycję, która jest wizualną reprezentacją aktualnego stanu aplikacji.** Kompozycja jest opisywana strukturą drzewa.
 
-Funkcje komponowalne można wywoływać tylko wewnątrz innych funkcji komponowalnych.
-(Czy onCreate() jest funkcją komponowalną).
+Należy je oznaczać annotacją `@Composable`, a wywoływać można tylko z innych funkcji komponowalnych. Aby wywołać pierwszą (główną), należy wykorzystać funkcję `setContent { }`, która przyjmuje funkcję komponowalną za parametr.
 
-@Composable - annotacja do oznaczenia funkcji opisujących UI.
+Funkcja `setContent { }` wymaga dependencji:
 
-ComponentActivity()
+```kotlin
+implementation("androidx.activity:activity-compose:1.7.2")
+```
+
+```kotlin
+override fun onCreate(savedInstance: Bundle?) {
+	setContent {
+		MainComposableFunction() 
+	}
+}
+
+@Composable
+fun MainComposableFunction() { /* Possibly other composables */ }
+```
 
 
-Composables mogą zostać wywołane w dowolnej kolejności, równolegle, zostać pominięte lub być wywoływane bardzo często (za każdą zmianą stanu lub dla każdej klatki animacji).
+Mogą zostać wywołane w dowolnej kolejności, równolegle, zostać pominięte lub być wywoływane bardzo często (np. dla każdej klatki animacji). **Nie należy polegać na kolejności ich wykonywania.**
 
-Composable jest rekomponowany (wywoływany ponownie), gdy zmienią się jego parametry LUB gdy zmieni się wewnętrzy stan funkcji.
-
-
-**Funkcje komponowalne składają się na KOMPOZYCJĘ.**
-**Kompozycja jest wizualną reprezentacją aktualnego STANU aplikacji.**
-
-Kompozycja jest strukturą-drzewem, opisującą UI.
-
+Są rekomponowane (wywoływane ponownie), gdy zmieni się wartość ich parametru lub wewnętrzny stan.
 Android Studio posiada [[Narzędzia Android Studio|narzędzie]] Layout Inspector - można w nim podglądnąć liczbę rekompozycji, którym podlegają konkretne jego elementy.

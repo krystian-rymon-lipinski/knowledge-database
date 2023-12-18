@@ -73,7 +73,7 @@ Graf można zbudować poprzez `NavGraphBuilder` dostępny jako lambda w `composa
 Testowanie Compose Navigation:
 
 ```kotlin
-androidTestImplementation("androidx.navigation:navigationtesting:$composeNavigationVersion")
+androidTestImplementation("androidx.navigation:navigation-testing:$composeNavigationVersion")
 ```
 
 - trzeba dodać [[Rules|rule]] - `createComposeRule()`; można na niej wywoływać `setContent`, tak jak w aktywności
@@ -81,6 +81,10 @@ androidTestImplementation("androidx.navigation:navigationtesting:$composeNavigat
 - na rule można wywoływać metody sprawdzające content; wszelkie asercje powinny być poza klamrą `setContent`!
 
 Można testować, co widać po konkretnych klikach nawigacyjnych (jakie node'y się wyświetlają). Albo można porównywać route'y destinations z aktualną górą backstacka.
+
+```kotlin
+navController = TestNavHostController(LocalContext.current)            navController.navigatorProvider.addNavigator(ComposeNavigator()) //POTRZEBNE!         AppNavHost(navController = navController)
+```
 
 
 ---

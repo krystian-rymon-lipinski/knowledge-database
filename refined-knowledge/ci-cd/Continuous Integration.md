@@ -17,3 +17,8 @@ System CI jest w stanie dostarczyć informację zwrotną o statusie budowania i 
 - przejście [[014 Android Testing|testów lokalnych]]
 - przejście [[014 Android Testing|testów instrumentacyjnych]]; wymaga podpięcia pod serwer urządzeń, na których te testy mają zostać odpalone (lub skonfigurowania na serwerze emulatora)
 - (utworzenie wykonywalnego artefaktu (pliku .apk), który można instalować na urządzeniu)
+
+
+Przykłady dla różnych środowisk:
+- [[Azure Android Integration Pipeline]]
+- [[GitHub Actions Android Integration Pipeline]]

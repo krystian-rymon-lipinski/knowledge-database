@@ -7,6 +7,9 @@ Osiągane poprzez modyfikatory dostępu:
 - chroniony (element klasy dostępny dla klas pochodnych)
 - inne (słowo-klucz i zasięg zależne od języka)
 
+Klasy pochodne nie mogą ograniczać widoczności przesłanianych składowych bardziej niż klasy nadrzędne.
+
+
 ###### Składowe
 **Ukrywanie składowych ma zapobiec zmianie wewnętrznego stanu obiektu przez inne obiekty.** Daje to pewność, że składowe kluczowe dla działania klasy nie zostaną w dowolnym momencie zmienione z zewnątrz.
 

@@ -11,3 +11,16 @@ abstract class AppDatabase : RoomDatabase() {
 	abstract fun userDao(): UserDao
 }
 ```
+
+
+- `exportSchema` - parametr annotacji opisujący, czy projekt powinien eksportować strukturę bazy danych do pliku, więcej w [dokumentacji](https://developer.android.com/reference/android/arch/persistence/room/Database.html#exportSchema())
+
+```
+defaultConfig {
+  kapt {  
+	arguments {  
+	  arg("room.schemaLocation", "$projectDir/schemas")  
+	}  
+  }
+}
+```

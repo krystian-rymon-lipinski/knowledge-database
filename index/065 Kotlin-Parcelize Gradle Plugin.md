@@ -23,6 +23,7 @@ data class User(val firstName: String, val lastName: String) : Parcelable {
 }
 ```
 
+**Enumy są parcelowane bez wymagania dodatkowych akcji.**
 
 ---
 https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.parcelize

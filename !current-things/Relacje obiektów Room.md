@@ -2,12 +2,12 @@ up: [[013.6 Room]]
 #status/2-backlog
 #tech-area/data-storage
 
+https://developer.android.com/training/data-storage/room/relationships
 
-Różne annotacje pomagają.
+### Relacja _one-to-many_
 
-@Embedded
-
-@Relation
+1. Tablica B musi mieć dodatkową kolumnę zawierającą wartości jednoznacznie parujące obiekty B z obiektami A (np. id).
+2. Trzeba jakoś obsługiwać usuwanie obiektów B, jeśli obiekt A, od którego zależą, został usunięty. Można tego dokonać poprzez _ForeignKey_.
 
 ForeignKey - powiązanie obiektów tablicy A, z obiektami tablicy B; jeżeli jedne są zależne od drugich (poprzez posiadanie kolumny z ID odpowiadającemu ID  drugiej tablicy), należałoby śledzić usunięcie obiektu z tablicy A, by usunąć również te z tablicy B, które były powiązane
 
@@ -23,7 +23,20 @@ ForeignKey - powiązanie obiektów tablicy A, z obiektami tablicy B; jeżeli jed
 )
 ```
 
-Przydatne w implementowaniu relacji one-to-many. Wówczas nie może istnieć w bazie obiekt tablicy B z kluczem niepasującym do żadnego obiektu z tablicy A, **również w testach!** 
+Wówczas nie może istnieć w bazie obiekt tablicy B z kluczem niepasującym do żadnego obiektu z tablicy A, **również w testach!** 
+
+3. Zdefiniowanie dodatkowej klasy, będącej wrapperem na oba obiekty pobieranie z bazy danych.
+
+```kotlin
+data class MatchWithGamesEntity(  
+	@Embedded val matchEntity: CustomMatchEntity,  
+	@Relation(  
+		parentColumn = <parent_column_name>,  
+		entityColumn = child_column_name  
+	)  
+	val games: List<CustomGameEntity>  
+)
+```
 
 ---
 

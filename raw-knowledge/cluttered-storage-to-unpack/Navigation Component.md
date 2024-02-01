@@ -5,8 +5,11 @@ Służy do nawigowania po aplikacji. Pozwala na utworzenie grafu, którego wierz
 
 Potrzebne dependencje:
 ```kotlin
+//Basic functionality of the graph
 implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+//What for?
 implementation("androidx.navigation:navigation-ui-ktx:$nav_version") 
+//What for?
 implementation("androidx.navigation:navigation-dynamic-features-fragment:$nav_version")
 ```
 
@@ -49,6 +52,11 @@ val navFragment = supportFragmentManager.findFragmentById(R.id.main_fragment) as
 val navController = navFragment.navController
 ```
 
+Można z niego korzystać we wszystkich klasach widoków:
+- [`Fragment.findNavController()`](https://developer.android.com/reference/kotlin/androidx/navigation/fragment/package-summary#(androidx.fragment.app.Fragment).findNavController())
+- [`View.findNavController()`](https://developer.android.com/reference/kotlin/androidx/navigation/package-summary#%28android.view.View%29.findNavController%28%29)
+- [`Activity.findNavController(viewId: Int)`](https://developer.android.com/reference/kotlin/androidx/navigation/package-summary#(android.app.Activity).findNavController(kotlin.Int))
+
 ---
 
 Można powiązać NavController z elementami nawigacyjnymi UI: dolnymi nawigacjami, app barami, etc.
@@ -60,14 +68,24 @@ A) [[BottomNavigationView|BottomNavigationView]]
 
 ---
 
-Można przekazywać argumenty między fragmentami poprzez:
-```kotlin
-findNavController().currentBackStackEntry?.savedStateHandle?.getLiveData<FilterDeviceParams>(FilterFragment.FILTER_SETTINGS_KEY)?.observe(viewLifecycleOwner) {  
-    // obserwacja zmiany
-}
-findNavController().previousBackStackEntry?.savedStateHandle?.set(
-	FILTER_SETTINGS_KEY, prepareFilters()) //zapis wartości do przekazania
+Można przekazywać argumenty między fragmentami poprzez zdefiniowanie ich w grafie nawigacji:
+
+```xml
+<!-- do zdefiniowania we fragmencie, który ma ten argument otrzymać -->
+<argument  
+android:name="customId"  
+app:argType="integer"  
+android:defaultValue="-1" />
 ```
+```kotlin
+val bundle = bundleOf("customId" to 12)
+findNavController().navigate(R.id.action_id, bundle)
+...
+val receivedArgs = arguments?.getInt("customId")
+```
+
+By upewnić się co do typów argumentów, można użyć [[066 Safe Args Gradle Plugin]].
+
 
 Można również przekazywać argumenty między fragmentem a dialog fragmentem.
 

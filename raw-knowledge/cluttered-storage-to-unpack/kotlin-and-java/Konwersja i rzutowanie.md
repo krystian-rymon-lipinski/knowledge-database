@@ -11,16 +11,27 @@ Powstaje nowy obiekttypu _Long_, na którego wskazuje referencja _y_. Podobnie d
 
 ### Rzutowanie
 
-ClassCastException - niepowodzenie rzutowania:
+Operator '_is'_:
 
 ```kotlin
-val vb = b as Volleyball /* Jeżeli w b zapisany jest już      obiekt typu innego niż Ball, nie uda się zrzutować i program się wysypie. */
-val vb = b as? Volleyball /* Bezpieczne rzutowanie. Zwraca    null, jeśli się nie powiedzie. */ 
+val b: Ball = Volleyball()
+if (b is Volleyball) { /* Obiekt jest typu Volleyball, bo 
+konstruktorem tej klasy został stworzony. */
+	b.bounceSpecially() /* Niejawne rzutowanie pozwala wywołać metodę konkretnej podklasy */
+}
 ```
 
+Operator '_is'_ może dokonać inteligentnego rzutowania na typ, z którym jest porównywany obiekt. Robi to, jeśli jest w stanie zagwarantować, że typ obiektu, na który wskazuje referencja, nie zmieni się od jego sprawdzenia do użycia.
 
-as
-as?
-is
-is?
+
+
+Operator '_as'_:
+
+```kotlin
+val b: Ball = Volleyball()
+val vb = b as Volleyball
+vb.bounceSpecially()
+```
+
+Obie referencje wskazują na ten sam obiekt typu Volleyball, ale pierwsza z nich udostępnia tylko metody klasy Ball, zaś druga - metody klasy Volleyball.
 

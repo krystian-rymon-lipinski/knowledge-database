@@ -21,6 +21,7 @@ Przydatne annotacje i ich parametry:
 - `@ColumnInfo(name = "column_name)"` - jawnie zdefiniowana nazwa kolumny
 - `Ignore` - pole nietworzące kolumny w tablicy
 - `@Entity(ignoredColumns = ["first", "second"]` - więcej pól nietworzących kolumn
+- `ColumnInfo(index = true)` - kolumna będzie indeksowana, co może [przyspieszyć wyszukiwanie](https://www.sqlite.org/queryplanner.html)
 
 ---
 https://developer.android.com/training/data-storage/room/defining-data

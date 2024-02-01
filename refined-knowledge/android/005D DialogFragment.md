@@ -52,3 +52,6 @@ override fun onDismiss(dialog: DialogInterface) {
     /* Albo activity, jeśli to stamtąd wołano DialogFragment. */
 } 
 ```
+
+---
+Jeżeli layout jest ściśnięty w oknie dialogu, to można użyć paddingu - margin nie zadziała (z jakiegoś powodu).

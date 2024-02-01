@@ -11,3 +11,7 @@ Najczęstszym _triggerem_ jest dodanie na serwer gałęzi zaczynającej się od 
 - przesłanie tegoż pliku do sklepu
 - (dodanie pozostałych informacji potrzebnych do [[Udostępnianie aplikacji w konsoli Google Play|udostępnienia aplikacji]])
 - (wypuszczenie aplikacji na produkcję)
+
+
+Przykłady dla różnych środowisk:
+- [[GitHub Action Android Delivery Pipeline]]

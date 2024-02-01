@@ -1,4 +1,4 @@
-up: [[013 Android Libraries MOC]]
+cmdup: [[013 Android Libraries MOC]]
 #android/gradle-dependency
 #android/ui
 

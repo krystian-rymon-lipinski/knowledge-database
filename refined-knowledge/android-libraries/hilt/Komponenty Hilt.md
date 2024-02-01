@@ -1,4 +1,4 @@
-up: [[013.8 Hilt]]
+ up: [[013.8 Hilt]]
 
 **Są to komponenty Dagger, których nie trzeba definiować w kodzie - wystarczy oznaczyć klasę, z którą ma zostać powiązany komponent poprzez annotację `@AndroidEntryPoint`.**
 

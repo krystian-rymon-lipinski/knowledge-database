@@ -10,37 +10,9 @@ Annotation Processor vs Kapt
 
 ---
 
-Java interoperability annotations:
-
-- @JvmOverloads - Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values.
-
-If a method has N parameters and M of which have default values, M overloads are generated: the first one takes N-1 parameters (all but the last one that takes a default value), the second takes N-2 parameters, and so on.
-
-Parameters must have default values, without this @JvmOverloads is not needed.
-
-- @NonNull i @Nullable - W polach klas czy w konstruktorze? A może tu i tu?
-- @Throws - sygnalizacja na potrzeby Javy, że metoda może wyrzucić wyjątek
-
-
-
 For example: @Override annotation makes the compiler look for the same method in parent classes and implemented interfaces. It it doesn't find one, compilation error is thrown.
 
 @Deprecated informs, that a particular method is obsolete and should not be used. Compilator will throw a warning otherwise.
-
-
-
-
-Also: https://medium.com/@mmlodawski/https-medium-com-mmlodawski-do-not-always-trust-jvmoverloads-5251f1ad2cfe
-
-**Przydatny przy tworzeniu własnych widoków / custom views!** Trzeba wówczas podać kompilatorowi konstruktor z AttributeSet i defaultStyleAttribute - albo oddelegować to kopmilatorowi poprzez annotację.
-
-
-
-
-@JvmStatic - ?
-
-@JvmField - ?
-
 
 ---
 

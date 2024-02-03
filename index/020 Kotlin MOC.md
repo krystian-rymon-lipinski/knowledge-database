@@ -1,60 +1,26 @@
 up: [[000 HOME]]
-#status/0-revision-needed 
 
-**Język programowania opierający się na paradygmatach [[031 Programowanie obiektowe|obiektowym]] i [[032 Programowanie funkcyjne|funkcyjnym]].**
-Napisane w nim programy wykonywane są na [[JVM|maszynie wirtualnej Javy]].
-
-
-> [!NOTE]
-> **Deklaracja najwyższego poziomu** to deklaracja, która nie jest definiowana w zasięgu czegokolwiek, ale w dedykowanym dla niej pliku - jak klasa, interfejs czy funkcja globalna.
-> **Moduł** to zespół plików Kotlina kompilowanych jako projekt.
-
-###### Podstawy języka
-
-- [[Zmienne (MOC)|(MOC) Zmienne]]
-- [[0005 Równość obiektów|Równość obiektów]]
-- [[0007 Bezpieczeństwo 'null'|Bezpieczeństwo 'null']]
-- [[0009 Wyjątki|Wyjątki]]
-- [[000A Kolekcje|Kolekcje]]
-
-[[Typy sparametryzowane]]
-
-###### Paradygmat [[032 Programowanie funkcyjne|funkcyjny]]
-
-- [[000F Funkcje|Funkcje]]
-- [[Wyrażenia lambda]]
-- [[Funkcje wyższego rzędu]]
-- funkcje infix (omitting the dot)
-- funkcje inline
-- funkcje rozszerzające (extension functions)
-- funkcje zagnieżdżone
-- funkcje anonimowe
-- tail recursion
-###### Paradygmat [[031 Programowanie obiektowe|obiektowy]]
-
-Poza podstawowymi konstrukcjami programowania obiektowego Kotlin definiuje ponadto:
-
-- [[0010 Klasy danych|Klasy danych]]
-- interfejs funkcjonalny
-- klasy zapieczętowane
-- klasy enum
-- obiekty - singletony (object, companion object, etc.)
-- delegacja ("by" keyword), delegated properties
-- type aliases
+**Programming language based on [[031 Programowanie obiektowe|object-oriented]] and [[032 Programowanie funkcyjne|functional]] programming paradigms.**
+Its code can be compiled (amongst other things) to bytecode for [[JVM]].
 
 
-###### Kotlin Android
+> [!NOTE] Quick Notes
+> - everything is an object in Kotlin - all variables/values are references! (basic types are treated more like primitives though)
+> - practically everything in Kotlin is an expression that can be assigned to a variable (if-else, when, try-catch, throw, etc.)
+> - objects are initialized as non-null by default; nullable type objects need to be explicitly declared
+> - Kotlin does not have checked exceptions, catching exceptions is not enforced on the code
+
+###### API
+
+[[Kotlin basics]]
+[[Kotlin functional features]]
+[[Kotlin object-oriented features]]
+[[Kotlin-Java interoperability annotations]]
+
+###### Kotlin for Android
 
 - [[Korutyna]]
 - [[Przepływ]]
 
-
-
 ---
-
-Praktycznie wszystko w Kotlinie jest wyrażeniem, które może zostać do czegoś przyrównane:
-- if-else
-- when
-- try-catch 
-- throw
-- ?
+https://kotlinlang.org/docs/home.html

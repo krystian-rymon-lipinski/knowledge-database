@@ -11,6 +11,7 @@ Odpalenie którychkolwiek testów spowoduje wygenerowanie rezultatów w postaci 
 
 Odpalane są na maszynie programisty lub na serwerze odpowiedzialnym za automatyzację (narzędzie CI/CD). Są to [[Testy jednostkowe|testy jednostkowe]] (najczęściej) lub testy integracyjne niewymagające komponentów Androida (np. łączenie się z serwerem).
 
+Foldery do plików źródłowych dla testów lokalnych są zlokalizowane pod ścieżką: `src/test/`.
 
 ###### Testy instrumentacyjne  
 
@@ -18,7 +19,7 @@ Odpalane są na zewnętrznym urządzeniu z Androidem (telefonie, tablecie, etc.)
 
 **Jeżeli są odpalane na fizycznym urządzeniu, musi ono być włączone i odblokowane!**
 
-Foldery do plików źródłowych dla testów modułu zlokalizowane są pod ścieżką: `src/androidTest/`.
+Foldery do plików źródłowych dla testów instrumentacyjnych zlokalizowane są pod ścieżką: `src/androidTest/`.
 Korzystanie z bibliotek do testów instrumentacyjnych jest możliwe po dodaniu ich do projektu z konfiguracją `androidTestImplementation`.
 
 [[Zadania Gradle AGP|Zadanie AGP]], które odpala testy instrumentacyjne to `connectedAndroidTest` (dla wszystkich wariantów).

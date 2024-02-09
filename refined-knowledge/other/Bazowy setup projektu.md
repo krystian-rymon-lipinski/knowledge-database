@@ -21,7 +21,7 @@ up: [[016 Android Project Setup]]
 		- dodanie pliku keystore.properties lokalnie w projekcie (zgodnie z lokalizacją w workfklow!)
 		- dodanie haseł do Google Play i kluczy na serwerze jako sekretów (keystore jako string base64)
 		- dodanie signingConfig do build typu release
-1) Setup Gradle
+5) Setup Gradle
 	- konwersja plików Gradle na DSL Kotlin (_.kts_)
 	- dodanie suffixów dla różnych [[Typy buildu projektu Android|typów buildu]]
 	**Wymaga podania paczki dla zasobów - w przeciwnym razie przy odpalaniu nie zostanie znaleziona główna aktywność, bo będzie zawierała w paczce również _suffix_.**
@@ -48,5 +48,5 @@ kapt {
 	- logowania (np. [[013.4 Timber|Timber]])
 	- [[0060 Kontrolowanie elementów UI|kontrolowania elementów UI]]
 	- inne potencjalnie potrzebne ([[013.6 Room|Room]], [[013.3 Retrofit MOC|Retrofit]], [[GSON]], etc.)
-	1) Manifest
+8) Manifest
 	- zasady Auto Backupu

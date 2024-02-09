@@ -7,3 +7,4 @@ Niewielkie i szybkie testy, sprawdzające pojedynczą rzecz (najczęściej klas�
 Biblioteki pozwalające tworzyć testy jednostkowe:
 - [[013.1 Junit MOC|JUnit]]
 - [[013.2 Mockito MOC|Mockito]]
+- [[MockK]]

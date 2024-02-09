@@ -5,5 +5,5 @@ up: [[000 HOME]]
 - [[Bazowy setup projektu|bazowy setup projektu]]
 - [[Setup konkretnego projektu|setup konkretnego projektu]]
 
-Należy trzymać się [[Standardy wytwarzania oprogramowania|standardów wytwarzania oprogramowania]].
+Należy trzymać się [[Software engineering standards|standardów wytwarzania oprogramowania]].
 

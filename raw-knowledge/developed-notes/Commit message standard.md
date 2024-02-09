@@ -1,11 +1,8 @@
-up: [[Standardy wytwarzania oprogramowania]]
+up: [[Software engineering standards]]
+#status/3-freezer 
 
-
-- konwencja nazewnicza
-- [[style nazewnicze]]
-- wiadomości commitów
-	Here’s a model Git commit message: (https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-	https://cbea.ms/git-commit/
+https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+https://cbea.ms/git-commit/
 
 ```
 Capitalized, short (50 chars or less) summary
@@ -30,4 +27,3 @@ Further paragraphs come after blank lines.
 
 - Use a hanging indent
 ```
-- tabowanie (tabs vs. spaces)

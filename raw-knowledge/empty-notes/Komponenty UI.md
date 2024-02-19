@@ -1,4 +1,4 @@
-up: [[Interfejs użytkownika]]
+up: [[Komponenty Material Design]]
 #tech-area/android/ui
 #status/4-liquid-nitrogen
 

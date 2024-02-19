@@ -1,6 +1,6 @@
 up: [[Jetpack Compose]]
 
-**Funkcje komponowalne _(ang. composable functions)_ - funkcje generujące komponenty UI. Składają się na kompozycję, która jest wizualną reprezentacją aktualnego stanu aplikacji.** Kompozycja jest opisywana strukturą drzewa.
+**Funkcje komponowalne _(ang. composable functions)_ - funkcje generujące [[Komponenty UI|komponenty UI]]. Składają się na kompozycję, która jest wizualną reprezentacją aktualnego stanu aplikacji.** Kompozycja jest opisywana strukturą drzewa.
 
 Należy je oznaczać annotacją `@Composable`, a wywoływać można tylko z innych funkcji komponowalnych. Aby wywołać pierwszą (główną), należy wykorzystać funkcję `setContent { }`, która przyjmuje funkcję komponowalną za parametr.
 

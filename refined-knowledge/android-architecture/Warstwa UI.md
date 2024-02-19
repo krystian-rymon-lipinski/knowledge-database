@@ -5,7 +5,7 @@ up: [[015 Android Architecture]]
 - system - rozmaite [[Zdarzenia systemu Android|zdarzenia systemowe]]
 
 Składa się z następujących elementów:
-- komponenty cyklu życia aplikacji ([[Activities|aktywności]], [[Fragments|fragmenty]]) - definiują _layouty_, które prezentują użytkownikowi informacje na ekranie (aktualny stan) poprzez rozmaite [[Komponenty UI|komponenty UI]]; są zależne od obiektów przechowujących stan
+- komponenty cyklu życia aplikacji ([[Activities|aktywności]], [[Fragments|fragmenty]]) - definiują _layouty_, które prezentują użytkownikowi informacje na ekranie (aktualny stan) poprzez wspomniany interfejs; są zależne od obiektów przechowujących stan
 - przechowalniki stanu _(ang. state holders)_ - definiują aktualny stan aplikacji, który jest wyświetlany przez komponenty cyklu życia; wyróżniane są dwa ich typy:
 	- [[Przechowalnik stanu ekranu|przechowalnik stanu ekranu]]
 	- [[Przechowalnik stanu logiki UI|przechowalnik stanu logiki UI]]

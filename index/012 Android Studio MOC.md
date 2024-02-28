@@ -50,7 +50,7 @@ Można przenosić linie oraz metody w dół/górę.
 Można rozwijać/zwijać kod wewnątrz klamer - cały albo do któregoś poziomu.
 Można ustawić autocompletion różnego typu.
 
-**Code Inspection!** Po jego zleceniu pojawia się summary w narzędziu "Problems"
+**[[Lint|Code inspection]]** - Po jego zleceniu pojawia się summary w narzędziu "Problems"
 **Reformating file** - Code Cleanup, optymalizacja importów oraz przerw
 Analiza dependencji i przepływu danych.
 

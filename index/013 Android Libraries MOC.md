@@ -12,6 +12,12 @@ up: [[000 HOME]]
 - [[013.7 Dagger]]
 - [[013.8 Hilt]]
 
+###### [[Statyczna analiza kodu|Static Code Analysis]]:
+- [[Ktlint|ktlint]] - Kotlin
+- [[Detekt|detekt]] - Kotlin
+- [danger](https://danger.systems/) - Kotlin, ale nie ma jeszcze wersji 1.0
+- [checkstyle](https://checkstyle.sourceforge.io/) - dla Javy
+- [FindBugs](https://findbugs.sourceforge.net/) - dla Javy
 ###### Testing:
 - [[013.1 Junit MOC]]
 - [[013.2 Mockito MOC]]
@@ -21,6 +27,9 @@ up: [[000 HOME]]
 
 ###### Data storage:
 - [[013.6 Room]]
+- [[SharedPreferences]]
+- [[DataStore]]
+- [[RealmDB]]
 
 ###### [[Data serialization]]:
 - [[GSON]]

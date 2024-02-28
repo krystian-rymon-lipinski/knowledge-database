@@ -22,7 +22,7 @@ Odpalane są na zewnętrznym urządzeniu z Androidem (telefonie, tablecie, etc.)
 Foldery do plików źródłowych dla testów instrumentacyjnych zlokalizowane są pod ścieżką: `src/androidTest/`.
 Korzystanie z bibliotek do testów instrumentacyjnych jest możliwe po dodaniu ich do projektu z konfiguracją `androidTestImplementation`.
 
-[[Zadania Gradle AGP|Zadanie AGP]], które odpala testy instrumentacyjne to `connectedAndroidTest` (dla wszystkich wariantów).
+[[Zadania AGP|Zadanie AGP]], które odpala testy instrumentacyjne to `connectedAndroidTest` (dla wszystkich wariantów).
 
 ---
 https://developer.android.com/training/testing/fundamentals/what-to-test

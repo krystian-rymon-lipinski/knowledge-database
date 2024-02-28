@@ -5,6 +5,7 @@
 	- [[014 Android Testing]]
 	- [[015 Android Architecture]]
 	- [[016 Android Project Setup]]
+	- [[Statyczna analiza kodu]]
 - [[020 Kotlin MOC]]
 - [[030 Paradygmaty programowania]]
 	- [[031 Programowanie obiektowe]]

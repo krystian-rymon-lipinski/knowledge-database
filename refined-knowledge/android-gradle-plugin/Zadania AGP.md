@@ -12,6 +12,7 @@ Przydatne:
 - `androidDependencies` - pokazuje aktualne zależności w projekcie, łącznie z [[Dependencje tranzytywne|dependencjami tranzytywnymi]]
 - `connectedAndroidTest` - odpalenie wszystkich [[014 Android Testing|testów instrumentacyjnych]] dla wszystkich wariantów
 - `connectedCheck` - podobne co wyżej, ale chyba współbieżnie dla wszystkich połączonych urządzeń?
+- `lint` - statyczna analiza kodu
 
 
 Wszystkie zadania definiowane przez Gradle i AGP można podejrzeć w [[Narzędzia Android Studio|narzędziu Android Studio]]: Gradle i wykonać, klikając w nie.

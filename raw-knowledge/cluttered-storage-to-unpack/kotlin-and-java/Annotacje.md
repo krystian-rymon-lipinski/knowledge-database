@@ -1,6 +1,8 @@
 #tech-area/java
 #status/3-freezer
 
+https://developer.android.com/studio/write/annotations
+
 Annotacje. Po coś chyba są.
 Wylistować.
 

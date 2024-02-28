@@ -22,4 +22,4 @@ W każdym takim folderze można utworzyć następujące podfoldery:
 - `assets`
 - `aidl`
 
-[[Zadania Gradle AGP|Zadanie AGP]] `./gradlew sourceSets` pozwala podejrzeć oczekiwaną przez Gradle strukturę folderów wariantu (domyślną). Można ją zmienić na [własną](https://developer.android.com/build/build-variants#configure-sourcesets) przez blok `sourceSets { }`.
+[[Zadania AGP|Zadanie AGP]] `./gradlew sourceSets` pozwala podejrzeć oczekiwaną przez Gradle strukturę folderów wariantu (domyślną). Można ją zmienić na [własną](https://developer.android.com/build/build-variants#configure-sourcesets) przez blok `sourceSets { }`.

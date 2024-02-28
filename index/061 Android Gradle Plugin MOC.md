@@ -23,7 +23,7 @@ Funkcjonalności AGP:
 - [[Zbiory źródeł]]
 - [[Podpisywanie pliku .apk]]
 
-- [[Zadania Gradle AGP]]
+- [[Zadania AGP]]
 
 ---
 - `android.applicationVariants` - warianty dla plug-inu com.android.application
